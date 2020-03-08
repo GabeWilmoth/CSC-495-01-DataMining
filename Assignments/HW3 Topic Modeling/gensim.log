@@ -1,0 +1,467 @@
+2020-03-08 11:35:18,731:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 11:35:18,732:INFO:using serial LDA version on this node
+2020-03-08 11:35:18,738:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 226 documents, updating model once every 226 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 11:35:18,738:INFO:PROGRESS: pass 0, at document #226/226
+2020-03-08 11:35:25,186:INFO:optimized alpha [0.09202574, 0.10051901, 0.09494696, 0.11899419, 0.12340561, 0.08927642, 0.11610892, 0.12754716, 0.1083691, 0.11456209]
+2020-03-08 11:35:25,191:INFO:topic #5 (0.089): 0.004*"per" + 0.002*"cent" + 0.002*"tariff" + 0.002*"per_cent" + 0.002*"banks" + 0.002*"court" + 0.002*"conference" + 0.002*"products" + 0.002*"minister" + 0.002*"convention"
+2020-03-08 11:35:25,193:INFO:topic #0 (0.092): 0.005*"help" + 0.004*"budget" + 0.003*"americans" + 0.003*"tonight" + 0.002*"billion" + 0.002*"program" + 0.002*"propose" + 0.002*"social_security" + 0.002*"working" + 0.002*"million"
+2020-03-08 11:35:25,193:INFO:topic #3 (0.119): 0.003*"americans" + 0.003*"help" + 0.002*"budget" + 0.002*"program" + 0.002*"soviet" + 0.002*"tonight" + 0.002*"today" + 0.002*"federal_government" + 0.002*"families" + 0.002*"million"
+2020-03-08 11:35:25,193:INFO:topic #4 (0.123): 0.003*"americans" + 0.002*"help" + 0.002*"mexico" + 0.002*"tonight" + 0.002*"france" + 0.002*"jobs" + 0.002*"reform" + 0.002*"program" + 0.001*"problems" + 0.001*"cannot"
+2020-03-08 11:35:25,193:INFO:topic #7 (0.128): 0.005*"mexico" + 0.003*"help" + 0.003*"americans" + 0.002*"budget" + 0.002*"texas" + 0.002*"convention" + 0.002*"jobs" + 0.002*"million" + 0.002*"tonight" + 0.002*"today"
+2020-03-08 11:35:25,194:INFO:topic diff=0.688212, rho=1.000000
+2020-03-08 11:35:25,198:INFO:PROGRESS: pass 1, at document #226/226
+2020-03-08 11:35:29,765:INFO:optimized alpha [0.067521185, 0.064820334, 0.09387477, 0.067346595, 0.06281379, 0.06836842, 0.09327513, 0.05543101, 0.07293113, 0.06617145]
+2020-03-08 11:35:29,769:INFO:topic #7 (0.055): 0.006*"mexico" + 0.003*"help" + 0.003*"americans" + 0.002*"texas" + 0.002*"convention" + 0.002*"budget" + 0.002*"today" + 0.002*"million" + 0.002*"jobs" + 0.002*"tonight"
+2020-03-08 11:35:29,769:INFO:topic #4 (0.063): 0.003*"americans" + 0.002*"france" + 0.002*"help" + 0.002*"enemy" + 0.002*"french" + 0.002*"tonight" + 0.002*"mexico" + 0.002*"sea" + 0.002*"intercourse" + 0.002*"jobs"
+2020-03-08 11:35:29,769:INFO:topic #8 (0.073): 0.005*"gold" + 0.003*"islands" + 0.003*"banks" + 0.003*"notes" + 0.002*"silver" + 0.002*"currency" + 0.002*"convention" + 0.002*"spain" + 0.002*"bonds" + 0.002*"cuba"
+2020-03-08 11:35:29,769:INFO:topic #6 (0.093): 0.007*"program" + 0.005*"programs" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"billion" + 0.003*"today" + 0.003*"americans" + 0.003*"problems" + 0.003*"major"
+2020-03-08 11:35:29,769:INFO:topic #2 (0.094): 0.004*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"convention" + 0.002*"indians" + 0.002*"intercourse" + 0.002*"texas" + 0.002*"ports" + 0.002*"france" + 0.002*"objects"
+2020-03-08 11:35:29,770:INFO:topic diff=0.320730, rho=0.577350
+2020-03-08 11:35:29,774:INFO:PROGRESS: pass 2, at document #226/226
+2020-03-08 11:35:32,294:INFO:optimized alpha [0.059118412, 0.050163314, 0.09308702, 0.05129935, 0.0481876, 0.05960961, 0.080737695, 0.041826602, 0.05834471, 0.050993614]
+2020-03-08 11:35:32,298:INFO:topic #7 (0.042): 0.006*"mexico" + 0.003*"help" + 0.003*"americans" + 0.002*"texas" + 0.002*"convention" + 0.002*"budget" + 0.002*"today" + 0.002*"million" + 0.002*"jobs" + 0.002*"tonight"
+2020-03-08 11:35:32,298:INFO:topic #4 (0.048): 0.003*"enemy" + 0.002*"americans" + 0.002*"france" + 0.002*"sea" + 0.002*"militia" + 0.002*"french" + 0.002*"fellow" + 0.002*"meeting" + 0.002*"intercourse" + 0.002*"help"
+2020-03-08 11:35:32,298:INFO:topic #5 (0.060): 0.005*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.003*"tariff" + 0.003*"conference" + 0.003*"court" + 0.002*"products" + 0.002*"banks" + 0.002*"canal" + 0.002*"30"
+2020-03-08 11:35:32,299:INFO:topic #6 (0.081): 0.008*"program" + 0.005*"programs" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"billion" + 0.004*"today" + 0.004*"problems" + 0.003*"major" + 0.003*"cannot"
+2020-03-08 11:35:32,299:INFO:topic #2 (0.093): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"convention" + 0.002*"indians" + 0.002*"intercourse" + 0.002*"texas" + 0.002*"france" + 0.002*"objects" + 0.002*"ports"
+2020-03-08 11:35:32,299:INFO:topic diff=0.267884, rho=0.500000
+2020-03-08 11:35:32,303:INFO:PROGRESS: pass 3, at document #226/226
+2020-03-08 11:35:34,307:INFO:optimized alpha [0.054687776, 0.04228783, 0.090665735, 0.04270255, 0.04088392, 0.054438047, 0.07311603, 0.034688093, 0.050133042, 0.04268371]
+2020-03-08 11:35:34,311:INFO:topic #7 (0.035): 0.006*"mexico" + 0.003*"help" + 0.002*"americans" + 0.002*"texas" + 0.002*"convention" + 0.002*"budget" + 0.002*"today" + 0.002*"million" + 0.002*"jobs" + 0.001*"tonight"
+2020-03-08 11:35:34,311:INFO:topic #4 (0.041): 0.004*"enemy" + 0.003*"sea" + 0.003*"militia" + 0.002*"france" + 0.002*"fellow" + 0.002*"meeting" + 0.002*"indeed" + 0.002*"french" + 0.002*"fellow_citizens" + 0.002*"intercourse"
+2020-03-08 11:35:34,312:INFO:topic #0 (0.055): 0.011*"americans" + 0.010*"help" + 0.010*"tonight" + 0.007*"budget" + 0.005*"jobs" + 0.004*"americas" + 0.004*"century" + 0.004*"families" + 0.004*"today" + 0.004*"reform"
+2020-03-08 11:35:34,312:INFO:topic #6 (0.073): 0.009*"program" + 0.005*"programs" + 0.004*"million" + 0.004*"help" + 0.004*"billion" + 0.004*"budget" + 0.004*"problems" + 0.004*"today" + 0.004*"major" + 0.003*"cannot"
+2020-03-08 11:35:34,312:INFO:topic #2 (0.091): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"france" + 0.002*"texas" + 0.002*"objects" + 0.002*"tribes"
+2020-03-08 11:35:34,312:INFO:topic diff=0.271947, rho=0.447214
+2020-03-08 11:35:34,316:INFO:PROGRESS: pass 4, at document #226/226
+2020-03-08 11:35:36,178:INFO:optimized alpha [0.05191457, 0.036885947, 0.08782597, 0.037216485, 0.036404572, 0.051450484, 0.06757662, 0.030108301, 0.04483047, 0.03733375]
+2020-03-08 11:35:36,183:INFO:topic #7 (0.030): 0.006*"mexico" + 0.003*"help" + 0.002*"americans" + 0.002*"texas" + 0.002*"convention" + 0.002*"budget" + 0.001*"communities" + 0.001*"today" + 0.001*"million" + 0.001*"stand"
+2020-03-08 11:35:36,183:INFO:topic #4 (0.036): 0.005*"enemy" + 0.004*"militia" + 0.004*"sea" + 0.003*"fellow" + 0.003*"meeting" + 0.002*"indeed" + 0.002*"fellow_citizens" + 0.002*"legislature" + 0.002*"france" + 0.002*"friendship"
+2020-03-08 11:35:36,183:INFO:topic #0 (0.052): 0.012*"americans" + 0.011*"help" + 0.010*"tonight" + 0.007*"budget" + 0.005*"jobs" + 0.005*"americas" + 0.004*"century" + 0.004*"families" + 0.004*"today" + 0.004*"reform"
+2020-03-08 11:35:36,183:INFO:topic #6 (0.068): 0.010*"program" + 0.005*"programs" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"help" + 0.004*"budget" + 0.004*"today" + 0.004*"major" + 0.004*"cannot"
+2020-03-08 11:35:36,183:INFO:topic #2 (0.088): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"france" + 0.002*"objects" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 11:35:36,183:INFO:topic diff=0.292133, rho=0.408248
+2020-03-08 11:35:36,187:INFO:PROGRESS: pass 5, at document #226/226
+2020-03-08 11:35:38,202:INFO:optimized alpha [0.049841397, 0.03297457, 0.0853599, 0.033394083, 0.03360308, 0.04935816, 0.064119756, 0.026863698, 0.04088205, 0.03351469]
+2020-03-08 11:35:38,206:INFO:topic #7 (0.027): 0.006*"mexico" + 0.002*"help" + 0.002*"americans" + 0.002*"farmers" + 0.002*"texas" + 0.002*"stand" + 0.002*"communities" + 0.002*"matters" + 0.001*"bill" + 0.001*"islands"
+2020-03-08 11:35:38,206:INFO:topic #1 (0.033): 0.012*"million_dollars" + 0.010*"fiscal_year" + 0.008*"million" + 0.007*"billion_dollars" + 0.007*"estimated" + 0.004*"billion" + 0.003*"september" + 0.003*"banks" + 0.003*"bank" + 0.003*"6"
+2020-03-08 11:35:38,206:INFO:topic #0 (0.050): 0.012*"americans" + 0.011*"help" + 0.010*"tonight" + 0.007*"budget" + 0.005*"jobs" + 0.005*"americas" + 0.004*"century" + 0.004*"today" + 0.004*"families" + 0.004*"reform"
+2020-03-08 11:35:38,206:INFO:topic #6 (0.064): 0.010*"program" + 0.006*"programs" + 0.005*"million" + 0.005*"billion" + 0.005*"problems" + 0.004*"help" + 0.004*"budget" + 0.004*"today" + 0.004*"major" + 0.004*"cannot"
+2020-03-08 11:35:38,206:INFO:topic #2 (0.085): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.003*"convention" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"france" + 0.002*"objects" + 0.002*"texas" + 0.002*"bank"
+2020-03-08 11:35:38,207:INFO:topic diff=0.310186, rho=0.377964
+2020-03-08 11:35:38,211:INFO:PROGRESS: pass 6, at document #226/226
+2020-03-08 11:35:40,099:INFO:optimized alpha [0.048345406, 0.030014623, 0.08361111, 0.030429384, 0.031559955, 0.048036072, 0.061451733, 0.024419203, 0.038000125, 0.03073016]
+2020-03-08 11:35:40,103:INFO:topic #7 (0.024): 0.006*"mexico" + 0.002*"farmers" + 0.002*"matters" + 0.002*"stand" + 0.002*"help" + 0.002*"communities" + 0.002*"counsel" + 0.002*"americans" + 0.002*"islands" + 0.002*"alaska"
+2020-03-08 11:35:40,103:INFO:topic #1 (0.030): 0.014*"million_dollars" + 0.011*"fiscal_year" + 0.009*"million" + 0.008*"billion_dollars" + 0.007*"estimated" + 0.004*"billion" + 0.004*"september" + 0.003*"6" + 0.003*"banks" + 0.003*"liquidation"
+2020-03-08 11:35:40,103:INFO:topic #0 (0.048): 0.012*"americans" + 0.011*"help" + 0.010*"tonight" + 0.007*"budget" + 0.005*"jobs" + 0.005*"americas" + 0.004*"today" + 0.004*"century" + 0.004*"families" + 0.004*"reform"
+2020-03-08 11:35:40,103:INFO:topic #6 (0.061): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"million" + 0.005*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"today" + 0.004*"major" + 0.004*"cannot"
+2020-03-08 11:35:40,103:INFO:topic #2 (0.084): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.003*"convention" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"france" + 0.002*"bank" + 0.002*"objects" + 0.002*"texas"
+2020-03-08 11:35:40,103:INFO:topic diff=0.318373, rho=0.353553
+2020-03-08 11:35:40,108:INFO:PROGRESS: pass 7, at document #226/226
+2020-03-08 11:35:41,760:INFO:optimized alpha [0.04717689, 0.02772256, 0.0829013, 0.028183552, 0.029971885, 0.04727005, 0.059232343, 0.02249939, 0.03561762, 0.02865887]
+2020-03-08 11:35:41,764:INFO:topic #7 (0.022): 0.006*"mexico" + 0.003*"farmers" + 0.003*"matters" + 0.002*"stand" + 0.002*"counsel" + 0.002*"communities" + 0.002*"alaska" + 0.002*"processes" + 0.002*"islands" + 0.002*"mere"
+2020-03-08 11:35:41,764:INFO:topic #1 (0.028): 0.015*"million_dollars" + 0.012*"fiscal_year" + 0.010*"million" + 0.009*"billion_dollars" + 0.008*"estimated" + 0.004*"billion" + 0.004*"september" + 0.004*"6" + 0.004*"banks" + 0.003*"liquidation"
+2020-03-08 11:35:41,764:INFO:topic #5 (0.047): 0.005*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.002*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:41,764:INFO:topic #6 (0.059): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.005*"million" + 0.004*"help" + 0.004*"budget" + 0.004*"today" + 0.004*"major" + 0.004*"cannot"
+2020-03-08 11:35:41,765:INFO:topic #2 (0.083): 0.005*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.003*"convention" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"france" + 0.002*"bank" + 0.002*"objects" + 0.002*"texas"
+2020-03-08 11:35:41,765:INFO:topic diff=0.316385, rho=0.333333
+2020-03-08 11:35:41,771:INFO:PROGRESS: pass 8, at document #226/226
+2020-03-08 11:35:43,668:INFO:optimized alpha [0.04633743, 0.02588369, 0.08250609, 0.026291145, 0.028707527, 0.046674166, 0.057529043, 0.020942595, 0.033760637, 0.026938617]
+2020-03-08 11:35:43,672:INFO:topic #7 (0.021): 0.006*"mexico" + 0.004*"farmers" + 0.003*"matters" + 0.003*"counsel" + 0.003*"stand" + 0.002*"alaska" + 0.002*"processes" + 0.002*"communities" + 0.002*"islands" + 0.002*"mere"
+2020-03-08 11:35:43,672:INFO:topic #1 (0.026): 0.016*"million_dollars" + 0.013*"fiscal_year" + 0.011*"million" + 0.009*"billion_dollars" + 0.009*"estimated" + 0.005*"billion" + 0.004*"september" + 0.004*"6" + 0.004*"banks" + 0.004*"liquidation"
+2020-03-08 11:35:43,672:INFO:topic #5 (0.047): 0.006*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.002*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:43,673:INFO:topic #6 (0.058): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.005*"million" + 0.004*"help" + 0.004*"budget" + 0.004*"today" + 0.004*"major" + 0.004*"cannot"
+2020-03-08 11:35:43,673:INFO:topic #2 (0.083): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"bank" + 0.002*"france" + 0.002*"objects" + 0.002*"texas"
+2020-03-08 11:35:43,673:INFO:topic diff=0.304831, rho=0.316228
+2020-03-08 11:35:43,677:INFO:PROGRESS: pass 9, at document #226/226
+2020-03-08 11:35:45,485:INFO:optimized alpha [0.045682125, 0.024371404, 0.08235218, 0.024738342, 0.027641675, 0.04644014, 0.056116328, 0.019650098, 0.032177072, 0.025594523]
+2020-03-08 11:35:45,490:INFO:topic #7 (0.020): 0.006*"mexico" + 0.004*"farmers" + 0.003*"matters" + 0.003*"counsel" + 0.003*"stand" + 0.003*"alaska" + 0.003*"processes" + 0.002*"communities" + 0.002*"islands" + 0.002*"mere"
+2020-03-08 11:35:45,490:INFO:topic #1 (0.024): 0.018*"million_dollars" + 0.014*"fiscal_year" + 0.012*"million" + 0.010*"billion_dollars" + 0.009*"estimated" + 0.005*"billion" + 0.004*"september" + 0.004*"6" + 0.004*"liquidation" + 0.004*"banks"
+2020-03-08 11:35:45,490:INFO:topic #5 (0.046): 0.006*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:45,490:INFO:topic #6 (0.056): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.005*"million" + 0.004*"help" + 0.004*"budget" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:45,490:INFO:topic #2 (0.082): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"bank" + 0.002*"france" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:45,490:INFO:topic diff=0.286045, rho=0.301511
+2020-03-08 11:35:45,495:INFO:PROGRESS: pass 10, at document #226/226
+2020-03-08 11:35:47,088:INFO:optimized alpha [0.045169022, 0.023099795, 0.08225588, 0.023400947, 0.026726076, 0.046216264, 0.05491727, 0.018555254, 0.03084524, 0.024490422]
+2020-03-08 11:35:47,093:INFO:topic #7 (0.019): 0.006*"mexico" + 0.004*"farmers" + 0.004*"matters" + 0.004*"counsel" + 0.003*"stand" + 0.003*"alaska" + 0.003*"processes" + 0.002*"communities" + 0.002*"islands" + 0.002*"mere"
+2020-03-08 11:35:47,093:INFO:topic #1 (0.023): 0.018*"million_dollars" + 0.015*"fiscal_year" + 0.013*"million" + 0.011*"billion_dollars" + 0.010*"estimated" + 0.006*"billion" + 0.005*"6" + 0.005*"september" + 0.004*"liquidation" + 0.004*"banks"
+2020-03-08 11:35:47,093:INFO:topic #5 (0.046): 0.006*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:47,093:INFO:topic #6 (0.055): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.004*"million" + 0.004*"help" + 0.004*"budget" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:47,093:INFO:topic #2 (0.082): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"bank" + 0.002*"france" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:47,094:INFO:topic diff=0.262593, rho=0.288675
+2020-03-08 11:35:47,098:INFO:PROGRESS: pass 11, at document #226/226
+2020-03-08 11:35:48,515:INFO:optimized alpha [0.044770375, 0.021982802, 0.082094766, 0.022262204, 0.025966318, 0.046132416, 0.053888623, 0.017613657, 0.02979065, 0.023538519]
+2020-03-08 11:35:48,520:INFO:topic #7 (0.018): 0.006*"mexico" + 0.005*"farmers" + 0.004*"matters" + 0.004*"counsel" + 0.003*"stand" + 0.003*"alaska" + 0.003*"processes" + 0.003*"communities" + 0.003*"islands" + 0.002*"mere"
+2020-03-08 11:35:48,520:INFO:topic #1 (0.022): 0.019*"million_dollars" + 0.016*"fiscal_year" + 0.014*"million" + 0.011*"billion_dollars" + 0.010*"estimated" + 0.006*"billion" + 0.005*"6" + 0.005*"september" + 0.004*"liquidation" + 0.004*"banks"
+2020-03-08 11:35:48,520:INFO:topic #5 (0.046): 0.006*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:48,520:INFO:topic #6 (0.054): 0.010*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.004*"million" + 0.004*"help" + 0.004*"budget" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:48,520:INFO:topic #2 (0.082): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"indians" + 0.002*"bank" + 0.002*"france" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:48,521:INFO:topic diff=0.237140, rho=0.277350
+2020-03-08 11:35:48,525:INFO:PROGRESS: pass 12, at document #226/226
+2020-03-08 11:35:49,975:INFO:optimized alpha [0.04447054, 0.021017708, 0.08201935, 0.021335376, 0.025364902, 0.046174694, 0.053001717, 0.016793946, 0.028839022, 0.022738822]
+2020-03-08 11:35:49,980:INFO:topic #7 (0.017): 0.006*"mexico" + 0.005*"farmers" + 0.004*"matters" + 0.004*"counsel" + 0.003*"stand" + 0.003*"alaska" + 0.003*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:49,980:INFO:topic #1 (0.021): 0.020*"million_dollars" + 0.017*"fiscal_year" + 0.015*"million" + 0.012*"billion_dollars" + 0.011*"estimated" + 0.006*"billion" + 0.005*"6" + 0.005*"september" + 0.004*"liquidation" + 0.004*"banks"
+2020-03-08 11:35:49,980:INFO:topic #5 (0.046): 0.006*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:49,980:INFO:topic #6 (0.053): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.004*"help" + 0.004*"million" + 0.004*"budget" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:49,980:INFO:topic #2 (0.082): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"indians" + 0.002*"france" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:49,981:INFO:topic diff=0.211654, rho=0.267261
+2020-03-08 11:35:49,985:INFO:PROGRESS: pass 13, at document #226/226
+2020-03-08 11:35:51,439:INFO:optimized alpha [0.044197835, 0.02017425, 0.08191436, 0.020524012, 0.024924774, 0.046385348, 0.052232012, 0.016072718, 0.028042218, 0.022117391]
+2020-03-08 11:35:51,444:INFO:topic #7 (0.016): 0.006*"mexico" + 0.005*"farmers" + 0.004*"matters" + 0.004*"counsel" + 0.004*"stand" + 0.003*"alaska" + 0.003*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:51,444:INFO:topic #1 (0.020): 0.020*"million_dollars" + 0.017*"fiscal_year" + 0.016*"million" + 0.012*"billion_dollars" + 0.011*"estimated" + 0.007*"billion" + 0.005*"6" + 0.005*"september" + 0.004*"liquidation" + 0.004*"banks"
+2020-03-08 11:35:51,444:INFO:topic #5 (0.046): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"board" + 0.002*"lines"
+2020-03-08 11:35:51,444:INFO:topic #6 (0.052): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.005*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:51,445:INFO:topic #2 (0.082): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"indians" + 0.002*"france" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:51,445:INFO:topic diff=0.187449, rho=0.258199
+2020-03-08 11:35:51,450:INFO:PROGRESS: pass 14, at document #226/226
+2020-03-08 11:35:53,251:INFO:optimized alpha [0.04400166, 0.01942924, 0.08178178, 0.01980618, 0.024589434, 0.046619624, 0.05155635, 0.015431946, 0.027337888, 0.021613538]
+2020-03-08 11:35:53,256:INFO:topic #7 (0.015): 0.006*"mexico" + 0.005*"farmers" + 0.004*"matters" + 0.004*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:53,256:INFO:topic #1 (0.019): 0.021*"million_dollars" + 0.018*"fiscal_year" + 0.017*"million" + 0.013*"billion_dollars" + 0.011*"estimated" + 0.007*"billion" + 0.005*"6" + 0.005*"september" + 0.005*"liquidation" + 0.005*"banks"
+2020-03-08 11:35:53,256:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:35:53,257:INFO:topic #6 (0.052): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:53,257:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:53,257:INFO:topic diff=0.165231, rho=0.250000
+2020-03-08 11:35:53,262:INFO:PROGRESS: pass 15, at document #226/226
+2020-03-08 11:35:55,110:INFO:optimized alpha [0.043818675, 0.018765403, 0.08174534, 0.019188281, 0.024284953, 0.046822194, 0.050958645, 0.014858003, 0.026709886, 0.02118415]
+2020-03-08 11:35:55,114:INFO:topic #7 (0.015): 0.006*"mexico" + 0.005*"farmers" + 0.005*"matters" + 0.004*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:55,114:INFO:topic #1 (0.019): 0.021*"million_dollars" + 0.018*"fiscal_year" + 0.018*"million" + 0.013*"billion_dollars" + 0.012*"estimated" + 0.008*"billion" + 0.006*"6" + 0.005*"september" + 0.005*"veterans" + 0.005*"banks"
+2020-03-08 11:35:55,114:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:35:55,114:INFO:topic #6 (0.051): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:55,114:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"objects" + 0.002*"payment"
+2020-03-08 11:35:55,115:INFO:topic diff=0.145348, rho=0.242536
+2020-03-08 11:35:55,119:INFO:PROGRESS: pass 16, at document #226/226
+2020-03-08 11:35:57,142:INFO:optimized alpha [0.043697134, 0.018149449, 0.081786744, 0.01863255, 0.024007285, 0.046995964, 0.050428715, 0.014340447, 0.026206987, 0.020817852]
+2020-03-08 11:35:57,146:INFO:topic #7 (0.014): 0.006*"mexico" + 0.005*"farmers" + 0.005*"matters" + 0.005*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:57,147:INFO:topic #1 (0.018): 0.022*"million_dollars" + 0.019*"fiscal_year" + 0.018*"million" + 0.013*"billion_dollars" + 0.012*"estimated" + 0.008*"billion" + 0.006*"6" + 0.005*"september" + 0.005*"veterans" + 0.005*"banks"
+2020-03-08 11:35:57,147:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:35:57,147:INFO:topic #6 (0.050): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"million" + 0.004*"major" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:57,147:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"payment" + 0.002*"objects"
+2020-03-08 11:35:57,147:INFO:topic diff=0.127862, rho=0.235702
+2020-03-08 11:35:57,153:INFO:PROGRESS: pass 17, at document #226/226
+2020-03-08 11:35:59,069:INFO:optimized alpha [0.043529917, 0.017593252, 0.081895985, 0.018148694, 0.023752028, 0.047087397, 0.049952574, 0.013870526, 0.025751373, 0.020505212]
+2020-03-08 11:35:59,073:INFO:topic #7 (0.014): 0.006*"mexico" + 0.006*"farmers" + 0.005*"matters" + 0.005*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:35:59,073:INFO:topic #1 (0.018): 0.022*"million_dollars" + 0.019*"fiscal_year" + 0.019*"million" + 0.014*"billion_dollars" + 0.012*"estimated" + 0.009*"billion" + 0.006*"6" + 0.005*"september" + 0.005*"veterans" + 0.005*"banks"
+2020-03-08 11:35:59,073:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:35:59,073:INFO:topic #6 (0.050): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"major" + 0.004*"million" + 0.004*"today" + 0.004*"cannot"
+2020-03-08 11:35:59,073:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"payment" + 0.002*"objects"
+2020-03-08 11:35:59,074:INFO:topic diff=0.112723, rho=0.229416
+2020-03-08 11:35:59,078:INFO:PROGRESS: pass 18, at document #226/226
+2020-03-08 11:36:00,887:INFO:optimized alpha [0.043378014, 0.017088974, 0.08218839, 0.017708635, 0.023543501, 0.047276456, 0.049530312, 0.013442116, 0.02528222, 0.020261597]
+2020-03-08 11:36:00,891:INFO:topic #7 (0.013): 0.006*"mexico" + 0.006*"farmers" + 0.005*"matters" + 0.005*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:36:00,891:INFO:topic #1 (0.017): 0.022*"million_dollars" + 0.020*"million" + 0.020*"fiscal_year" + 0.014*"billion_dollars" + 0.012*"estimated" + 0.009*"billion" + 0.006*"6" + 0.006*"veterans" + 0.005*"september" + 0.005*"banks"
+2020-03-08 11:36:00,891:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:36:00,892:INFO:topic #6 (0.050): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"billion" + 0.004*"help" + 0.004*"budget" + 0.004*"major" + 0.004*"million" + 0.004*"cannot" + 0.004*"today"
+2020-03-08 11:36:00,892:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"payment" + 0.002*"objects"
+2020-03-08 11:36:00,892:INFO:topic diff=0.099794, rho=0.223607
+2020-03-08 11:36:00,896:INFO:PROGRESS: pass 19, at document #226/226
+2020-03-08 11:36:02,780:INFO:optimized alpha [0.0432367, 0.016628763, 0.08243518, 0.017305547, 0.023375574, 0.047493838, 0.04920417, 0.013049281, 0.024828311, 0.020036101]
+2020-03-08 11:36:02,785:INFO:topic #7 (0.013): 0.006*"mexico" + 0.006*"farmers" + 0.005*"matters" + 0.005*"counsel" + 0.004*"stand" + 0.004*"alaska" + 0.004*"processes" + 0.003*"communities" + 0.003*"islands" + 0.003*"mere"
+2020-03-08 11:36:02,785:INFO:topic #1 (0.017): 0.022*"million_dollars" + 0.020*"million" + 0.020*"fiscal_year" + 0.014*"billion_dollars" + 0.012*"estimated" + 0.009*"billion" + 0.006*"6" + 0.006*"veterans" + 0.005*"september" + 0.005*"banks"
+2020-03-08 11:36:02,786:INFO:topic #5 (0.047): 0.006*"per" + 0.005*"cent" + 0.004*"per_cent" + 0.004*"tariff" + 0.003*"court" + 0.003*"conference" + 0.003*"products" + 0.003*"30" + 0.002*"lines" + 0.002*"board"
+2020-03-08 11:36:02,786:INFO:topic #6 (0.049): 0.011*"program" + 0.006*"programs" + 0.005*"problems" + 0.004*"help" + 0.004*"billion" + 0.004*"budget" + 0.004*"major" + 0.004*"million" + 0.004*"cannot" + 0.004*"today"
+2020-03-08 11:36:02,786:INFO:topic #2 (0.082): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"indians" + 0.002*"payment" + 0.002*"objects"
+2020-03-08 11:36:02,786:INFO:topic diff=0.088753, rho=0.218218
+2020-03-08 11:41:46,844:INFO:using autotuned alpha, starting with [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+2020-03-08 11:41:46,844:INFO:using symmetric eta at 0.05
+2020-03-08 11:41:46,847:INFO:using serial LDA version on this node
+2020-03-08 11:41:46,857:INFO:running online (multi-pass) LDA training, 20 topics, 10 passes over the supplied corpus of 226 documents, updating model once every 100 documents, evaluating perplexity every 226 documents, iterating 50x with a convergence threshold of 0.001000
+2020-03-08 11:41:46,857:INFO:PROGRESS: pass 0, at document #100/226
+2020-03-08 11:41:47,523:INFO:optimized alpha [0.0924876, 0.0941547, 0.09293267, 0.09490952, 0.094415836, 0.09428738, 0.093724325, 0.09479987, 0.09380528, 0.093584076, 0.095443435, 0.09440912, 0.09464876, 0.08998269, 0.094311, 0.09400715, 0.08948769, 0.09498085, 0.09140694, 0.09466019]
+2020-03-08 11:41:47,527:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:47,532:INFO:topic #16 (0.089): 0.008*"mexico" + 0.003*"texas" + 0.003*"mexican" + 0.002*"minister" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"currency" + 0.002*"france" + 0.002*"articles" + 0.002*"payment"
+2020-03-08 11:41:47,532:INFO:topic #13 (0.090): 0.004*"mexico" + 0.003*"minister" + 0.002*"intercourse" + 0.002*"spain" + 0.002*"france" + 0.002*"currency" + 0.002*"bank" + 0.002*"indians" + 0.002*"banks" + 0.002*"convention"
+2020-03-08 11:41:47,532:INFO:topic #3 (0.095): 0.003*"mexico" + 0.002*"minister" + 0.002*"bank" + 0.002*"objects" + 0.002*"convention" + 0.002*"spain" + 0.002*"france" + 0.002*"tribes" + 0.002*"banks" + 0.002*"communication"
+2020-03-08 11:41:47,532:INFO:topic #17 (0.095): 0.004*"mexico" + 0.004*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"coast" + 0.002*"bank" + 0.002*"objects" + 0.002*"execution" + 0.002*"indians"
+2020-03-08 11:41:47,532:INFO:topic #10 (0.095): 0.004*"mexico" + 0.003*"convention" + 0.003*"intercourse" + 0.002*"spain" + 0.002*"objects" + 0.002*"currency" + 0.002*"minister" + 0.002*"payment" + 0.002*"bank" + 0.002*"banks"
+2020-03-08 11:41:47,533:INFO:topic diff=1.963594, rho=1.000000
+2020-03-08 11:41:47,533:INFO:PROGRESS: pass 0, at document #200/226
+2020-03-08 11:41:48,180:INFO:optimized alpha [0.079226136, 0.10912316, 0.062412515, 0.06800653, 0.075879574, 0.14036494, 0.14032531, 0.15861972, 0.14911109, 0.13095362, 0.16126624, 0.10022391, 0.14156094, 0.09100848, 0.077954575, 0.07098243, 0.11692302, 0.08466232, 0.14580259, 0.055407856]
+2020-03-08 11:41:48,183:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:48,188:INFO:topic #19 (0.055): 0.003*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"tribes" + 0.002*"convention" + 0.002*"france" + 0.002*"ports" + 0.002*"objects" + 0.002*"coast"
+2020-03-08 11:41:48,188:INFO:topic #2 (0.062): 0.003*"mexico" + 0.003*"minister" + 0.002*"france" + 0.002*"indians" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"spain" + 0.002*"believed" + 0.002*"payment" + 0.002*"ports"
+2020-03-08 11:41:48,188:INFO:topic #8 (0.149): 0.003*"million" + 0.003*"veterans" + 0.002*"gold" + 0.002*"fighting" + 0.002*"industrial" + 0.002*"cuba" + 0.002*"mexico" + 0.002*"islands" + 0.002*"per" + 0.002*"areas"
+2020-03-08 11:41:48,189:INFO:topic #7 (0.159): 0.003*"today" + 0.003*"americans" + 0.003*"problems" + 0.003*"help" + 0.002*"industrial" + 0.002*"million" + 0.002*"cannot" + 0.002*"per" + 0.002*"federal_government" + 0.002*"conference"
+2020-03-08 11:41:48,189:INFO:topic #10 (0.161): 0.004*"help" + 0.004*"cannot" + 0.003*"million" + 0.002*"per" + 0.002*"farm" + 0.002*"problems" + 0.002*"americans" + 0.002*"problem" + 0.002*"today" + 0.002*"fiscal_year"
+2020-03-08 11:41:48,189:INFO:topic diff=0.776024, rho=0.707107
+2020-03-08 11:41:48,457:INFO:-12.975 per-word bound, 8048.5 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:48,457:INFO:PROGRESS: pass 0, at document #226/226
+2020-03-08 11:41:48,666:INFO:optimized alpha [0.053824387, 0.06131426, 0.046595205, 0.04924629, 0.05256153, 0.06229136, 0.062240094, 0.24327196, 0.07316867, 0.062650576, 0.23926458, 0.05978631, 0.06595029, 0.057583313, 0.053354815, 0.05055639, 0.0621793, 0.055691145, 0.061792552, 0.042926826]
+2020-03-08 11:41:48,670:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:48,675:INFO:topic #19 (0.043): 0.003*"mexico" + 0.003*"minister" + 0.003*"spain" + 0.002*"intercourse" + 0.002*"tribes" + 0.002*"convention" + 0.002*"france" + 0.002*"ports" + 0.002*"objects" + 0.002*"coast"
+2020-03-08 11:41:48,675:INFO:topic #2 (0.047): 0.003*"mexico" + 0.003*"minister" + 0.002*"france" + 0.002*"indians" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"spain" + 0.002*"believed" + 0.002*"payment" + 0.002*"ports"
+2020-03-08 11:41:48,675:INFO:topic #8 (0.073): 0.003*"million" + 0.003*"veterans" + 0.002*"gold" + 0.002*"fighting" + 0.002*"industrial" + 0.002*"cuba" + 0.002*"mexico" + 0.002*"islands" + 0.002*"per" + 0.002*"areas"
+2020-03-08 11:41:48,676:INFO:topic #10 (0.239): 0.010*"help" + 0.008*"americans" + 0.005*"million" + 0.004*"reform" + 0.004*"weapons" + 0.004*"families" + 0.004*"cannot" + 0.003*"helping" + 0.003*"research" + 0.003*"today"
+2020-03-08 11:41:48,676:INFO:topic #7 (0.243): 0.012*"americans" + 0.008*"help" + 0.006*"get" + 0.005*"today" + 0.005*"families" + 0.005*"schools" + 0.004*"century" + 0.004*"child" + 0.004*"working" + 0.004*"reform"
+2020-03-08 11:41:48,676:INFO:topic diff=0.825465, rho=0.577350
+2020-03-08 11:41:48,676:INFO:PROGRESS: pass 1, at document #100/226
+2020-03-08 11:41:49,207:INFO:optimized alpha [0.043212056, 0.0534807, 0.038633626, 0.04201933, 0.042439356, 0.0850772, 0.080639966, 0.06494106, 0.10192941, 0.054766096, 0.12078699, 0.05730309, 0.07329809, 0.045444366, 0.045291416, 0.042063247, 0.07223003, 0.0540724, 0.07489355, 0.038141154]
+2020-03-08 11:41:49,211:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:49,216:INFO:topic #19 (0.038): 0.011*"spain" + 0.006*"minister" + 0.005*"tribes" + 0.004*"article" + 0.004*"respecting" + 0.004*"colonies" + 0.004*"presumed" + 0.003*"negotiation" + 0.003*"intercourse" + 0.003*"entertained"
+2020-03-08 11:41:49,216:INFO:topic #2 (0.039): 0.003*"mexico" + 0.002*"minister" + 0.002*"france" + 0.002*"indians" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"spain" + 0.002*"believed" + 0.001*"payment" + 0.001*"ports"
+2020-03-08 11:41:49,216:INFO:topic #5 (0.085): 0.003*"mexico" + 0.003*"minister" + 0.002*"indians" + 0.002*"intercourse" + 0.002*"convention" + 0.002*"navigation" + 0.002*"objects" + 0.002*"territories" + 0.002*"execution" + 0.002*"articles"
+2020-03-08 11:41:49,217:INFO:topic #8 (0.102): 0.002*"spain" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"minister" + 0.002*"mexico" + 0.002*"bank" + 0.002*"objects" + 0.002*"french" + 0.002*"coast" + 0.002*"estimated"
+2020-03-08 11:41:49,217:INFO:topic #10 (0.121): 0.009*"help" + 0.008*"americans" + 0.005*"million" + 0.004*"reform" + 0.004*"weapons" + 0.004*"families" + 0.004*"cannot" + 0.003*"helping" + 0.003*"research" + 0.003*"today"
+2020-03-08 11:41:49,217:INFO:topic diff=1.061663, rho=0.484502
+2020-03-08 11:41:49,217:INFO:PROGRESS: pass 1, at document #200/226
+2020-03-08 11:41:49,881:INFO:optimized alpha [0.036453266, 0.043143213, 0.033228148, 0.035627525, 0.035919473, 0.070383236, 0.07778503, 0.086585656, 0.11859014, 0.0439279, 0.16882886, 0.04544241, 0.06755218, 0.037971437, 0.037868552, 0.035658106, 0.05377049, 0.043505885, 0.0873795, 0.032872308]
+2020-03-08 11:41:49,885:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:49,890:INFO:topic #19 (0.033): 0.010*"spain" + 0.005*"minister" + 0.004*"tribes" + 0.004*"article" + 0.004*"respecting" + 0.004*"colonies" + 0.003*"presumed" + 0.003*"negotiation" + 0.003*"intercourse" + 0.003*"entertained"
+2020-03-08 11:41:49,890:INFO:topic #2 (0.033): 0.002*"mexico" + 0.002*"minister" + 0.002*"france" + 0.002*"indians" + 0.002*"convention" + 0.002*"intercourse" + 0.001*"spain" + 0.001*"believed" + 0.001*"payment" + 0.001*"ports"
+2020-03-08 11:41:49,890:INFO:topic #18 (0.087): 0.005*"per" + 0.004*"cent" + 0.003*"per_cent" + 0.003*"gold" + 0.003*"tariff" + 0.002*"islands" + 0.002*"bonds" + 0.002*"notes" + 0.002*"silver" + 0.002*"products"
+2020-03-08 11:41:49,890:INFO:topic #8 (0.119): 0.003*"spain" + 0.002*"convention" + 0.002*"cuba" + 0.002*"ships" + 0.002*"sea" + 0.002*"minister" + 0.002*"island" + 0.002*"coast" + 0.002*"intercourse" + 0.002*"central"
+2020-03-08 11:41:49,890:INFO:topic #10 (0.169): 0.007*"help" + 0.005*"million" + 0.004*"americans" + 0.004*"cannot" + 0.003*"problems" + 0.003*"problem" + 0.003*"farm" + 0.003*"major" + 0.003*"today" + 0.003*"reform"
+2020-03-08 11:41:49,891:INFO:topic diff=1.191595, rho=0.484502
+2020-03-08 11:41:50,179:INFO:-12.243 per-word bound, 4848.0 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:50,179:INFO:PROGRESS: pass 1, at document #226/226
+2020-03-08 11:41:50,409:INFO:optimized alpha [0.031570125, 0.03630878, 0.02916945, 0.030962689, 0.03117802, 0.052275382, 0.055702522, 0.12692639, 0.06784471, 0.036843326, 0.20397314, 0.03786243, 0.050862487, 0.032674007, 0.032599725, 0.03098527, 0.043170538, 0.036556393, 0.059575297, 0.028899929]
+2020-03-08 11:41:50,413:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:50,418:INFO:topic #19 (0.029): 0.008*"spain" + 0.004*"minister" + 0.004*"tribes" + 0.003*"article" + 0.003*"respecting" + 0.003*"colonies" + 0.003*"presumed" + 0.003*"negotiation" + 0.002*"intercourse" + 0.002*"entertained"
+2020-03-08 11:41:50,418:INFO:topic #2 (0.029): 0.002*"mexico" + 0.002*"minister" + 0.001*"france" + 0.001*"indians" + 0.001*"convention" + 0.001*"intercourse" + 0.001*"spain" + 0.001*"believed" + 0.001*"payment" + 0.001*"ports"
+2020-03-08 11:41:50,418:INFO:topic #8 (0.068): 0.003*"spain" + 0.002*"convention" + 0.002*"cuba" + 0.002*"ships" + 0.002*"sea" + 0.002*"minister" + 0.002*"island" + 0.002*"coast" + 0.002*"intercourse" + 0.002*"central"
+2020-03-08 11:41:50,418:INFO:topic #7 (0.127): 0.014*"americans" + 0.010*"help" + 0.006*"get" + 0.006*"families" + 0.006*"today" + 0.005*"reform" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.004*"child"
+2020-03-08 11:41:50,418:INFO:topic #10 (0.204): 0.007*"help" + 0.006*"million" + 0.005*"helping" + 0.005*"americans" + 0.004*"cannot" + 0.003*"weapons" + 0.003*"research" + 0.003*"reform" + 0.003*"problems" + 0.003*"problem"
+2020-03-08 11:41:50,419:INFO:topic diff=1.424296, rho=0.484502
+2020-03-08 11:41:50,419:INFO:PROGRESS: pass 2, at document #100/226
+2020-03-08 11:41:51,081:INFO:optimized alpha [0.028047228, 0.031651225, 0.026161283, 0.027573857, 0.02774196, 0.061920542, 0.067514606, 0.097756624, 0.09281753, 0.032047912, 0.08207689, 0.03316728, 0.042565633, 0.028900847, 0.028843671, 0.027591497, 0.043189164, 0.03183523, 0.0670366, 0.025947023]
+2020-03-08 11:41:51,085:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:51,090:INFO:topic #19 (0.026): 0.007*"spain" + 0.003*"minister" + 0.003*"tribes" + 0.003*"article" + 0.002*"respecting" + 0.002*"colonies" + 0.002*"presumed" + 0.002*"negotiation" + 0.002*"intercourse" + 0.002*"entertained"
+2020-03-08 11:41:51,090:INFO:topic #2 (0.026): 0.001*"mexico" + 0.001*"minister" + 0.001*"france" + 0.001*"indians" + 0.001*"convention" + 0.001*"intercourse" + 0.001*"spain" + 0.001*"believed" + 0.001*"payment" + 0.001*"ports"
+2020-03-08 11:41:51,090:INFO:topic #10 (0.082): 0.007*"help" + 0.006*"million" + 0.005*"helping" + 0.005*"americans" + 0.004*"cannot" + 0.003*"weapons" + 0.003*"research" + 0.003*"reform" + 0.003*"problems" + 0.003*"problem"
+2020-03-08 11:41:51,090:INFO:topic #8 (0.093): 0.003*"spain" + 0.003*"minister" + 0.002*"convention" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"france" + 0.002*"objects" + 0.002*"coast" + 0.002*"french" + 0.002*"tribes"
+2020-03-08 11:41:51,091:INFO:topic #7 (0.098): 0.014*"americans" + 0.010*"help" + 0.006*"get" + 0.006*"families" + 0.005*"today" + 0.005*"reform" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.004*"child"
+2020-03-08 11:41:51,091:INFO:topic diff=1.390927, rho=0.436021
+2020-03-08 11:41:51,091:INFO:PROGRESS: pass 2, at document #200/226
+2020-03-08 11:41:51,826:INFO:optimized alpha [0.025359623, 0.028229678, 0.023822593, 0.024976103, 0.025112467, 0.049821664, 0.06322416, 0.11107704, 0.1091076, 0.028540196, 0.11359114, 0.029410671, 0.037727807, 0.026047371, 0.026001457, 0.02499042, 0.036826726, 0.028373845, 0.07896999, 0.023646446]
+2020-03-08 11:41:51,830:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:51,834:INFO:topic #19 (0.024): 0.005*"spain" + 0.003*"minister" + 0.002*"tribes" + 0.002*"article" + 0.002*"respecting" + 0.002*"colonies" + 0.002*"presumed" + 0.002*"negotiation" + 0.001*"intercourse" + 0.001*"entertained"
+2020-03-08 11:41:51,835:INFO:topic #2 (0.024): 0.001*"mexico" + 0.001*"minister" + 0.001*"france" + 0.001*"indians" + 0.001*"convention" + 0.001*"intercourse" + 0.001*"spain" + 0.001*"believed" + 0.001*"payment" + 0.001*"ports"
+2020-03-08 11:41:51,835:INFO:topic #8 (0.109): 0.003*"spain" + 0.002*"minister" + 0.002*"convention" + 0.002*"france" + 0.002*"coast" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"french" + 0.002*"objects" + 0.002*"sea"
+2020-03-08 11:41:51,835:INFO:topic #7 (0.111): 0.013*"americans" + 0.010*"help" + 0.006*"today" + 0.005*"get" + 0.005*"families" + 0.005*"working" + 0.005*"century" + 0.004*"schools" + 0.004*"reform" + 0.004*"million"
+2020-03-08 11:41:51,835:INFO:topic #10 (0.114): 0.006*"million" + 0.005*"help" + 0.004*"problems" + 0.004*"cannot" + 0.003*"major" + 0.003*"farm" + 0.003*"problem" + 0.003*"today" + 0.003*"industrial" + 0.003*"americans"
+2020-03-08 11:41:51,836:INFO:topic diff=1.332779, rho=0.436021
+2020-03-08 11:41:52,102:INFO:-12.016 per-word bound, 4140.3 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:52,102:INFO:PROGRESS: pass 2, at document #226/226
+2020-03-08 11:41:52,318:INFO:optimized alpha [0.023137512, 0.025476784, 0.021861447, 0.022820627, 0.022933414, 0.041268818, 0.049481083, 0.1553788, 0.06863589, 0.025726486, 0.13009377, 0.026422942, 0.032815516, 0.023703227, 0.023665559, 0.02283248, 0.032145806, 0.025592802, 0.0575971, 0.021714171]
+2020-03-08 11:41:52,322:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:52,327:INFO:topic #19 (0.022): 0.003*"spain" + 0.002*"minister" + 0.002*"tribes" + 0.001*"article" + 0.001*"respecting" + 0.001*"colonies" + 0.001*"presumed" + 0.001*"negotiation" + 0.001*"intercourse" + 0.001*"entertained"
+2020-03-08 11:41:52,327:INFO:topic #2 (0.022): 0.001*"mexico" + 0.001*"minister" + 0.001*"france" + 0.001*"indians" + 0.001*"convention" + 0.001*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:52,327:INFO:topic #8 (0.069): 0.003*"spain" + 0.002*"minister" + 0.002*"convention" + 0.002*"france" + 0.002*"coast" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"french" + 0.002*"objects" + 0.002*"sea"
+2020-03-08 11:41:52,327:INFO:topic #10 (0.130): 0.006*"million" + 0.005*"help" + 0.004*"cannot" + 0.004*"problems" + 0.003*"major" + 0.003*"problem" + 0.003*"farm" + 0.003*"today" + 0.003*"americans" + 0.003*"industrial"
+2020-03-08 11:41:52,327:INFO:topic #7 (0.155): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.005*"today" + 0.005*"reform" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:52,328:INFO:topic diff=1.204848, rho=0.436021
+2020-03-08 11:41:52,328:INFO:PROGRESS: pass 3, at document #100/226
+2020-03-08 11:41:53,027:INFO:optimized alpha [0.021371575, 0.023336094, 0.020284783, 0.021102693, 0.021198468, 0.044439856, 0.056356557, 0.12697738, 0.09153749, 0.02354367, 0.08475706, 0.024120472, 0.02941341, 0.021849956, 0.021818165, 0.021112759, 0.032484718, 0.023432586, 0.06455116, 0.020158665]
+2020-03-08 11:41:53,031:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:53,036:INFO:topic #19 (0.020): 0.002*"spain" + 0.001*"minister" + 0.001*"tribes" + 0.001*"article" + 0.001*"respecting" + 0.001*"colonies" + 0.001*"presumed" + 0.001*"negotiation" + 0.001*"intercourse" + 0.001*"entertained"
+2020-03-08 11:41:53,036:INFO:topic #2 (0.020): 0.001*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:53,036:INFO:topic #10 (0.085): 0.006*"million" + 0.005*"help" + 0.004*"problems" + 0.004*"cannot" + 0.003*"major" + 0.003*"problem" + 0.003*"farm" + 0.003*"today" + 0.003*"americans" + 0.003*"industrial"
+2020-03-08 11:41:53,036:INFO:topic #8 (0.092): 0.003*"spain" + 0.003*"minister" + 0.003*"bank" + 0.003*"objects" + 0.003*"france" + 0.003*"intercourse" + 0.002*"convention" + 0.002*"coast" + 0.002*"french" + 0.002*"tribes"
+2020-03-08 11:41:53,037:INFO:topic #7 (0.127): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.005*"today" + 0.005*"reform" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:53,037:INFO:topic diff=0.984974, rho=0.399680
+2020-03-08 11:41:53,037:INFO:PROGRESS: pass 3, at document #200/226
+2020-03-08 11:41:53,845:INFO:optimized alpha [0.019920863, 0.021606661, 0.01897777, 0.01968823, 0.019771148, 0.038379885, 0.053598695, 0.13401727, 0.10705046, 0.021783357, 0.11431948, 0.022272928, 0.027072305, 0.020333624, 0.020306235, 0.019696949, 0.029277535, 0.02168883, 0.07463306, 0.018867845]
+2020-03-08 11:41:53,849:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:53,854:INFO:topic #19 (0.019): 0.002*"spain" + 0.001*"minister" + 0.001*"tribes" + 0.001*"article" + 0.001*"respecting" + 0.001*"colonies" + 0.001*"presumed" + 0.001*"negotiation" + 0.001*"intercourse" + 0.001*"entertained"
+2020-03-08 11:41:53,854:INFO:topic #2 (0.019): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:53,854:INFO:topic #8 (0.107): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.002*"convention" + 0.002*"objects" + 0.002*"bank" + 0.002*"intercourse" + 0.002*"coast" + 0.002*"french" + 0.002*"tribes"
+2020-03-08 11:41:53,855:INFO:topic #10 (0.114): 0.005*"million" + 0.005*"problems" + 0.005*"help" + 0.004*"cannot" + 0.004*"major" + 0.003*"farm" + 0.003*"industrial" + 0.003*"problem" + 0.003*"today" + 0.003*"federal_government"
+2020-03-08 11:41:53,855:INFO:topic #7 (0.134): 0.014*"americans" + 0.011*"help" + 0.006*"today" + 0.006*"get" + 0.006*"families" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.004*"million"
+2020-03-08 11:41:53,855:INFO:topic diff=0.809118, rho=0.399680
+2020-03-08 11:41:54,087:INFO:-11.953 per-word bound, 3963.6 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:54,087:INFO:PROGRESS: pass 3, at document #226/226
+2020-03-08 11:41:54,256:INFO:optimized alpha [0.018652199, 0.020114357, 0.017826319, 0.018449007, 0.018521471, 0.033678588, 0.044448815, 0.18120566, 0.07293672, 0.020266565, 0.12661451, 0.020687245, 0.024730492, 0.019011877, 0.018988043, 0.018456629, 0.026539193, 0.020185163, 0.056960844, 0.017729688]
+2020-03-08 11:41:54,260:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:54,265:INFO:topic #19 (0.018): 0.001*"spain" + 0.001*"minister" + 0.001*"tribes" + 0.001*"article" + 0.001*"respecting" + 0.001*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:54,265:INFO:topic #2 (0.018): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:54,265:INFO:topic #8 (0.073): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.002*"convention" + 0.002*"objects" + 0.002*"bank" + 0.002*"intercourse" + 0.002*"coast" + 0.002*"french" + 0.002*"tribes"
+2020-03-08 11:41:54,265:INFO:topic #10 (0.127): 0.005*"million" + 0.005*"problems" + 0.005*"help" + 0.004*"cannot" + 0.004*"major" + 0.003*"problem" + 0.003*"farm" + 0.003*"industrial" + 0.003*"today" + 0.003*"federal_government"
+2020-03-08 11:41:54,266:INFO:topic #7 (0.181): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.005*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:54,266:INFO:topic diff=0.635790, rho=0.399680
+2020-03-08 11:41:54,266:INFO:PROGRESS: pass 4, at document #100/226
+2020-03-08 11:41:55,093:INFO:optimized alpha [0.017571023, 0.01885714, 0.01683872, 0.017391246, 0.01745539, 0.03471949, 0.04958392, 0.14586014, 0.09531422, 0.01899026, 0.09251124, 0.019357443, 0.022928145, 0.017888626, 0.017867604, 0.017397994, 0.027233912, 0.018919088, 0.06421579, 0.016752763]
+2020-03-08 11:41:55,097:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:55,102:INFO:topic #19 (0.017): 0.001*"spain" + 0.001*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:55,102:INFO:topic #2 (0.017): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:55,102:INFO:topic #10 (0.093): 0.005*"million" + 0.005*"problems" + 0.005*"help" + 0.004*"cannot" + 0.004*"major" + 0.003*"problem" + 0.003*"farm" + 0.003*"industrial" + 0.003*"today" + 0.003*"federal_government"
+2020-03-08 11:41:55,102:INFO:topic #8 (0.095): 0.003*"spain" + 0.003*"minister" + 0.003*"objects" + 0.003*"france" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"coast" + 0.002*"public_debt"
+2020-03-08 11:41:55,102:INFO:topic #7 (0.146): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.005*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:55,103:INFO:topic diff=0.525521, rho=0.371135
+2020-03-08 11:41:55,103:INFO:PROGRESS: pass 4, at document #200/226
+2020-03-08 11:41:56,046:INFO:optimized alpha [0.016660757, 0.017808821, 0.016002715, 0.0164995, 0.016557058, 0.031173045, 0.047902886, 0.1538511, 0.109274715, 0.017927095, 0.122030124, 0.018252792, 0.021572351, 0.01694517, 0.016926367, 0.016505558, 0.025371075, 0.017863872, 0.07451607, 0.015925266]
+2020-03-08 11:41:56,050:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:56,055:INFO:topic #19 (0.016): 0.001*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:56,055:INFO:topic #2 (0.016): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:56,055:INFO:topic #8 (0.109): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"bank" + 0.002*"intercourse" + 0.002*"convention" + 0.002*"coast" + 0.002*"tribes" + 0.002*"french"
+2020-03-08 11:41:56,056:INFO:topic #10 (0.122): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"farm" + 0.004*"industrial" + 0.003*"problem" + 0.003*"today" + 0.003*"federal_government"
+2020-03-08 11:41:56,056:INFO:topic #7 (0.154): 0.014*"americans" + 0.011*"help" + 0.006*"get" + 0.006*"families" + 0.006*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:41:56,056:INFO:topic diff=0.419941, rho=0.371135
+2020-03-08 11:41:56,341:INFO:-11.935 per-word bound, 3914.6 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:56,341:INFO:PROGRESS: pass 4, at document #226/226
+2020-03-08 11:41:56,568:INFO:optimized alpha [0.015837235, 0.016867954, 0.015242935, 0.015691837, 0.015743753, 0.028293166, 0.04111596, 0.20278388, 0.0764568, 0.016973695, 0.13488731, 0.017264454, 0.020192122, 0.016093304, 0.016076392, 0.0156973, 0.02346248, 0.01691718, 0.058170035, 0.015172821]
+2020-03-08 11:41:56,572:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:56,577:INFO:topic #19 (0.015): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:56,577:INFO:topic #2 (0.015): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:56,577:INFO:topic #8 (0.076): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"bank" + 0.002*"intercourse" + 0.002*"convention" + 0.002*"coast" + 0.002*"tribes" + 0.002*"french"
+2020-03-08 11:41:56,578:INFO:topic #10 (0.135): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.003*"problem" + 0.003*"industrial" + 0.003*"today" + 0.003*"farm" + 0.003*"federal_government"
+2020-03-08 11:41:56,578:INFO:topic #7 (0.203): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:56,578:INFO:topic diff=0.309468, rho=0.371135
+2020-03-08 11:41:56,578:INFO:PROGRESS: pass 5, at document #100/226
+2020-03-08 11:41:57,369:INFO:optimized alpha [0.015099577, 0.016031198, 0.014559579, 0.014967656, 0.015014771, 0.02843874, 0.045553144, 0.16115397, 0.09858065, 0.01612642, 0.103053644, 0.016387919, 0.018993303, 0.015331607, 0.0153162945, 0.014972614, 0.02402207, 0.016075535, 0.065467805, 0.014495736]
+2020-03-08 11:41:57,373:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:57,378:INFO:topic #19 (0.014): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:57,378:INFO:topic #2 (0.015): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:57,378:INFO:topic #8 (0.099): 0.003*"minister" + 0.003*"spain" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"france" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:41:57,378:INFO:topic #10 (0.103): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.003*"problem" + 0.003*"industrial" + 0.003*"today" + 0.003*"farm" + 0.003*"federal_government"
+2020-03-08 11:41:57,378:INFO:topic #7 (0.161): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:57,379:INFO:topic diff=0.295798, rho=0.347945
+2020-03-08 11:41:57,379:INFO:PROGRESS: pass 5, at document #200/226
+2020-03-08 11:41:58,280:INFO:optimized alpha [0.014472488, 0.015324373, 0.0139765255, 0.014351473, 0.014394704, 0.026216319, 0.043975387, 0.16988054, 0.11192826, 0.015411178, 0.13333088, 0.0156493, 0.018148275, 0.014685104, 0.014671081, 0.014356023, 0.022703728, 0.015364796, 0.07613233, 0.013917781]
+2020-03-08 11:41:58,284:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:58,290:INFO:topic #19 (0.014): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:58,290:INFO:topic #2 (0.014): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:58,290:INFO:topic #8 (0.112): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"coast" + 0.002*"french"
+2020-03-08 11:41:58,290:INFO:topic #10 (0.133): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"farm" + 0.004*"industrial" + 0.004*"today" + 0.003*"problem" + 0.003*"federal_government"
+2020-03-08 11:41:58,290:INFO:topic #7 (0.170): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:41:58,291:INFO:topic diff=0.245193, rho=0.347945
+2020-03-08 11:41:58,578:INFO:-11.927 per-word bound, 3894.4 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:41:58,578:INFO:PROGRESS: pass 5, at document #226/226
+2020-03-08 11:41:58,801:INFO:optimized alpha [0.013890882, 0.014672306, 0.013434086, 0.013779548, 0.013819329, 0.024309276, 0.038619723, 0.21941623, 0.07976289, 0.014751708, 0.14472675, 0.0149693005, 0.017233886, 0.014086288, 0.014073408, 0.013783735, 0.021273097, 0.014709286, 0.06016942, 0.0133798905]
+2020-03-08 11:41:58,805:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:41:58,810:INFO:topic #19 (0.013): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:58,810:INFO:topic #2 (0.013): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:58,811:INFO:topic #8 (0.080): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"coast" + 0.002*"french"
+2020-03-08 11:41:58,811:INFO:topic #10 (0.145): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.003*"problem" + 0.003*"today" + 0.003*"industrial" + 0.003*"farm" + 0.003*"federal_government"
+2020-03-08 11:41:58,811:INFO:topic #7 (0.219): 0.015*"americans" + 0.012*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:58,811:INFO:topic diff=0.176431, rho=0.347945
+2020-03-08 11:41:58,811:INFO:PROGRESS: pass 6, at document #100/226
+2020-03-08 11:41:59,551:INFO:optimized alpha [0.013349351, 0.014068156, 0.012927573, 0.013246659, 0.01328336, 0.024534997, 0.042491272, 0.16862428, 0.101666205, 0.014141002, 0.11264682, 0.014340452, 0.016517, 0.01352942, 0.013517557, 0.013250523, 0.021766694, 0.014102088, 0.06730518, 0.012877455]
+2020-03-08 11:41:59,556:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:41:59,561:INFO:topic #19 (0.013): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:41:59,561:INFO:topic #2 (0.013): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:41:59,561:INFO:topic #8 (0.102): 0.003*"minister" + 0.003*"spain" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"france" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:41:59,561:INFO:topic #10 (0.113): 0.005*"million" + 0.005*"problems" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.003*"problem" + 0.003*"today" + 0.003*"industrial" + 0.003*"farm" + 0.003*"federal_government"
+2020-03-08 11:41:59,562:INFO:topic #7 (0.169): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:41:59,562:INFO:topic diff=0.204023, rho=0.328620
+2020-03-08 11:41:59,562:INFO:PROGRESS: pass 6, at document #200/226
+2020-03-08 11:42:00,382:INFO:optimized alpha [0.012890002, 0.013558023, 0.012496784, 0.012794348, 0.012828538, 0.02298438, 0.041555297, 0.17942706, 0.1145157, 0.013625573, 0.143481, 0.013810388, 0.015989406, 0.013057598, 0.013046562, 0.012797947, 0.020847479, 0.013589492, 0.07896313, 0.0124499975]
+2020-03-08 11:42:00,386:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:00,392:INFO:topic #19 (0.012): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:00,392:INFO:topic #2 (0.012): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:00,392:INFO:topic #8 (0.115): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:00,392:INFO:topic #10 (0.143): 0.005*"problems" + 0.005*"million" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"farm" + 0.004*"today" + 0.004*"industrial" + 0.004*"problem" + 0.003*"federal_government"
+2020-03-08 11:42:00,392:INFO:topic #7 (0.179): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:42:00,393:INFO:topic diff=0.172602, rho=0.328620
+2020-03-08 11:42:00,671:INFO:-11.923 per-word bound, 3883.1 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:42:00,671:INFO:PROGRESS: pass 6, at document #226/226
+2020-03-08 11:42:00,882:INFO:optimized alpha [0.012454109, 0.013075795, 0.012087075, 0.012364902, 0.012396793, 0.021599254, 0.0370359, 0.22803985, 0.08273372, 0.013138529, 0.15327594, 0.013310045, 0.015318788, 0.012610301, 0.012600021, 0.012368258, 0.01970777, 0.013105023, 0.06275052, 0.01204335]
+2020-03-08 11:42:00,886:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:42:00,892:INFO:topic #19 (0.012): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:00,892:INFO:topic #2 (0.012): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:00,892:INFO:topic #8 (0.083): 0.003*"spain" + 0.003*"minister" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:00,892:INFO:topic #10 (0.153): 0.005*"problems" + 0.005*"million" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.003*"farm" + 0.003*"industrial"
+2020-03-08 11:42:00,892:INFO:topic #7 (0.228): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:00,893:INFO:topic diff=0.125949, rho=0.328620
+2020-03-08 11:42:00,893:INFO:PROGRESS: pass 7, at document #100/226
+2020-03-08 11:42:01,689:INFO:optimized alpha [0.012037815, 0.012616914, 0.01169495, 0.011954547, 0.011984319, 0.021987077, 0.04056052, 0.17398733, 0.10445416, 0.012675235, 0.11998455, 0.012834578, 0.014836551, 0.0121835, 0.012173917, 0.011957681, 0.020151317, 0.012644087, 0.06975778, 0.011654058]
+2020-03-08 11:42:01,693:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:01,698:INFO:topic #19 (0.012): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:01,698:INFO:topic #2 (0.012): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:01,699:INFO:topic #8 (0.104): 0.003*"minister" + 0.003*"objects" + 0.003*"spain" + 0.003*"intercourse" + 0.003*"france" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:01,699:INFO:topic #10 (0.120): 0.005*"problems" + 0.005*"million" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"federal_government" + 0.004*"today" + 0.003*"problem" + 0.003*"farm" + 0.003*"industrial"
+2020-03-08 11:42:01,699:INFO:topic #7 (0.174): 0.014*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"century" + 0.005*"schools" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:01,699:INFO:topic diff=0.165937, rho=0.312195
+2020-03-08 11:42:01,699:INFO:PROGRESS: pass 7, at document #200/226
+2020-03-08 11:42:02,524:INFO:optimized alpha [0.011684782, 0.012229105, 0.011361737, 0.0116063785, 0.011634416, 0.02080995, 0.039906256, 0.1860794, 0.11698707, 0.012283835, 0.15083103, 0.012433277, 0.014449387, 0.011821873, 0.011812858, 0.011609329, 0.019431386, 0.012254607, 0.08104484, 0.011323171]
+2020-03-08 11:42:02,528:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:02,533:INFO:topic #19 (0.011): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:02,534:INFO:topic #2 (0.011): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:02,534:INFO:topic #8 (0.117): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:02,534:INFO:topic #10 (0.151): 0.005*"problems" + 0.005*"million" + 0.005*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"farm" + 0.004*"today" + 0.004*"federal_government" + 0.004*"problem" + 0.004*"industrial"
+2020-03-08 11:42:02,534:INFO:topic #7 (0.186): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:42:02,534:INFO:topic diff=0.139966, rho=0.312195
+2020-03-08 11:42:02,792:INFO:-11.920 per-word bound, 3875.5 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:42:02,792:INFO:PROGRESS: pass 7, at document #226/226
+2020-03-08 11:42:02,985:INFO:optimized alpha [0.011344091, 0.011855941, 0.011039619, 0.011270243, 0.011296654, 0.019729866, 0.035941426, 0.23332551, 0.085451886, 0.011907323, 0.15932031, 0.012047553, 0.013928469, 0.011473142, 0.011464659, 0.011273022, 0.01848958, 0.011879885, 0.06480886, 0.011003237]
+2020-03-08 11:42:02,989:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:42:02,995:INFO:topic #19 (0.011): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:02,996:INFO:topic #2 (0.011): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:02,996:INFO:topic #8 (0.085): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:02,996:INFO:topic #10 (0.159): 0.005*"problems" + 0.005*"million" + 0.005*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.003*"farm" + 0.003*"industrial"
+2020-03-08 11:42:02,996:INFO:topic #7 (0.233): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:02,996:INFO:topic diff=0.105232, rho=0.312195
+2020-03-08 11:42:02,997:INFO:PROGRESS: pass 8, at document #100/226
+2020-03-08 11:42:03,648:INFO:optimized alpha [0.011012667, 0.011493941, 0.010725744, 0.0109431185, 0.010967994, 0.020147914, 0.03926309, 0.17791528, 0.106754586, 0.011542178, 0.12544471, 0.01167376, 0.013599222, 0.011134136, 0.011126155, 0.010945736, 0.018933881, 0.011516421, 0.071724564, 0.010691427]
+2020-03-08 11:42:03,652:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:03,657:INFO:topic #19 (0.011): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:03,657:INFO:topic #2 (0.011): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:03,657:INFO:topic #8 (0.107): 0.003*"minister" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"spain" + 0.003*"france" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:03,658:INFO:topic #10 (0.125): 0.005*"problems" + 0.005*"million" + 0.004*"cannot" + 0.004*"help" + 0.004*"major" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.003*"farm" + 0.003*"industrial"
+2020-03-08 11:42:03,658:INFO:topic #7 (0.178): 0.015*"americans" + 0.011*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"century" + 0.005*"schools" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:03,658:INFO:topic diff=0.146184, rho=0.298010
+2020-03-08 11:42:03,658:INFO:PROGRESS: pass 8, at document #200/226
+2020-03-08 11:42:04,521:INFO:optimized alpha [0.010732242, 0.011188476, 0.010459739, 0.010666223, 0.01068984, 0.019270996, 0.039015815, 0.19134974, 0.11936491, 0.011234145, 0.15602553, 0.011358663, 0.013342529, 0.010847492, 0.010839922, 0.010668709, 0.018403852, 0.011209761, 0.08281441, 0.01042712]
+2020-03-08 11:42:04,525:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:04,530:INFO:topic #19 (0.010): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:04,530:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:04,530:INFO:topic #8 (0.119): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:04,530:INFO:topic #10 (0.156): 0.005*"problems" + 0.005*"cannot" + 0.004*"million" + 0.004*"help" + 0.004*"major" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.003*"industrial"
+2020-03-08 11:42:04,530:INFO:topic #7 (0.191): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.005*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:42:04,531:INFO:topic diff=0.122535, rho=0.298010
+2020-03-08 11:42:04,748:INFO:-11.918 per-word bound, 3869.8 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:42:04,748:INFO:PROGRESS: pass 8, at document #226/226
+2020-03-08 11:42:04,878:INFO:optimized alpha [0.0104575325, 0.010889919, 0.010198799, 0.0103948815, 0.010417296, 0.018385625, 0.03539314, 0.23717724, 0.08799077, 0.010933143, 0.16353086, 0.011050955, 0.012917981, 0.010566851, 0.0105596725, 0.010397241, 0.017596325, 0.010910066, 0.066617906, 0.0101678055]
+2020-03-08 11:42:04,882:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:42:04,887:INFO:topic #19 (0.010): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:04,887:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:04,888:INFO:topic #8 (0.088): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"convention" + 0.002*"tribes" + 0.002*"public_debt" + 0.002*"coast"
+2020-03-08 11:42:04,888:INFO:topic #10 (0.164): 0.005*"problems" + 0.005*"cannot" + 0.004*"million" + 0.004*"major" + 0.004*"help" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.004*"farm" + 0.003*"industrial"
+2020-03-08 11:42:04,888:INFO:topic #7 (0.237): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:04,888:INFO:topic diff=0.094679, rho=0.298010
+2020-03-08 11:42:04,889:INFO:PROGRESS: pass 9, at document #100/226
+2020-03-08 11:42:05,499:INFO:optimized alpha [0.010186334, 0.010595835, 0.0099408515, 0.010126922, 0.01014818, 0.01880859, 0.038548734, 0.18103759, 0.10887223, 0.01063672, 0.1288651, 0.010748111, 0.01269294, 0.010289954, 0.010283153, 0.01012916, 0.018083414, 0.010614893, 0.07347391, 0.0099114245]
+2020-03-08 11:42:05,503:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:05,508:INFO:topic #19 (0.010): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:05,509:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:05,509:INFO:topic #8 (0.109): 0.003*"minister" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"spain" + 0.003*"france" + 0.003*"bank" + 0.002*"tribes" + 0.002*"convention" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:05,509:INFO:topic #10 (0.129): 0.005*"problems" + 0.004*"cannot" + 0.004*"million" + 0.004*"major" + 0.004*"help" + 0.004*"federal_government" + 0.004*"today" + 0.004*"problem" + 0.004*"farm" + 0.003*"industrial"
+2020-03-08 11:42:05,509:INFO:topic #7 (0.181): 0.015*"americans" + 0.012*"help" + 0.006*"families" + 0.006*"get" + 0.006*"reform" + 0.005*"today" + 0.005*"century" + 0.005*"schools" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:05,510:INFO:topic diff=0.132567, rho=0.285598
+2020-03-08 11:42:05,510:INFO:PROGRESS: pass 9, at document #200/226
+2020-03-08 11:42:06,259:INFO:optimized alpha [0.009957294, 0.010348013, 0.009722716, 0.009900545, 0.009920852, 0.018138269, 0.03851626, 0.19484049, 0.12122166, 0.010386981, 0.15883759, 0.0104931155, 0.0125275375, 0.01005623, 0.010049739, 0.009902682, 0.017689029, 0.010366178, 0.08478462, 0.009694578]
+2020-03-08 11:42:06,263:INFO:merging changes from 100 documents into a model of 226 documents
+2020-03-08 11:42:06,268:INFO:topic #19 (0.010): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:06,268:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:06,268:INFO:topic #8 (0.121): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"tribes" + 0.002*"convention" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:06,268:INFO:topic #10 (0.159): 0.005*"problems" + 0.005*"cannot" + 0.004*"million" + 0.004*"major" + 0.004*"help" + 0.004*"federal_government" + 0.004*"farm" + 0.004*"today" + 0.004*"problem" + 0.003*"industrial"
+2020-03-08 11:42:06,268:INFO:topic #7 (0.195): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.005*"today" + 0.005*"reform" + 0.005*"century" + 0.005*"working" + 0.005*"schools" + 0.005*"million"
+2020-03-08 11:42:06,269:INFO:topic diff=0.111447, rho=0.285598
+2020-03-08 11:42:06,463:INFO:-11.916 per-word bound, 3865.4 perplexity estimate based on a held-out corpus of 26 documents with 34193 words
+2020-03-08 11:42:06,463:INFO:PROGRESS: pass 9, at document #226/226
+2020-03-08 11:42:06,589:INFO:optimized alpha [0.009730245, 0.010102799, 0.009506238, 0.0096760765, 0.009695462, 0.01738514, 0.03512631, 0.23910801, 0.09015373, 0.010139917, 0.16572736, 0.010240978, 0.012168178, 0.009824648, 0.009818455, 0.009678117, 0.016972724, 0.010120103, 0.06849264, 0.00947935]
+2020-03-08 11:42:06,593:INFO:merging changes from 26 documents into a model of 226 documents
+2020-03-08 11:42:06,597:INFO:topic #19 (0.009): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
+2020-03-08 11:42:06,597:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:06,598:INFO:topic #8 (0.090): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"tribes" + 0.002*"convention" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:06,598:INFO:topic #10 (0.166): 0.006*"problems" + 0.005*"cannot" + 0.004*"million" + 0.004*"major" + 0.004*"federal_government" + 0.004*"help" + 0.004*"today" + 0.004*"problem" + 0.004*"farm" + 0.003*"assistance"
+2020-03-08 11:42:06,598:INFO:topic #7 (0.239): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:06,598:INFO:topic diff=0.087894, rho=0.285598
+2020-03-08 11:42:15,151:INFO:topic #0 (0.010): 0.000*"spain" + 0.000*"mexico" + 0.000*"minister" + 0.000*"per" + 0.000*"silver" + 0.000*"july" + 0.000*"believed" + 0.000*"currency" + 0.000*"cent" + 0.000*"gold"
+2020-03-08 11:42:15,152:INFO:topic #1 (0.010): 0.000*"tariff" + 0.000*"spain" + 0.000*"per" + 0.000*"estimated" + 0.000*"convention" + 0.000*"mexico" + 0.000*"products" + 0.000*"activities" + 0.000*"30" + 0.000*"per_cent"
+2020-03-08 11:42:15,152:INFO:topic #2 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"france" + 0.000*"indians" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"spain" + 0.000*"believed" + 0.000*"payment" + 0.000*"ports"
+2020-03-08 11:42:15,152:INFO:topic #3 (0.010): 0.000*"gentlemen" + 0.000*"objects" + 0.000*"execution" + 0.000*"article" + 0.000*"amity" + 0.000*"militia" + 0.000*"happiness" + 0.000*"ports" + 0.000*"france" + 0.000*"commissioners"
+2020-03-08 11:42:15,152:INFO:topic #4 (0.010): 0.000*"mexico" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"per" + 0.000*"currency" + 0.000*"indians" + 0.000*"objects" + 0.000*"treaties" + 0.000*"texas" + 0.000*"coast"
+2020-03-08 11:42:15,152:INFO:topic #5 (0.017): 0.013*"gentlemen" + 0.008*"fellow_citizens" + 0.007*"fellow" + 0.007*"sea" + 0.007*"legislature" + 0.006*"ensuing" + 0.006*"friendship" + 0.006*"militia" + 0.006*"execution" + 0.005*"harbors"
+2020-03-08 11:42:15,152:INFO:topic #6 (0.035): 0.006*"convention" + 0.005*"cuba" + 0.004*"spain" + 0.004*"mexico" + 0.004*"diplomatic" + 0.004*"july" + 0.003*"china" + 0.003*"april" + 0.003*"appointed" + 0.003*"minister"
+2020-03-08 11:42:15,153:INFO:topic #7 (0.239): 0.015*"americans" + 0.012*"help" + 0.006*"get" + 0.006*"families" + 0.006*"reform" + 0.005*"today" + 0.005*"schools" + 0.005*"century" + 0.005*"working" + 0.005*"million"
+2020-03-08 11:42:15,153:INFO:topic #8 (0.090): 0.003*"minister" + 0.003*"spain" + 0.003*"france" + 0.003*"objects" + 0.003*"intercourse" + 0.003*"bank" + 0.002*"tribes" + 0.002*"convention" + 0.002*"public_debt" + 0.002*"indians"
+2020-03-08 11:42:15,153:INFO:topic #9 (0.010): 0.000*"gentlemen" + 0.000*"quickly" + 0.000*"mexico" + 0.000*"render" + 0.000*"banks" + 0.000*"ships" + 0.000*"fiscal_year" + 0.000*"bank" + 0.000*"tariff" + 0.000*"per_cent"
+2020-03-08 11:42:15,153:INFO:topic #10 (0.166): 0.006*"problems" + 0.005*"cannot" + 0.004*"million" + 0.004*"major" + 0.004*"federal_government" + 0.004*"help" + 0.004*"today" + 0.004*"problem" + 0.004*"farm" + 0.003*"assistance"
+2020-03-08 11:42:15,153:INFO:topic #11 (0.010): 0.000*"tribes" + 0.000*"negotiation" + 0.000*"augmentation" + 0.000*"objects" + 0.000*"wars" + 0.000*"presumed" + 0.000*"france" + 0.000*"public_debt" + 0.000*"within_limits" + 0.000*"spain"
+2020-03-08 11:42:15,153:INFO:topic #12 (0.012): 0.090*"million_dollars" + 0.082*"fiscal_year" + 0.071*"million" + 0.046*"estimated" + 0.020*"veterans" + 0.018*"liquidation" + 0.017*"6" + 0.016*"september" + 0.016*"30" + 0.015*"estimates"
+2020-03-08 11:42:15,154:INFO:topic #13 (0.010): 0.000*"per" + 0.000*"gold" + 0.000*"cent" + 0.000*"mexico" + 0.000*"silver" + 0.000*"per_cent" + 0.000*"banks" + 0.000*"minister" + 0.000*"tariff" + 0.000*"30"
+2020-03-08 11:42:15,154:INFO:topic #14 (0.010): 0.000*"spain" + 0.000*"mexico" + 0.000*"minister" + 0.000*"objects" + 0.000*"convention" + 0.000*"intercourse" + 0.000*"article" + 0.000*"france" + 0.000*"negotiation" + 0.000*"colonies"
+2020-03-08 11:42:15,154:INFO:topic #15 (0.010): 0.000*"mexico" + 0.000*"minister" + 0.000*"ports" + 0.000*"intercourse" + 0.000*"convention" + 0.000*"payment" + 0.000*"spain" + 0.000*"objects" + 0.000*"coast" + 0.000*"execution"
+2020-03-08 11:42:15,155:INFO:topic #16 (0.017): 0.060*"mexico" + 0.026*"texas" + 0.018*"mexican" + 0.010*"california" + 0.009*"oregon" + 0.007*"mexican_government" + 0.006*"new_mexico" + 0.005*"steamers" + 0.005*"30th" + 0.005*"minister"
+2020-03-08 11:42:15,155:INFO:topic #17 (0.010): 0.000*"minister" + 0.000*"france" + 0.000*"tribes" + 0.000*"objects" + 0.000*"bank" + 0.000*"spain" + 0.000*"intercourse" + 0.000*"execution" + 0.000*"communicated" + 0.000*"bank_united"
+2020-03-08 11:42:15,155:INFO:topic #18 (0.068): 0.005*"per" + 0.004*"cent" + 0.004*"per_cent" + 0.004*"gold" + 0.003*"tariff" + 0.003*"court" + 0.003*"islands" + 0.003*"silver" + 0.003*"courts" + 0.003*"banks"
+2020-03-08 11:42:15,155:INFO:topic #19 (0.009): 0.000*"spain" + 0.000*"minister" + 0.000*"tribes" + 0.000*"article" + 0.000*"respecting" + 0.000*"colonies" + 0.000*"presumed" + 0.000*"negotiation" + 0.000*"intercourse" + 0.000*"entertained"
