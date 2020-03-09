@@ -1488,3 +1488,845 @@
 2020-03-08 12:29:56,921:INFO:topic #4 (0.071): 0.014*"shall" + 0.009*"conflict" + 0.008*"unity" + 0.008*"try" + 0.007*"aggression" + 0.007*"department" + 0.006*"foundation" + 0.006*"sacrifice" + 0.006*"stability" + 0.006*"duty"
 2020-03-08 12:29:56,921:INFO:topic #2 (0.089): 0.017*"thats" + 0.016*"college" + 0.015*"dont" + 0.012*"21st" + 0.010*"cant" + 0.010*"medicare" + 0.009*"tell" + 0.009*"bipartisan" + 0.009*"global" + 0.008*"big"
 2020-03-08 12:29:56,921:INFO:topic diff=0.054101, rho=0.218218
+2020-03-08 20:59:21,304:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 20:59:21,305:INFO:using serial LDA version on this node
+2020-03-08 20:59:21,310:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 226 documents, updating model once every 226 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 20:59:21,310:INFO:PROGRESS: pass 0, at document #226/226
+2020-03-08 20:59:27,340:INFO:optimized alpha [0.07035938, 0.07545334, 0.13155966, 0.08216878, 0.10693607, 0.117064565, 0.11941891, 0.095757745, 0.10468723, 0.13405912]
+2020-03-08 20:59:27,344:INFO:topic #0 (0.070): 0.004*"mexico" + 0.002*"minister" + 0.002*"per" + 0.002*"mexican" + 0.002*"tariff" + 0.002*"france" + 0.002*"estimated" + 0.002*"convention" + 0.002*"cent" + 0.002*"actual"
+2020-03-08 20:59:27,345:INFO:topic #1 (0.075): 0.004*"mexico" + 0.003*"help" + 0.002*"soviet" + 0.002*"americans" + 0.002*"cannot" + 0.002*"program" + 0.002*"problems" + 0.002*"million" + 0.002*"task" + 0.002*"today"
+2020-03-08 20:59:27,345:INFO:topic #6 (0.119): 0.002*"mexico" + 0.002*"spain" + 0.002*"americans" + 0.002*"court" + 0.002*"intercourse" + 0.002*"minister" + 0.001*"tariff" + 0.001*"july" + 0.001*"coast" + 0.001*"convention"
+2020-03-08 20:59:27,345:INFO:topic #2 (0.132): 0.002*"per" + 0.002*"mexico" + 0.002*"per_cent" + 0.002*"tariff" + 0.002*"banks" + 0.002*"court" + 0.002*"cent" + 0.002*"products" + 0.002*"commissioners" + 0.001*"minister"
+2020-03-08 20:59:27,345:INFO:topic #9 (0.134): 0.005*"program" + 0.004*"help" + 0.003*"programs" + 0.003*"million" + 0.003*"billion" + 0.003*"americans" + 0.003*"budget" + 0.003*"today" + 0.002*"problems" + 0.002*"fiscal_year"
+2020-03-08 20:59:27,346:INFO:topic diff=0.740206, rho=1.000000
+2020-03-08 20:59:27,349:INFO:PROGRESS: pass 1, at document #226/226
+2020-03-08 20:59:32,074:INFO:optimized alpha [0.04746721, 0.05047176, 0.07978886, 0.054258898, 0.09246353, 0.06918566, 0.08874044, 0.077217326, 0.052876133, 0.08607086]
+2020-03-08 20:59:32,078:INFO:topic #0 (0.047): 0.006*"mexico" + 0.003*"minister" + 0.002*"mexican" + 0.002*"france" + 0.002*"per" + 0.002*"japanese" + 0.002*"texas" + 0.002*"tariff" + 0.002*"estimated" + 0.002*"islands"
+2020-03-08 20:59:32,078:INFO:topic #1 (0.050): 0.004*"mexico" + 0.003*"soviet" + 0.003*"help" + 0.002*"communist" + 0.002*"task" + 0.002*"cannot" + 0.002*"problems" + 0.002*"free_world" + 0.002*"democracy" + 0.002*"americans"
+2020-03-08 20:59:32,078:INFO:topic #9 (0.086): 0.007*"program" + 0.004*"million" + 0.004*"billion" + 0.003*"programs" + 0.003*"help" + 0.003*"today" + 0.003*"budget" + 0.003*"problems" + 0.003*"fiscal_year" + 0.003*"farm"
+2020-03-08 20:59:32,078:INFO:topic #6 (0.089): 0.002*"spain" + 0.002*"mexico" + 0.002*"intercourse" + 0.002*"islands" + 0.002*"court" + 0.002*"coast" + 0.002*"ships" + 0.002*"tariff" + 0.001*"sea" + 0.001*"minister"
+2020-03-08 20:59:32,078:INFO:topic #4 (0.092): 0.004*"mexico" + 0.003*"convention" + 0.003*"minister" + 0.002*"bank" + 0.002*"currency" + 0.002*"payment" + 0.002*"banks" + 0.002*"objects" + 0.002*"france" + 0.002*"spain"
+2020-03-08 20:59:32,078:INFO:topic diff=0.336395, rho=0.577350
+2020-03-08 20:59:32,082:INFO:PROGRESS: pass 2, at document #226/226
+2020-03-08 20:59:34,748:INFO:optimized alpha [0.037512686, 0.04035921, 0.06539956, 0.04235539, 0.08601108, 0.052675277, 0.06723969, 0.067559645, 0.04049609, 0.07154592]
+2020-03-08 20:59:34,752:INFO:topic #0 (0.038): 0.005*"mexico" + 0.003*"japanese" + 0.003*"france" + 0.002*"sea" + 0.002*"minister" + 0.002*"fighting" + 0.002*"mexican" + 0.002*"german" + 0.002*"islands" + 0.002*"per"
+2020-03-08 20:59:34,752:INFO:topic #1 (0.040): 0.004*"soviet" + 0.004*"communist" + 0.003*"free_world" + 0.003*"task" + 0.003*"cannot" + 0.003*"democracy" + 0.003*"mexico" + 0.003*"help" + 0.003*"problems" + 0.003*"free_nations"
+2020-03-08 20:59:34,752:INFO:topic #7 (0.068): 0.009*"americans" + 0.008*"help" + 0.007*"tonight" + 0.006*"budget" + 0.005*"jobs" + 0.005*"programs" + 0.004*"program" + 0.004*"today" + 0.004*"million" + 0.004*"billion"
+2020-03-08 20:59:34,752:INFO:topic #9 (0.072): 0.008*"program" + 0.005*"million" + 0.004*"billion" + 0.003*"programs" + 0.003*"problems" + 0.003*"budget" + 0.003*"today" + 0.003*"help" + 0.003*"farm" + 0.003*"fiscal_year"
+2020-03-08 20:59:34,753:INFO:topic #4 (0.086): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"bank" + 0.002*"objects" + 0.002*"spain" + 0.002*"france" + 0.002*"payment" + 0.002*"currency" + 0.002*"intercourse"
+2020-03-08 20:59:34,753:INFO:topic diff=0.318482, rho=0.500000
+2020-03-08 20:59:34,757:INFO:PROGRESS: pass 3, at document #226/226
+2020-03-08 20:59:36,865:INFO:optimized alpha [0.03176976, 0.034397297, 0.057871222, 0.035648823, 0.0814737, 0.04372046, 0.055162985, 0.06170256, 0.03378709, 0.06439188]
+2020-03-08 20:59:36,869:INFO:topic #0 (0.032): 0.005*"japanese" + 0.004*"mexico" + 0.004*"france" + 0.003*"sea" + 0.003*"fighting" + 0.003*"german" + 0.002*"french" + 0.002*"enemy" + 0.002*"islands" + 0.002*"enemies"
+2020-03-08 20:59:36,869:INFO:topic #8 (0.034): 0.005*"enemy" + 0.004*"mexico" + 0.002*"americans" + 0.002*"convention" + 0.002*"help" + 0.002*"program" + 0.002*"prisoners" + 0.002*"budget" + 0.002*"jobs" + 0.002*"reform"
+2020-03-08 20:59:36,869:INFO:topic #7 (0.062): 0.009*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"program" + 0.004*"million" + 0.004*"billion"
+2020-03-08 20:59:36,869:INFO:topic #9 (0.064): 0.009*"program" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.003*"programs" + 0.003*"budget" + 0.003*"today" + 0.003*"farm" + 0.003*"fiscal_year" + 0.003*"help"
+2020-03-08 20:59:36,870:INFO:topic #4 (0.081): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"bank" + 0.002*"spain" + 0.002*"objects" + 0.002*"intercourse" + 0.002*"france" + 0.002*"texas" + 0.002*"payment"
+2020-03-08 20:59:36,870:INFO:topic diff=0.345486, rho=0.447214
+2020-03-08 20:59:36,874:INFO:PROGRESS: pass 4, at document #226/226
+2020-03-08 20:59:38,645:INFO:optimized alpha [0.027920794, 0.03054424, 0.05305276, 0.031257473, 0.07808387, 0.038042255, 0.047626436, 0.05763739, 0.029423257, 0.05935757]
+2020-03-08 20:59:38,649:INFO:topic #0 (0.028): 0.006*"japanese" + 0.004*"sea" + 0.004*"france" + 0.004*"fighting" + 0.004*"german" + 0.003*"enemy" + 0.003*"french" + 0.003*"air" + 0.003*"enemies" + 0.003*"islands"
+2020-03-08 20:59:38,650:INFO:topic #8 (0.029): 0.007*"enemy" + 0.003*"mexico" + 0.002*"prisoners" + 0.002*"lake" + 0.002*"militia" + 0.002*"americans" + 0.002*"command" + 0.002*"convention" + 0.002*"help" + 0.002*"program"
+2020-03-08 20:59:38,650:INFO:topic #7 (0.058): 0.010*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"billion" + 0.004*"million" + 0.004*"program"
+2020-03-08 20:59:38,650:INFO:topic #9 (0.059): 0.009*"program" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"budget" + 0.004*"programs" + 0.004*"farm" + 0.003*"today" + 0.003*"federal_government" + 0.003*"fiscal_year"
+2020-03-08 20:59:38,650:INFO:topic #4 (0.078): 0.005*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"bank" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"france" + 0.002*"texas" + 0.002*"payment"
+2020-03-08 20:59:38,650:INFO:topic diff=0.363309, rho=0.408248
+2020-03-08 20:59:38,654:INFO:PROGRESS: pass 5, at document #226/226
+2020-03-08 20:59:40,614:INFO:optimized alpha [0.025125457, 0.027734082, 0.05029199, 0.028113252, 0.07586994, 0.034327228, 0.042545326, 0.05467431, 0.026311772, 0.05581617]
+2020-03-08 20:59:40,619:INFO:topic #0 (0.025): 0.007*"japanese" + 0.005*"sea" + 0.005*"france" + 0.005*"fighting" + 0.004*"german" + 0.004*"air" + 0.004*"enemy" + 0.004*"french" + 0.003*"enemies" + 0.003*"allies"
+2020-03-08 20:59:40,619:INFO:topic #8 (0.026): 0.010*"enemy" + 0.003*"prisoners" + 0.003*"lake" + 0.003*"militia" + 0.003*"mexico" + 0.002*"command" + 0.002*"gained" + 0.002*"campaign" + 0.002*"captain" + 0.002*"warfare"
+2020-03-08 20:59:40,619:INFO:topic #7 (0.055): 0.010*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"billion" + 0.004*"million" + 0.004*"families"
+2020-03-08 20:59:40,619:INFO:topic #9 (0.056): 0.010*"program" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"budget" + 0.004*"programs" + 0.004*"farm" + 0.003*"today" + 0.003*"federal_government" + 0.003*"fiscal_year"
+2020-03-08 20:59:40,619:INFO:topic #4 (0.076): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"bank" + 0.002*"objects" + 0.002*"france" + 0.002*"texas" + 0.002*"payment"
+2020-03-08 20:59:40,619:INFO:topic diff=0.364528, rho=0.377964
+2020-03-08 20:59:40,624:INFO:PROGRESS: pass 6, at document #226/226
+2020-03-08 20:59:42,255:INFO:optimized alpha [0.023026982, 0.025669018, 0.04822215, 0.025727898, 0.074608855, 0.03148581, 0.03889904, 0.052535314, 0.023958173, 0.05341286]
+2020-03-08 20:59:42,259:INFO:topic #0 (0.023): 0.008*"japanese" + 0.006*"sea" + 0.005*"fighting" + 0.005*"france" + 0.005*"german" + 0.004*"air" + 0.004*"enemy" + 0.004*"french" + 0.004*"enemies" + 0.004*"allies"
+2020-03-08 20:59:42,259:INFO:topic #8 (0.024): 0.013*"enemy" + 0.004*"lake" + 0.004*"prisoners" + 0.004*"militia" + 0.003*"command" + 0.003*"gained" + 0.003*"captain" + 0.003*"warfare" + 0.003*"campaign" + 0.003*"capture"
+2020-03-08 20:59:42,259:INFO:topic #7 (0.053): 0.010*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"families" + 0.004*"billion" + 0.004*"americas"
+2020-03-08 20:59:42,259:INFO:topic #9 (0.053): 0.010*"program" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.003*"today" + 0.003*"federal_government" + 0.003*"prices"
+2020-03-08 20:59:42,260:INFO:topic #4 (0.075): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:42,260:INFO:topic diff=0.351118, rho=0.353553
+2020-03-08 20:59:42,264:INFO:PROGRESS: pass 7, at document #226/226
+2020-03-08 20:59:43,988:INFO:optimized alpha [0.021353742, 0.024139026, 0.046713404, 0.023884222, 0.07389634, 0.029270308, 0.03620567, 0.0507871, 0.022140494, 0.051483996]
+2020-03-08 20:59:43,991:INFO:topic #0 (0.021): 0.008*"japanese" + 0.006*"sea" + 0.006*"fighting" + 0.005*"france" + 0.005*"german" + 0.005*"air" + 0.004*"enemy" + 0.004*"enemies" + 0.004*"allies" + 0.004*"french"
+2020-03-08 20:59:43,992:INFO:topic #8 (0.022): 0.017*"enemy" + 0.005*"lake" + 0.005*"prisoners" + 0.005*"militia" + 0.004*"command" + 0.003*"gained" + 0.003*"captain" + 0.003*"warfare" + 0.003*"campaign" + 0.003*"victory"
+2020-03-08 20:59:43,992:INFO:topic #7 (0.051): 0.010*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"families" + 0.004*"americas" + 0.004*"percent"
+2020-03-08 20:59:43,992:INFO:topic #9 (0.051): 0.010*"program" + 0.005*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.003*"federal_government" + 0.003*"today" + 0.003*"prices"
+2020-03-08 20:59:43,992:INFO:topic #4 (0.074): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:43,992:INFO:topic diff=0.326670, rho=0.333333
+2020-03-08 20:59:43,996:INFO:PROGRESS: pass 8, at document #226/226
+2020-03-08 20:59:45,770:INFO:optimized alpha [0.019980751, 0.022980701, 0.045520037, 0.02237941, 0.0733172, 0.027483488, 0.034078017, 0.049402203, 0.02065972, 0.0499788]
+2020-03-08 20:59:45,774:INFO:topic #0 (0.020): 0.009*"japanese" + 0.007*"sea" + 0.006*"fighting" + 0.006*"france" + 0.005*"air" + 0.005*"german" + 0.005*"enemy" + 0.004*"allies" + 0.004*"enemies" + 0.004*"french"
+2020-03-08 20:59:45,774:INFO:topic #8 (0.021): 0.020*"enemy" + 0.006*"lake" + 0.006*"militia" + 0.005*"prisoners" + 0.005*"command" + 0.004*"captain" + 0.004*"gained" + 0.004*"warfare" + 0.004*"campaign" + 0.004*"officer"
+2020-03-08 20:59:45,775:INFO:topic #7 (0.049): 0.010*"americans" + 0.009*"help" + 0.007*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:45,775:INFO:topic #9 (0.050): 0.010*"program" + 0.006*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.003*"federal_government" + 0.003*"today" + 0.003*"prices"
+2020-03-08 20:59:45,775:INFO:topic #4 (0.073): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:45,775:INFO:topic diff=0.295410, rho=0.316228
+2020-03-08 20:59:45,779:INFO:PROGRESS: pass 9, at document #226/226
+2020-03-08 20:59:47,387:INFO:optimized alpha [0.018830765, 0.022031257, 0.0445732, 0.021156602, 0.073114604, 0.026008448, 0.0324509, 0.04837652, 0.019426493, 0.048718795]
+2020-03-08 20:59:47,391:INFO:topic #0 (0.019): 0.009*"japanese" + 0.007*"sea" + 0.007*"fighting" + 0.006*"france" + 0.006*"air" + 0.005*"german" + 0.005*"enemy" + 0.005*"allies" + 0.005*"enemies" + 0.005*"french"
+2020-03-08 20:59:47,391:INFO:topic #8 (0.019): 0.022*"enemy" + 0.007*"lake" + 0.007*"militia" + 0.006*"prisoners" + 0.006*"command" + 0.004*"captain" + 0.004*"gained" + 0.004*"officer" + 0.004*"warfare" + 0.004*"campaign"
+2020-03-08 20:59:47,391:INFO:topic #7 (0.048): 0.011*"americans" + 0.009*"help" + 0.008*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:47,391:INFO:topic #9 (0.049): 0.011*"program" + 0.006*"million" + 0.004*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.003*"today" + 0.003*"prices"
+2020-03-08 20:59:47,391:INFO:topic #4 (0.073): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:47,391:INFO:topic diff=0.261552, rho=0.301511
+2020-03-08 20:59:47,395:INFO:PROGRESS: pass 10, at document #226/226
+2020-03-08 20:59:49,094:INFO:optimized alpha [0.017901018, 0.021301204, 0.04375158, 0.020144992, 0.072863735, 0.024875285, 0.031184835, 0.047492348, 0.018379748, 0.047709398]
+2020-03-08 20:59:49,098:INFO:topic #0 (0.018): 0.010*"japanese" + 0.007*"fighting" + 0.007*"sea" + 0.006*"air" + 0.006*"france" + 0.005*"german" + 0.005*"enemy" + 0.005*"allies" + 0.005*"enemies" + 0.005*"french"
+2020-03-08 20:59:49,099:INFO:topic #8 (0.018): 0.024*"enemy" + 0.008*"militia" + 0.007*"lake" + 0.006*"command" + 0.006*"prisoners" + 0.005*"captain" + 0.005*"officer" + 0.004*"gained" + 0.004*"warfare" + 0.004*"campaign"
+2020-03-08 20:59:49,099:INFO:topic #7 (0.047): 0.011*"americans" + 0.009*"help" + 0.008*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.005*"programs" + 0.004*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:49,099:INFO:topic #9 (0.048): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.003*"today" + 0.003*"prices"
+2020-03-08 20:59:49,099:INFO:topic #4 (0.073): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:49,099:INFO:topic diff=0.228469, rho=0.288675
+2020-03-08 20:59:49,104:INFO:PROGRESS: pass 11, at document #226/226
+2020-03-08 20:59:50,762:INFO:optimized alpha [0.017094577, 0.020688005, 0.043093033, 0.019297127, 0.07258103, 0.023901114, 0.030190825, 0.046718426, 0.017477944, 0.047037374]
+2020-03-08 20:59:50,766:INFO:topic #0 (0.017): 0.010*"japanese" + 0.007*"fighting" + 0.007*"sea" + 0.006*"air" + 0.006*"france" + 0.005*"german" + 0.005*"enemy" + 0.005*"allies" + 0.005*"enemies" + 0.005*"french"
+2020-03-08 20:59:50,766:INFO:topic #8 (0.017): 0.025*"enemy" + 0.008*"militia" + 0.007*"lake" + 0.007*"command" + 0.006*"prisoners" + 0.005*"officer" + 0.005*"captain" + 0.004*"gained" + 0.004*"hostile" + 0.004*"warfare"
+2020-03-08 20:59:50,766:INFO:topic #7 (0.047): 0.011*"americans" + 0.009*"help" + 0.008*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.004*"programs" + 0.004*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:50,767:INFO:topic #9 (0.047): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.003*"prices" + 0.003*"major"
+2020-03-08 20:59:50,767:INFO:topic #4 (0.073): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:50,767:INFO:topic diff=0.197617, rho=0.277350
+2020-03-08 20:59:50,771:INFO:PROGRESS: pass 12, at document #226/226
+2020-03-08 20:59:52,367:INFO:optimized alpha [0.016386667, 0.020194715, 0.04250897, 0.018553974, 0.07237254, 0.023052054, 0.029328987, 0.0461585, 0.016691035, 0.046446115]
+2020-03-08 20:59:52,371:INFO:topic #0 (0.016): 0.010*"japanese" + 0.007*"fighting" + 0.007*"sea" + 0.006*"air" + 0.006*"france" + 0.005*"enemy" + 0.005*"allies" + 0.005*"german" + 0.005*"enemies" + 0.005*"french"
+2020-03-08 20:59:52,372:INFO:topic #8 (0.017): 0.026*"enemy" + 0.008*"militia" + 0.007*"lake" + 0.007*"command" + 0.006*"prisoners" + 0.005*"officer" + 0.005*"captain" + 0.004*"hostile" + 0.004*"gained" + 0.004*"warfare"
+2020-03-08 20:59:52,372:INFO:topic #7 (0.046): 0.011*"americans" + 0.009*"help" + 0.008*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.004*"today" + 0.004*"programs" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:52,372:INFO:topic #9 (0.046): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.004*"problems" + 0.004*"programs" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.003*"prices"
+2020-03-08 20:59:52,372:INFO:topic #4 (0.072): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:52,372:INFO:topic diff=0.169740, rho=0.267261
+2020-03-08 20:59:52,376:INFO:PROGRESS: pass 13, at document #226/226
+2020-03-08 20:59:54,078:INFO:optimized alpha [0.015758594, 0.019750545, 0.0420933, 0.017851138, 0.07203674, 0.022302935, 0.028608387, 0.045711245, 0.01599655, 0.04591703]
+2020-03-08 20:59:54,082:INFO:topic #0 (0.016): 0.010*"japanese" + 0.007*"fighting" + 0.007*"sea" + 0.006*"air" + 0.006*"france" + 0.005*"allies" + 0.005*"enemy" + 0.005*"german" + 0.005*"enemies" + 0.005*"french"
+2020-03-08 20:59:54,082:INFO:topic #8 (0.016): 0.026*"enemy" + 0.009*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"prisoners" + 0.005*"officer" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"gained"
+2020-03-08 20:59:54,083:INFO:topic #7 (0.046): 0.011*"americans" + 0.009*"help" + 0.008*"tonight" + 0.006*"budget" + 0.006*"jobs" + 0.004*"today" + 0.004*"programs" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:54,083:INFO:topic #9 (0.046): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.004*"programs" + 0.004*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 20:59:54,083:INFO:topic #4 (0.072): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:54,083:INFO:topic diff=0.145210, rho=0.258199
+2020-03-08 20:59:54,087:INFO:PROGRESS: pass 14, at document #226/226
+2020-03-08 20:59:56,154:INFO:optimized alpha [0.015196605, 0.01934767, 0.04171238, 0.017224913, 0.07169895, 0.021609858, 0.02796868, 0.045300484, 0.015396406, 0.045496285]
+2020-03-08 20:59:56,158:INFO:topic #0 (0.015): 0.010*"japanese" + 0.008*"fighting" + 0.007*"sea" + 0.007*"air" + 0.006*"france" + 0.005*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"german" + 0.005*"french"
+2020-03-08 20:59:56,159:INFO:topic #8 (0.015): 0.026*"enemy" + 0.009*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"prisoners" + 0.005*"officer" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"gained"
+2020-03-08 20:59:56,159:INFO:topic #7 (0.045): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.006*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"programs" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:56,159:INFO:topic #9 (0.045): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.004*"programs" + 0.004*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 20:59:56,159:INFO:topic #4 (0.072): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:56,159:INFO:topic diff=0.123636, rho=0.250000
+2020-03-08 20:59:56,164:INFO:PROGRESS: pass 15, at document #226/226
+2020-03-08 20:59:58,341:INFO:optimized alpha [0.014690872, 0.018981397, 0.041522898, 0.016663644, 0.071380764, 0.020990986, 0.027464803, 0.04498434, 0.014857958, 0.045172673]
+2020-03-08 20:59:58,346:INFO:topic #0 (0.015): 0.010*"japanese" + 0.008*"fighting" + 0.007*"sea" + 0.007*"air" + 0.006*"france" + 0.005*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"german" + 0.005*"french"
+2020-03-08 20:59:58,346:INFO:topic #8 (0.015): 0.026*"enemy" + 0.009*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"prisoners" + 0.005*"officer" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"gained"
+2020-03-08 20:59:58,346:INFO:topic #7 (0.045): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.006*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"programs" + 0.004*"americas" + 0.004*"families" + 0.004*"percent"
+2020-03-08 20:59:58,346:INFO:topic #9 (0.045): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.005*"programs" + 0.004*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 20:59:58,346:INFO:topic #4 (0.071): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 20:59:58,347:INFO:topic diff=0.105679, rho=0.242536
+2020-03-08 20:59:58,351:INFO:PROGRESS: pass 16, at document #226/226
+2020-03-08 21:00:00,718:INFO:optimized alpha [0.0142326215, 0.018688051, 0.041395225, 0.016156884, 0.07107801, 0.020480998, 0.027011307, 0.044693977, 0.014371327, 0.044930972]
+2020-03-08 21:00:00,722:INFO:topic #0 (0.014): 0.011*"japanese" + 0.008*"fighting" + 0.007*"sea" + 0.007*"air" + 0.006*"france" + 0.005*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"german" + 0.005*"french"
+2020-03-08 21:00:00,722:INFO:topic #8 (0.014): 0.026*"enemy" + 0.009*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"prisoners" + 0.006*"officer" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"gained"
+2020-03-08 21:00:00,722:INFO:topic #7 (0.045): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.006*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"americas" + 0.004*"programs" + 0.004*"families" + 0.004*"percent"
+2020-03-08 21:00:00,722:INFO:topic #9 (0.045): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.005*"programs" + 0.005*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 21:00:00,722:INFO:topic #4 (0.071): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 21:00:00,722:INFO:topic diff=0.090795, rho=0.235702
+2020-03-08 21:00:00,726:INFO:PROGRESS: pass 17, at document #226/226
+2020-03-08 21:00:03,192:INFO:optimized alpha [0.013815025, 0.018438173, 0.04132215, 0.015696576, 0.070881136, 0.020018075, 0.026600465, 0.044425804, 0.013928888, 0.044707846]
+2020-03-08 21:00:03,196:INFO:topic #0 (0.014): 0.011*"japanese" + 0.008*"fighting" + 0.007*"sea" + 0.007*"air" + 0.006*"france" + 0.006*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"french" + 0.005*"german"
+2020-03-08 21:00:03,196:INFO:topic #8 (0.014): 0.026*"enemy" + 0.009*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"prisoners" + 0.006*"officer" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"whilst"
+2020-03-08 21:00:03,196:INFO:topic #7 (0.044): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.006*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"programs" + 0.004*"percent"
+2020-03-08 21:00:03,196:INFO:topic #9 (0.045): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.005*"programs" + 0.005*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 21:00:03,196:INFO:topic #4 (0.071): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 21:00:03,197:INFO:topic diff=0.078393, rho=0.229416
+2020-03-08 21:00:03,201:INFO:PROGRESS: pass 18, at document #226/226
+2020-03-08 21:00:05,628:INFO:optimized alpha [0.0134334, 0.01824702, 0.041258797, 0.015277333, 0.07106037, 0.0195974, 0.026258294, 0.04423667, 0.013525356, 0.044509973]
+2020-03-08 21:00:05,632:INFO:topic #0 (0.013): 0.011*"japanese" + 0.008*"fighting" + 0.007*"sea" + 0.007*"air" + 0.006*"france" + 0.006*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"french" + 0.005*"german"
+2020-03-08 21:00:05,632:INFO:topic #8 (0.014): 0.026*"enemy" + 0.010*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"officer" + 0.006*"prisoners" + 0.005*"captain" + 0.005*"hostile" + 0.004*"honorable" + 0.004*"whilst"
+2020-03-08 21:00:05,632:INFO:topic #7 (0.044): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.007*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"programs" + 0.004*"percent"
+2020-03-08 21:00:05,632:INFO:topic #9 (0.045): 0.011*"program" + 0.006*"million" + 0.005*"billion" + 0.005*"programs" + 0.005*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"federal_government" + 0.004*"major" + 0.004*"prices"
+2020-03-08 21:00:05,633:INFO:topic #4 (0.071): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 21:00:05,633:INFO:topic diff=0.068152, rho=0.223607
+2020-03-08 21:00:05,637:INFO:PROGRESS: pass 19, at document #226/226
+2020-03-08 21:00:08,057:INFO:optimized alpha [0.013082138, 0.018087434, 0.041195225, 0.014892477, 0.07120212, 0.019211458, 0.02594466, 0.0440588, 0.013154625, 0.04432481]
+2020-03-08 21:00:08,061:INFO:topic #0 (0.013): 0.011*"japanese" + 0.008*"fighting" + 0.007*"air" + 0.007*"sea" + 0.006*"france" + 0.006*"allies" + 0.005*"enemy" + 0.005*"enemies" + 0.005*"french" + 0.005*"german"
+2020-03-08 21:00:08,062:INFO:topic #8 (0.013): 0.026*"enemy" + 0.010*"militia" + 0.008*"command" + 0.007*"lake" + 0.006*"officer" + 0.006*"prisoners" + 0.005*"captain" + 0.005*"hostile" + 0.005*"honorable" + 0.004*"whilst"
+2020-03-08 21:00:08,062:INFO:topic #7 (0.044): 0.011*"americans" + 0.010*"help" + 0.008*"tonight" + 0.007*"jobs" + 0.006*"budget" + 0.005*"today" + 0.004*"americas" + 0.004*"families" + 0.004*"programs" + 0.004*"percent"
+2020-03-08 21:00:08,062:INFO:topic #9 (0.044): 0.012*"program" + 0.006*"million" + 0.005*"billion" + 0.005*"programs" + 0.005*"problems" + 0.004*"budget" + 0.004*"farm" + 0.004*"major" + 0.004*"federal_government" + 0.004*"prices"
+2020-03-08 21:00:08,062:INFO:topic #4 (0.071): 0.006*"mexico" + 0.003*"minister" + 0.003*"convention" + 0.002*"spain" + 0.002*"intercourse" + 0.002*"objects" + 0.002*"bank" + 0.002*"france" + 0.002*"texas" + 0.002*"tribes"
+2020-03-08 21:00:08,065:INFO:topic diff=0.059585, rho=0.218218
+2020-03-08 21:20:15,935:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 21:20:15,935:INFO:using serial LDA version on this node
+2020-03-08 21:20:15,936:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 56 documents, updating model once every 56 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 21:20:15,936:INFO:PROGRESS: pass 0, at document #56/56
+2020-03-08 21:20:16,238:INFO:optimized alpha [0.0927211, 0.0817243, 0.07418316, 0.08485412, 0.08791274, 0.06398512, 0.05233922, 0.06715718, 0.0718785, 0.065096945]
+2020-03-08 21:20:16,239:INFO:topic #6 (0.052): 0.011*"conditions" + 0.010*"majesty" + 0.009*"ratification" + 0.009*"construction" + 0.009*"fortifications" + 0.008*"understood" + 0.008*"respecting" + 0.008*"entertained" + 0.007*"party" + 0.006*"regret"
+2020-03-08 21:20:16,239:INFO:topic #5 (0.064): 0.007*"value" + 0.006*"end" + 0.006*"mexico" + 0.005*"1st" + 0.005*"reduction" + 0.005*"money" + 0.005*"federal" + 0.005*"command" + 0.005*"orders" + 0.005*"balance"
+2020-03-08 21:20:16,239:INFO:topic #3 (0.085): 0.010*"legislation" + 0.009*"money" + 0.009*"value" + 0.007*"credit" + 0.006*"public_lands" + 0.006*"report_secretary" + 0.006*"federal" + 0.006*"mexico" + 0.005*"recent" + 0.005*"balance"
+2020-03-08 21:20:16,240:INFO:topic #4 (0.088): 0.008*"mexico" + 0.005*"limited" + 0.005*"end" + 0.005*"french" + 0.005*"federal" + 0.005*"public_lands" + 0.005*"reference" + 0.005*"west" + 0.005*"accomplished" + 0.005*"action"
+2020-03-08 21:20:16,240:INFO:topic #0 (0.093): 0.011*"commissioners" + 0.007*"respective" + 0.006*"post" + 0.006*"french" + 0.006*"party" + 0.006*"respecting" + 0.005*"march" + 0.005*"organization" + 0.005*"wars" + 0.005*"three"
+2020-03-08 21:20:16,240:INFO:topic diff=0.561967, rho=1.000000
+2020-03-08 21:20:16,240:INFO:PROGRESS: pass 1, at document #56/56
+2020-03-08 21:20:16,369:INFO:optimized alpha [0.085201524, 0.059936993, 0.057609726, 0.07410179, 0.078275315, 0.055518117, 0.042269733, 0.058782868, 0.06149014, 0.051889885]
+2020-03-08 21:20:16,370:INFO:topic #6 (0.042): 0.019*"conditions" + 0.016*"majesty" + 0.014*"ratification" + 0.012*"fortifications" + 0.012*"construction" + 0.012*"respecting" + 0.011*"understood" + 0.009*"entertained" + 0.008*"party" + 0.008*"affected"
+2020-03-08 21:20:16,370:INFO:topic #9 (0.052): 0.009*"federal" + 0.008*"money" + 0.008*"instead" + 0.007*"post" + 0.007*"issue" + 0.007*"district" + 0.006*"generally" + 0.006*"agents" + 0.006*"moment" + 0.006*"mean"
+2020-03-08 21:20:16,370:INFO:topic #3 (0.074): 0.011*"value" + 0.011*"money" + 0.010*"legislation" + 0.008*"public_lands" + 0.008*"credit" + 0.006*"report_secretary" + 0.006*"federal" + 0.006*"general_government" + 0.006*"mexico" + 0.006*"recent"
+2020-03-08 21:20:16,370:INFO:topic #4 (0.078): 0.010*"mexico" + 0.007*"limited" + 0.005*"end" + 0.005*"public_service" + 0.005*"regarded" + 0.005*"reference" + 0.005*"west" + 0.005*"federal" + 0.005*"accomplished" + 0.005*"possible"
+2020-03-08 21:20:16,370:INFO:topic #0 (0.085): 0.011*"commissioners" + 0.007*"post" + 0.007*"respective" + 0.007*"respecting" + 0.006*"party" + 0.006*"wars" + 0.006*"march" + 0.005*"three" + 0.005*"consideration_congress" + 0.005*"indemnity"
+2020-03-08 21:20:16,370:INFO:topic diff=0.272103, rho=0.577350
+2020-03-08 21:20:16,372:INFO:PROGRESS: pass 2, at document #56/56
+2020-03-08 21:20:16,459:INFO:optimized alpha [0.0837972, 0.049971253, 0.048541225, 0.06748543, 0.07112725, 0.048353244, 0.036483943, 0.054094627, 0.0545356, 0.044712894]
+2020-03-08 21:20:16,460:INFO:topic #6 (0.036): 0.022*"conditions" + 0.018*"majesty" + 0.016*"ratification" + 0.014*"respecting" + 0.014*"fortifications" + 0.014*"construction" + 0.013*"understood" + 0.010*"affected" + 0.010*"admitted" + 0.010*"entertained"
+2020-03-08 21:20:16,460:INFO:topic #9 (0.045): 0.009*"instead" + 0.009*"post" + 0.009*"federal" + 0.008*"issue" + 0.008*"district" + 0.008*"generally" + 0.007*"mean" + 0.007*"moment" + 0.007*"money" + 0.006*"documents"
+2020-03-08 21:20:16,460:INFO:topic #3 (0.067): 0.012*"value" + 0.012*"money" + 0.010*"legislation" + 0.009*"public_lands" + 0.009*"credit" + 0.007*"federal" + 0.007*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"recent"
+2020-03-08 21:20:16,460:INFO:topic #4 (0.071): 0.011*"mexico" + 0.007*"limited" + 0.006*"regarded" + 0.006*"public_service" + 0.006*"end" + 0.005*"exclusive" + 0.005*"possible" + 0.005*"reference" + 0.005*"west" + 0.005*"republic"
+2020-03-08 21:20:16,460:INFO:topic #0 (0.084): 0.010*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.006*"wars" + 0.006*"party" + 0.006*"march" + 0.006*"indemnity" + 0.006*"consideration_congress" + 0.005*"three"
+2020-03-08 21:20:16,460:INFO:topic diff=0.251382, rho=0.500000
+2020-03-08 21:20:16,461:INFO:PROGRESS: pass 3, at document #56/56
+2020-03-08 21:20:16,549:INFO:optimized alpha [0.08428078, 0.04390727, 0.042888854, 0.062273294, 0.06688528, 0.044521563, 0.032609206, 0.051776506, 0.049347494, 0.040447075]
+2020-03-08 21:20:16,551:INFO:topic #6 (0.033): 0.024*"conditions" + 0.019*"majesty" + 0.016*"ratification" + 0.015*"respecting" + 0.014*"construction" + 0.014*"fortifications" + 0.014*"understood" + 0.011*"admitted" + 0.010*"affected" + 0.010*"florida"
+2020-03-08 21:20:16,551:INFO:topic #9 (0.040): 0.010*"instead" + 0.010*"post" + 0.009*"issue" + 0.009*"federal" + 0.008*"generally" + 0.008*"district" + 0.008*"mean" + 0.008*"moment" + 0.007*"enabled" + 0.007*"requisite"
+2020-03-08 21:20:16,551:INFO:topic #3 (0.062): 0.012*"value" + 0.012*"money" + 0.010*"legislation" + 0.010*"public_lands" + 0.009*"credit" + 0.008*"federal" + 0.007*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"recent"
+2020-03-08 21:20:16,552:INFO:topic #4 (0.067): 0.013*"mexico" + 0.007*"limited" + 0.007*"regarded" + 0.006*"public_service" + 0.006*"exclusive" + 0.006*"end" + 0.005*"possible" + 0.005*"command" + 0.005*"republic" + 0.005*"reference"
+2020-03-08 21:20:16,552:INFO:topic #0 (0.084): 0.010*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"wars" + 0.006*"party" + 0.006*"march" + 0.006*"indemnity" + 0.006*"consideration_congress" + 0.005*"three"
+2020-03-08 21:20:16,552:INFO:topic diff=0.237408, rho=0.447214
+2020-03-08 21:20:16,552:INFO:PROGRESS: pass 4, at document #56/56
+2020-03-08 21:20:16,627:INFO:optimized alpha [0.085184716, 0.03971067, 0.03892444, 0.05959053, 0.06250019, 0.040939033, 0.029772833, 0.04989666, 0.045623723, 0.03766929]
+2020-03-08 21:20:16,628:INFO:topic #6 (0.030): 0.025*"conditions" + 0.020*"majesty" + 0.016*"ratification" + 0.015*"construction" + 0.015*"respecting" + 0.014*"fortifications" + 0.014*"understood" + 0.012*"admitted" + 0.011*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,628:INFO:topic #9 (0.038): 0.011*"post" + 0.011*"instead" + 0.010*"issue" + 0.009*"mean" + 0.009*"moment" + 0.009*"district" + 0.009*"generally" + 0.008*"federal" + 0.008*"enabled" + 0.008*"requisite"
+2020-03-08 21:20:16,628:INFO:topic #3 (0.060): 0.013*"value" + 0.013*"money" + 0.010*"public_lands" + 0.010*"legislation" + 0.009*"credit" + 0.008*"federal" + 0.007*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,628:INFO:topic #4 (0.063): 0.014*"mexico" + 0.008*"limited" + 0.007*"regarded" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"end" + 0.006*"command" + 0.005*"possible" + 0.005*"republic" + 0.005*"credit"
+2020-03-08 21:20:16,628:INFO:topic #0 (0.085): 0.010*"commissioners" + 0.009*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"wars" + 0.006*"party" + 0.006*"march" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.005*"article_treaty"
+2020-03-08 21:20:16,628:INFO:topic diff=0.224523, rho=0.408248
+2020-03-08 21:20:16,629:INFO:PROGRESS: pass 5, at document #56/56
+2020-03-08 21:20:16,699:INFO:optimized alpha [0.08639275, 0.036586907, 0.035945307, 0.056982987, 0.058701113, 0.038224027, 0.027579699, 0.04832616, 0.04313993, 0.03550354]
+2020-03-08 21:20:16,700:INFO:topic #6 (0.028): 0.026*"conditions" + 0.020*"majesty" + 0.016*"ratification" + 0.015*"construction" + 0.015*"respecting" + 0.015*"understood" + 0.014*"fortifications" + 0.013*"admitted" + 0.011*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,700:INFO:topic #9 (0.036): 0.012*"post" + 0.012*"instead" + 0.011*"issue" + 0.010*"moment" + 0.010*"mean" + 0.009*"district" + 0.009*"generally" + 0.008*"enabled" + 0.008*"advanced" + 0.008*"requisite"
+2020-03-08 21:20:16,700:INFO:topic #3 (0.057): 0.013*"value" + 0.013*"money" + 0.011*"public_lands" + 0.010*"legislation" + 0.009*"credit" + 0.008*"federal" + 0.007*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,700:INFO:topic #4 (0.059): 0.015*"mexico" + 0.008*"limited" + 0.007*"regarded" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"command" + 0.006*"possible" + 0.006*"credit" + 0.006*"end" + 0.005*"republic"
+2020-03-08 21:20:16,700:INFO:topic #0 (0.086): 0.010*"commissioners" + 0.009*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"wars" + 0.006*"party" + 0.006*"march" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.006*"article_treaty"
+2020-03-08 21:20:16,700:INFO:topic diff=0.212196, rho=0.377964
+2020-03-08 21:20:16,701:INFO:PROGRESS: pass 6, at document #56/56
+2020-03-08 21:20:16,769:INFO:optimized alpha [0.089357354, 0.034419894, 0.033368066, 0.054924674, 0.055795897, 0.036358327, 0.025827706, 0.04667927, 0.041157506, 0.033767473]
+2020-03-08 21:20:16,770:INFO:topic #6 (0.026): 0.026*"conditions" + 0.020*"majesty" + 0.017*"ratification" + 0.015*"construction" + 0.015*"respecting" + 0.015*"understood" + 0.014*"fortifications" + 0.013*"admitted" + 0.011*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,770:INFO:topic #2 (0.033): 0.012*"french" + 0.010*"board" + 0.009*"act_congress" + 0.008*"two_nations" + 0.007*"commissioners" + 0.007*"march" + 0.007*"remains" + 0.007*"money" + 0.007*"hitherto" + 0.006*"sentiments"
+2020-03-08 21:20:16,770:INFO:topic #3 (0.055): 0.013*"value" + 0.013*"money" + 0.011*"public_lands" + 0.010*"legislation" + 0.009*"credit" + 0.009*"federal" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,770:INFO:topic #4 (0.056): 0.016*"mexico" + 0.008*"limited" + 0.008*"regarded" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"credit" + 0.006*"command" + 0.006*"possible" + 0.005*"republic" + 0.005*"end"
+2020-03-08 21:20:16,771:INFO:topic #0 (0.089): 0.010*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"wars" + 0.006*"march" + 0.006*"party" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.006*"article_treaty"
+2020-03-08 21:20:16,771:INFO:topic diff=0.200951, rho=0.353553
+2020-03-08 21:20:16,771:INFO:PROGRESS: pass 7, at document #56/56
+2020-03-08 21:20:16,851:INFO:optimized alpha [0.09311607, 0.03266569, 0.031084625, 0.053633537, 0.053497925, 0.03507545, 0.024389002, 0.045328714, 0.039264932, 0.03234005]
+2020-03-08 21:20:16,852:INFO:topic #6 (0.024): 0.027*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.015*"construction" + 0.015*"understood" + 0.015*"respecting" + 0.014*"fortifications" + 0.014*"admitted" + 0.012*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,852:INFO:topic #2 (0.031): 0.013*"french" + 0.010*"board" + 0.009*"act_congress" + 0.008*"two_nations" + 0.008*"commissioners" + 0.007*"march" + 0.007*"remains" + 0.007*"money" + 0.007*"hitherto" + 0.006*"president"
+2020-03-08 21:20:16,852:INFO:topic #4 (0.053): 0.017*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"credit" + 0.006*"command" + 0.006*"possible" + 0.006*"republic" + 0.006*"issue"
+2020-03-08 21:20:16,852:INFO:topic #3 (0.054): 0.013*"value" + 0.013*"money" + 0.011*"public_lands" + 0.010*"legislation" + 0.009*"credit" + 0.009*"federal" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,853:INFO:topic #0 (0.093): 0.010*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"wars" + 0.006*"march" + 0.006*"party" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.006*"article_treaty"
+2020-03-08 21:20:16,853:INFO:topic diff=0.187503, rho=0.333333
+2020-03-08 21:20:16,853:INFO:PROGRESS: pass 8, at document #56/56
+2020-03-08 21:20:16,916:INFO:optimized alpha [0.09630303, 0.031209933, 0.029034957, 0.0529186, 0.05162644, 0.034000814, 0.023181032, 0.044488035, 0.037702292, 0.03153892]
+2020-03-08 21:20:16,917:INFO:topic #6 (0.023): 0.027*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.015*"understood" + 0.015*"construction" + 0.015*"respecting" + 0.014*"fortifications" + 0.014*"admitted" + 0.012*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,917:INFO:topic #2 (0.029): 0.012*"french" + 0.009*"board" + 0.009*"act_congress" + 0.008*"commissioners" + 0.008*"two_nations" + 0.008*"remains" + 0.008*"march" + 0.007*"money" + 0.007*"hitherto" + 0.007*"completed"
+2020-03-08 21:20:16,917:INFO:topic #4 (0.052): 0.018*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"public_service" + 0.006*"credit" + 0.006*"exclusive" + 0.006*"command" + 0.006*"possible" + 0.006*"calculated" + 0.006*"republic"
+2020-03-08 21:20:16,917:INFO:topic #3 (0.053): 0.013*"value" + 0.013*"money" + 0.011*"public_lands" + 0.010*"legislation" + 0.009*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,918:INFO:topic #0 (0.096): 0.009*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"march" + 0.006*"wars" + 0.006*"party" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.006*"article_treaty"
+2020-03-08 21:20:16,918:INFO:topic diff=0.173582, rho=0.316228
+2020-03-08 21:20:16,918:INFO:PROGRESS: pass 9, at document #56/56
+2020-03-08 21:20:16,986:INFO:optimized alpha [0.0989179, 0.029971397, 0.02733801, 0.052291416, 0.050052438, 0.033076033, 0.022145182, 0.043753676, 0.036153596, 0.030839985]
+2020-03-08 21:20:16,987:INFO:topic #6 (0.022): 0.027*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.015*"construction" + 0.014*"admitted" + 0.014*"fortifications" + 0.012*"florida" + 0.011*"affected"
+2020-03-08 21:20:16,987:INFO:topic #2 (0.027): 0.012*"french" + 0.010*"act_congress" + 0.009*"board" + 0.008*"commissioners" + 0.008*"two_nations" + 0.008*"remains" + 0.008*"march" + 0.007*"hitherto" + 0.007*"money" + 0.007*"reduction"
+2020-03-08 21:20:16,987:INFO:topic #4 (0.050): 0.018*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"public_service" + 0.007*"credit" + 0.006*"exclusive" + 0.006*"calculated" + 0.006*"possible" + 0.006*"command" + 0.006*"action"
+2020-03-08 21:20:16,987:INFO:topic #3 (0.052): 0.014*"value" + 0.013*"money" + 0.011*"public_lands" + 0.010*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:16,987:INFO:topic #0 (0.099): 0.009*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"respecting" + 0.007*"march" + 0.006*"party" + 0.006*"wars" + 0.006*"consideration_congress" + 0.006*"indemnity" + 0.006*"article_treaty"
+2020-03-08 21:20:16,987:INFO:topic diff=0.158463, rho=0.301511
+2020-03-08 21:20:16,988:INFO:PROGRESS: pass 10, at document #56/56
+2020-03-08 21:20:17,056:INFO:optimized alpha [0.10245385, 0.028909877, 0.025912315, 0.051759, 0.04844626, 0.032280274, 0.021249294, 0.043371204, 0.034846567, 0.030231569]
+2020-03-08 21:20:17,057:INFO:topic #6 (0.021): 0.027*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.015*"construction" + 0.014*"admitted" + 0.014*"fortifications" + 0.012*"florida" + 0.011*"affected"
+2020-03-08 21:20:17,057:INFO:topic #2 (0.026): 0.012*"french" + 0.010*"act_congress" + 0.010*"board" + 0.009*"commissioners" + 0.008*"two_nations" + 0.008*"remains" + 0.008*"march" + 0.007*"hitherto" + 0.007*"reduction" + 0.007*"money"
+2020-03-08 21:20:17,057:INFO:topic #4 (0.048): 0.019*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"public_service" + 0.007*"credit" + 0.006*"exclusive" + 0.006*"calculated" + 0.006*"action" + 0.006*"possible" + 0.006*"republic"
+2020-03-08 21:20:17,057:INFO:topic #3 (0.052): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,057:INFO:topic #0 (0.102): 0.009*"commissioners" + 0.008*"post" + 0.007*"respective" + 0.007*"march" + 0.007*"respecting" + 0.007*"party" + 0.006*"wars" + 0.006*"consideration_congress" + 0.006*"article_treaty" + 0.006*"indemnity"
+2020-03-08 21:20:17,057:INFO:topic diff=0.143583, rho=0.288675
+2020-03-08 21:20:17,058:INFO:PROGRESS: pass 11, at document #56/56
+2020-03-08 21:20:17,114:INFO:optimized alpha [0.10620155, 0.02798759, 0.024694143, 0.051301956, 0.047094, 0.03158719, 0.02046484, 0.04304088, 0.033726715, 0.029855551]
+2020-03-08 21:20:17,115:INFO:topic #6 (0.020): 0.027*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.015*"construction" + 0.014*"admitted" + 0.014*"fortifications" + 0.012*"florida" + 0.011*"affected"
+2020-03-08 21:20:17,115:INFO:topic #2 (0.025): 0.011*"french" + 0.010*"act_congress" + 0.010*"board" + 0.009*"commissioners" + 0.009*"two_nations" + 0.008*"remains" + 0.008*"march" + 0.008*"hitherto" + 0.007*"reduction" + 0.007*"completed"
+2020-03-08 21:20:17,115:INFO:topic #4 (0.047): 0.019*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"credit" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"calculated" + 0.006*"action" + 0.006*"possible" + 0.006*"republic"
+2020-03-08 21:20:17,115:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.006*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,115:INFO:topic #0 (0.106): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"respective" + 0.007*"party" + 0.006*"respecting" + 0.006*"wars" + 0.006*"consideration_congress" + 0.006*"article_treaty" + 0.006*"indemnity"
+2020-03-08 21:20:17,115:INFO:topic diff=0.129663, rho=0.277350
+2020-03-08 21:20:17,116:INFO:PROGRESS: pass 12, at document #56/56
+2020-03-08 21:20:17,173:INFO:optimized alpha [0.109443344, 0.027174152, 0.02363582, 0.05089522, 0.045929864, 0.030972788, 0.01976877, 0.04274074, 0.032749783, 0.029517515]
+2020-03-08 21:20:17,173:INFO:topic #6 (0.020): 0.026*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.014*"construction" + 0.014*"admitted" + 0.014*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,173:INFO:topic #2 (0.024): 0.011*"french" + 0.010*"act_congress" + 0.010*"board" + 0.009*"commissioners" + 0.009*"two_nations" + 0.009*"remains" + 0.008*"march" + 0.008*"hitherto" + 0.008*"reduction" + 0.007*"completed"
+2020-03-08 21:20:17,173:INFO:topic #4 (0.046): 0.020*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"credit" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"calculated" + 0.006*"action" + 0.006*"possible" + 0.006*"republic"
+2020-03-08 21:20:17,173:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,174:INFO:topic #0 (0.109): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.007*"respective" + 0.006*"respecting" + 0.006*"wars" + 0.006*"article_treaty" + 0.006*"consideration_congress" + 0.006*"west"
+2020-03-08 21:20:17,174:INFO:topic diff=0.116628, rho=0.267261
+2020-03-08 21:20:17,174:INFO:PROGRESS: pass 13, at document #56/56
+2020-03-08 21:20:17,242:INFO:optimized alpha [0.11222964, 0.02631952, 0.022705821, 0.050699677, 0.045147303, 0.030423552, 0.019145723, 0.04224964, 0.03188857, 0.02921095]
+2020-03-08 21:20:17,243:INFO:topic #6 (0.019): 0.026*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.014*"construction" + 0.014*"admitted" + 0.014*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,243:INFO:topic #2 (0.023): 0.011*"french" + 0.011*"act_congress" + 0.010*"board" + 0.009*"commissioners" + 0.009*"two_nations" + 0.009*"remains" + 0.008*"march" + 0.008*"hitherto" + 0.008*"reduction" + 0.008*"completed"
+2020-03-08 21:20:17,243:INFO:topic #4 (0.045): 0.020*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"credit" + 0.007*"public_service" + 0.006*"exclusive" + 0.006*"calculated" + 0.006*"action" + 0.006*"republic" + 0.006*"possible"
+2020-03-08 21:20:17,243:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,243:INFO:topic #0 (0.112): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.007*"respective" + 0.006*"respecting" + 0.006*"wars" + 0.006*"west" + 0.006*"article_treaty" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,244:INFO:topic diff=0.105023, rho=0.258199
+2020-03-08 21:20:17,244:INFO:PROGRESS: pass 14, at document #56/56
+2020-03-08 21:20:17,309:INFO:optimized alpha [0.11465142, 0.02556121, 0.021882435, 0.05063056, 0.044237264, 0.02993228, 0.01858511, 0.042447448, 0.031125871, 0.02893411]
+2020-03-08 21:20:17,310:INFO:topic #6 (0.019): 0.026*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.014*"construction" + 0.014*"admitted" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,310:INFO:topic #2 (0.022): 0.011*"act_congress" + 0.011*"french" + 0.010*"board" + 0.009*"commissioners" + 0.009*"two_nations" + 0.009*"remains" + 0.008*"march" + 0.008*"hitherto" + 0.008*"reduction" + 0.008*"completed"
+2020-03-08 21:20:17,310:INFO:topic #4 (0.044): 0.020*"mexico" + 0.008*"regarded" + 0.008*"limited" + 0.007*"credit" + 0.007*"public_service" + 0.007*"calculated" + 0.006*"action" + 0.006*"exclusive" + 0.006*"republic" + 0.006*"possible"
+2020-03-08 21:20:17,310:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.010*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,311:INFO:topic #0 (0.115): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.007*"respective" + 0.006*"respecting" + 0.006*"west" + 0.006*"wars" + 0.006*"article_treaty" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,311:INFO:topic diff=0.094901, rho=0.250000
+2020-03-08 21:20:17,311:INFO:PROGRESS: pass 15, at document #56/56
+2020-03-08 21:20:17,378:INFO:optimized alpha [0.116699725, 0.024879867, 0.021144936, 0.050800946, 0.043207537, 0.029485814, 0.018075638, 0.04242854, 0.03044055, 0.028678784]
+2020-03-08 21:20:17,379:INFO:topic #6 (0.018): 0.026*"conditions" + 0.021*"majesty" + 0.017*"ratification" + 0.016*"understood" + 0.015*"respecting" + 0.014*"admitted" + 0.014*"construction" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,379:INFO:topic #2 (0.021): 0.011*"act_congress" + 0.011*"french" + 0.010*"board" + 0.010*"commissioners" + 0.009*"two_nations" + 0.009*"remains" + 0.008*"hitherto" + 0.008*"reduction" + 0.008*"march" + 0.008*"completed"
+2020-03-08 21:20:17,379:INFO:topic #4 (0.043): 0.021*"mexico" + 0.009*"regarded" + 0.008*"limited" + 0.008*"credit" + 0.007*"public_service" + 0.007*"calculated" + 0.007*"action" + 0.006*"exclusive" + 0.006*"republic" + 0.006*"possible"
+2020-03-08 21:20:17,379:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.011*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,379:INFO:topic #0 (0.117): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.006*"respective" + 0.006*"respecting" + 0.006*"west" + 0.006*"article_treaty" + 0.006*"wars" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,379:INFO:topic diff=0.086077, rho=0.242536
+2020-03-08 21:20:17,380:INFO:PROGRESS: pass 16, at document #56/56
+2020-03-08 21:20:17,445:INFO:optimized alpha [0.119163394, 0.02426928, 0.020483738, 0.05121133, 0.042310543, 0.029085817, 0.01761302, 0.042423207, 0.029829066, 0.02857799]
+2020-03-08 21:20:17,446:INFO:topic #6 (0.018): 0.026*"conditions" + 0.021*"majesty" + 0.018*"ratification" + 0.017*"understood" + 0.015*"respecting" + 0.014*"admitted" + 0.014*"construction" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,446:INFO:topic #2 (0.020): 0.011*"act_congress" + 0.010*"french" + 0.010*"board" + 0.010*"commissioners" + 0.010*"two_nations" + 0.010*"remains" + 0.009*"hitherto" + 0.009*"reduction" + 0.009*"march" + 0.008*"completed"
+2020-03-08 21:20:17,446:INFO:topic #7 (0.042): 0.019*"french" + 0.011*"money" + 0.011*"president" + 0.009*"federal" + 0.009*"action" + 0.007*"relation" + 0.007*"institution" + 0.007*"removal" + 0.007*"passed" + 0.006*"legislation"
+2020-03-08 21:20:17,446:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.011*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,446:INFO:topic #0 (0.119): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.006*"respective" + 0.006*"respecting" + 0.006*"west" + 0.006*"article_treaty" + 0.006*"wars" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,446:INFO:topic diff=0.078584, rho=0.235702
+2020-03-08 21:20:17,447:INFO:PROGRESS: pass 17, at document #56/56
+2020-03-08 21:20:17,512:INFO:optimized alpha [0.12133897, 0.023715435, 0.019884823, 0.051364712, 0.04151439, 0.028721461, 0.017189095, 0.042799987, 0.029275425, 0.028486267]
+2020-03-08 21:20:17,512:INFO:topic #6 (0.017): 0.026*"conditions" + 0.022*"majesty" + 0.018*"ratification" + 0.017*"understood" + 0.015*"respecting" + 0.014*"admitted" + 0.014*"construction" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,513:INFO:topic #2 (0.020): 0.011*"act_congress" + 0.011*"board" + 0.010*"french" + 0.010*"commissioners" + 0.010*"two_nations" + 0.010*"remains" + 0.009*"reduction" + 0.009*"hitherto" + 0.009*"march" + 0.008*"completed"
+2020-03-08 21:20:17,513:INFO:topic #7 (0.043): 0.020*"french" + 0.011*"money" + 0.011*"president" + 0.009*"federal" + 0.009*"action" + 0.008*"relation" + 0.007*"institution" + 0.007*"removal" + 0.007*"passed" + 0.006*"legislation"
+2020-03-08 21:20:17,513:INFO:topic #3 (0.051): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.011*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,513:INFO:topic #0 (0.121): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.006*"respective" + 0.006*"west" + 0.006*"respecting" + 0.006*"article_treaty" + 0.006*"wars" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,513:INFO:topic diff=0.072237, rho=0.229416
+2020-03-08 21:20:17,514:INFO:PROGRESS: pass 18, at document #56/56
+2020-03-08 21:20:17,573:INFO:optimized alpha [0.12326364, 0.023211112, 0.019339735, 0.051511236, 0.040805303, 0.028389204, 0.016799195, 0.043340754, 0.028769935, 0.02852607]
+2020-03-08 21:20:17,573:INFO:topic #6 (0.017): 0.026*"conditions" + 0.022*"majesty" + 0.018*"ratification" + 0.017*"understood" + 0.015*"respecting" + 0.014*"admitted" + 0.013*"construction" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,573:INFO:topic #2 (0.019): 0.012*"act_congress" + 0.011*"board" + 0.010*"french" + 0.010*"commissioners" + 0.010*"two_nations" + 0.010*"remains" + 0.009*"reduction" + 0.009*"hitherto" + 0.009*"march" + 0.008*"completed"
+2020-03-08 21:20:17,573:INFO:topic #7 (0.043): 0.020*"french" + 0.011*"money" + 0.011*"president" + 0.009*"federal" + 0.009*"action" + 0.008*"relation" + 0.007*"institution" + 0.007*"removal" + 0.007*"passed" + 0.006*"legislation"
+2020-03-08 21:20:17,574:INFO:topic #3 (0.052): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.011*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,574:INFO:topic #0 (0.123): 0.009*"commissioners" + 0.008*"post" + 0.007*"march" + 0.007*"party" + 0.006*"respective" + 0.006*"west" + 0.006*"respecting" + 0.006*"article_treaty" + 0.006*"wars" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,574:INFO:topic diff=0.067046, rho=0.223607
+2020-03-08 21:20:17,574:INFO:PROGRESS: pass 19, at document #56/56
+2020-03-08 21:20:17,625:INFO:optimized alpha [0.12560552, 0.022750758, 0.018841827, 0.051656242, 0.040173076, 0.028086567, 0.016439633, 0.043853465, 0.028190263, 0.028567161]
+2020-03-08 21:20:17,626:INFO:topic #6 (0.016): 0.026*"conditions" + 0.022*"majesty" + 0.018*"ratification" + 0.017*"understood" + 0.015*"respecting" + 0.014*"admitted" + 0.013*"construction" + 0.013*"fortifications" + 0.012*"florida" + 0.012*"affected"
+2020-03-08 21:20:17,626:INFO:topic #2 (0.019): 0.012*"act_congress" + 0.011*"board" + 0.010*"two_nations" + 0.010*"commissioners" + 0.010*"remains" + 0.010*"french" + 0.009*"reduction" + 0.009*"hitherto" + 0.009*"march" + 0.009*"completed"
+2020-03-08 21:20:17,626:INFO:topic #7 (0.044): 0.020*"french" + 0.011*"money" + 0.011*"president" + 0.009*"federal" + 0.009*"action" + 0.008*"relation" + 0.007*"institution" + 0.007*"removal" + 0.007*"passed" + 0.006*"funds"
+2020-03-08 21:20:17,626:INFO:topic #3 (0.052): 0.014*"value" + 0.013*"money" + 0.012*"public_lands" + 0.011*"legislation" + 0.011*"federal" + 0.009*"credit" + 0.008*"general_government" + 0.007*"report_secretary" + 0.006*"mexico" + 0.006*"results"
+2020-03-08 21:20:17,626:INFO:topic #0 (0.126): 0.009*"commissioners" + 0.008*"post" + 0.007*"party" + 0.007*"march" + 0.006*"west" + 0.006*"respective" + 0.006*"respecting" + 0.006*"article_treaty" + 0.006*"construction" + 0.006*"consideration_congress"
+2020-03-08 21:20:17,626:INFO:topic diff=0.062410, rho=0.218218
+2020-03-08 21:20:17,863:INFO:collecting all words and their counts
+2020-03-08 21:20:17,863:INFO:PROGRESS: at sentence #0, processed 0 words and 0 word types
+2020-03-08 21:20:18,337:INFO:collected 228420 word types from a corpus of 306740 words (unigram + bigrams) and 57 sentences
+2020-03-08 21:20:18,337:INFO:using 228420 counts as vocab in Phrases<0 vocab, min_count=20, threshold=10.0, max_vocab_size=40000000>
+2020-03-08 21:20:19,362:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2020-03-08 21:20:19,615:INFO:built Dictionary(10939 unique tokens: ['1', '10', '1000000', '10th', '11th']...) from 57 documents (total 318370 corpus positions)
+2020-03-08 21:20:19,627:INFO:discarding 10126 tokens: [('1', 34), ('10', 18), ('1000000', 8), ('10th', 12), ('11th', 9), ('13th', 9), ('14th', 12), ('15', 16), ('16th', 11), ('1789', 2)]...
+2020-03-08 21:20:19,628:INFO:keeping 813 tokens which were in no less than 20 and no more than 28 (=50.0%) documents
+2020-03-08 21:20:19,631:INFO:resulting dictionary: Dictionary(813 unique tokens: ['4th', '5', '6', 'abandoned', 'accompanied']...)
+2020-03-08 21:20:19,737:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 21:20:19,737:INFO:using serial LDA version on this node
+2020-03-08 21:20:19,739:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 57 documents, updating model once every 57 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 21:20:19,739:INFO:PROGRESS: pass 0, at document #57/57
+2020-03-08 21:20:20,173:INFO:optimized alpha [0.07115259, 0.11117416, 0.07076007, 0.04951581, 0.09733055, 0.06977289, 0.084107764, 0.057444494, 0.10048499, 0.05482514]
+2020-03-08 21:20:20,174:INFO:topic #3 (0.050): 0.007*"california" + 0.006*"slavery" + 0.006*"commencement" + 0.005*"slave" + 0.005*"emperor" + 0.005*"civil_war" + 0.005*"transit" + 0.005*"expedition" + 0.004*"naval_force" + 0.004*"pensions"
+2020-03-08 21:20:20,174:INFO:topic #9 (0.055): 0.006*"specific" + 0.005*"sovereign" + 0.005*"federal_government" + 0.005*"bound" + 0.005*"withdrawn" + 0.005*"slavery" + 0.004*"shores" + 0.004*"redress" + 0.004*"grants" + 0.004*"company"
+2020-03-08 21:20:20,174:INFO:topic #4 (0.097): 0.007*"slavery" + 0.006*"paper" + 0.006*"california" + 0.005*"specie" + 0.005*"majority" + 0.005*"citizenship" + 0.004*"coinage" + 0.004*"hundred" + 0.003*"imported" + 0.003*"new_mexico"
+2020-03-08 21:20:20,174:INFO:topic #8 (0.100): 0.013*"texas" + 0.005*"conference" + 0.004*"redress" + 0.004*"specie" + 0.003*"repeal" + 0.003*"violence" + 0.003*"paper" + 0.003*"miles" + 0.003*"transit" + 0.003*"vote"
+2020-03-08 21:20:20,174:INFO:topic #1 (0.111): 0.006*"conference" + 0.005*"methods" + 0.004*"statute" + 0.004*"coinage" + 0.004*"preceding_year" + 0.004*"pension" + 0.004*"arbitration" + 0.004*"chile" + 0.004*"pensions" + 0.003*"company"
+2020-03-08 21:20:20,174:INFO:topic diff=0.585604, rho=1.000000
+2020-03-08 21:20:20,175:INFO:PROGRESS: pass 1, at document #57/57
+2020-03-08 21:20:20,350:INFO:optimized alpha [0.056686707, 0.112283334, 0.056473628, 0.041665353, 0.08679198, 0.053712644, 0.06615042, 0.04642138, 0.08490258, 0.045637216]
+2020-03-08 21:20:20,352:INFO:topic #3 (0.042): 0.008*"california" + 0.008*"slavery" + 0.006*"emperor" + 0.006*"commencement" + 0.006*"civil_war" + 0.006*"expedition" + 0.006*"representation" + 0.006*"lawful" + 0.006*"miles" + 0.006*"canada"
+2020-03-08 21:20:20,352:INFO:topic #9 (0.046): 0.009*"specific" + 0.007*"sovereign" + 0.007*"federal_government" + 0.006*"bound" + 0.006*"slavery" + 0.005*"withdrawn" + 0.005*"resort" + 0.005*"passing" + 0.005*"redress" + 0.005*"revolution"
+2020-03-08 21:20:20,352:INFO:topic #8 (0.085): 0.013*"texas" + 0.005*"redress" + 0.005*"repeal" + 0.004*"conference" + 0.004*"violence" + 0.004*"oregon" + 0.004*"northern" + 0.004*"transit" + 0.004*"enactment" + 0.004*"statute"
+2020-03-08 21:20:20,352:INFO:topic #4 (0.087): 0.008*"paper" + 0.007*"specie" + 0.007*"california" + 0.007*"slavery" + 0.005*"majority" + 0.005*"steamers" + 0.005*"hundred" + 0.004*"new_mexico" + 0.004*"citizenship" + 0.004*"gold_silver"
+2020-03-08 21:20:20,353:INFO:topic #1 (0.112): 0.007*"conference" + 0.006*"methods" + 0.006*"coinage" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"statute" + 0.005*"pension" + 0.004*"chile" + 0.004*"pensions" + 0.004*"venezuela"
+2020-03-08 21:20:20,353:INFO:topic diff=0.301792, rho=0.577350
+2020-03-08 21:20:20,354:INFO:PROGRESS: pass 2, at document #57/57
+2020-03-08 21:20:20,477:INFO:optimized alpha [0.04896351, 0.10854996, 0.048823334, 0.036853727, 0.07688009, 0.045002587, 0.057149723, 0.039243452, 0.07198245, 0.03919402]
+2020-03-08 21:20:20,478:INFO:topic #3 (0.037): 0.009*"slavery" + 0.008*"california" + 0.007*"emperor" + 0.007*"miles" + 0.007*"canada" + 0.007*"expedition" + 0.007*"civil_war" + 0.007*"commencement" + 0.007*"representation" + 0.006*"pensions"
+2020-03-08 21:20:20,478:INFO:topic #7 (0.039): 0.020*"slavery" + 0.012*"present_fiscal" + 0.011*"majority" + 0.010*"slave" + 0.008*"30th_june" + 0.008*"employ" + 0.007*"route" + 0.007*"moment" + 0.007*"redress" + 0.007*"vote"
+2020-03-08 21:20:20,478:INFO:topic #8 (0.072): 0.011*"texas" + 0.005*"repeal" + 0.005*"northern" + 0.005*"redress" + 0.005*"violence" + 0.004*"agitation" + 0.004*"stipulations" + 0.004*"enactment" + 0.004*"oregon" + 0.004*"statute"
+2020-03-08 21:20:20,478:INFO:topic #4 (0.077): 0.009*"paper" + 0.008*"specie" + 0.008*"california" + 0.006*"slavery" + 0.006*"majority" + 0.005*"steamers" + 0.005*"hundred" + 0.005*"new_mexico" + 0.004*"gold_silver" + 0.004*"oregon"
+2020-03-08 21:20:20,479:INFO:topic #1 (0.109): 0.007*"conference" + 0.007*"methods" + 0.006*"coinage" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.005*"statute" + 0.004*"venezuela" + 0.004*"chile" + 0.004*"pensions"
+2020-03-08 21:20:20,479:INFO:topic diff=0.280843, rho=0.500000
+2020-03-08 21:20:20,480:INFO:PROGRESS: pass 3, at document #57/57
+2020-03-08 21:20:20,587:INFO:optimized alpha [0.04303144, 0.1064039, 0.044294417, 0.033501647, 0.070509925, 0.038747706, 0.051465753, 0.034973733, 0.06212859, 0.034590423]
+2020-03-08 21:20:20,588:INFO:topic #3 (0.034): 0.009*"slavery" + 0.008*"canada" + 0.008*"miles" + 0.007*"emperor" + 0.007*"expedition" + 0.007*"california" + 0.007*"pensions" + 0.007*"representation" + 0.007*"civil_war" + 0.007*"lawful"
+2020-03-08 21:20:20,588:INFO:topic #9 (0.035): 0.011*"specific" + 0.009*"federal_government" + 0.009*"sovereign" + 0.007*"slavery" + 0.007*"bound" + 0.006*"passing" + 0.006*"resort" + 0.006*"legislature" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:20,588:INFO:topic #8 (0.062): 0.009*"texas" + 0.006*"northern" + 0.006*"repeal" + 0.005*"violence" + 0.005*"agitation" + 0.005*"stipulations" + 0.005*"enactment" + 0.005*"statute" + 0.005*"redress" + 0.005*"transit"
+2020-03-08 21:20:20,588:INFO:topic #4 (0.071): 0.009*"paper" + 0.009*"specie" + 0.009*"california" + 0.006*"slavery" + 0.006*"majority" + 0.006*"steamers" + 0.006*"hundred" + 0.005*"new_mexico" + 0.005*"oregon" + 0.004*"gold_silver"
+2020-03-08 21:20:20,588:INFO:topic #1 (0.106): 0.007*"conference" + 0.007*"methods" + 0.007*"coinage" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.005*"statute" + 0.004*"venezuela" + 0.004*"citizenship" + 0.004*"pensions"
+2020-03-08 21:20:20,588:INFO:topic diff=0.265840, rho=0.447214
+2020-03-08 21:20:20,589:INFO:PROGRESS: pass 4, at document #57/57
+2020-03-08 21:20:20,688:INFO:optimized alpha [0.038967516, 0.10682482, 0.041412544, 0.031019635, 0.06608951, 0.034540776, 0.048369013, 0.03192594, 0.056438096, 0.031338464]
+2020-03-08 21:20:20,689:INFO:topic #3 (0.031): 0.010*"slavery" + 0.008*"canada" + 0.008*"miles" + 0.008*"emperor" + 0.008*"pensions" + 0.008*"expedition" + 0.007*"representation" + 0.007*"civil_war" + 0.007*"lawful" + 0.007*"transit"
+2020-03-08 21:20:20,689:INFO:topic #9 (0.031): 0.012*"specific" + 0.010*"federal_government" + 0.009*"sovereign" + 0.007*"slavery" + 0.007*"bound" + 0.007*"passing" + 0.006*"resort" + 0.006*"legislature" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:20,689:INFO:topic #8 (0.056): 0.008*"texas" + 0.007*"northern" + 0.006*"repeal" + 0.006*"violence" + 0.006*"agitation" + 0.006*"stipulations" + 0.006*"enactment" + 0.005*"statute" + 0.005*"transit" + 0.005*"peculiar"
+2020-03-08 21:20:20,689:INFO:topic #4 (0.066): 0.010*"california" + 0.010*"specie" + 0.010*"paper" + 0.006*"slavery" + 0.006*"majority" + 0.006*"steamers" + 0.006*"hundred" + 0.006*"new_mexico" + 0.005*"oregon" + 0.005*"miles"
+2020-03-08 21:20:20,689:INFO:topic #1 (0.107): 0.007*"conference" + 0.007*"methods" + 0.007*"coinage" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"venezuela" + 0.004*"citizenship" + 0.004*"pensions"
+2020-03-08 21:20:20,689:INFO:topic diff=0.254378, rho=0.408248
+2020-03-08 21:20:20,690:INFO:PROGRESS: pass 5, at document #57/57
+2020-03-08 21:20:20,776:INFO:optimized alpha [0.036256347, 0.106999695, 0.0392018, 0.02909108, 0.06389437, 0.031472716, 0.046756387, 0.02961547, 0.05284921, 0.028891785]
+2020-03-08 21:20:20,777:INFO:topic #9 (0.029): 0.012*"specific" + 0.010*"federal_government" + 0.010*"sovereign" + 0.007*"slavery" + 0.007*"bound" + 0.007*"passing" + 0.006*"resort" + 0.006*"legislature" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:20,777:INFO:topic #3 (0.029): 0.010*"slavery" + 0.009*"canada" + 0.009*"miles" + 0.008*"pensions" + 0.008*"emperor" + 0.008*"expedition" + 0.008*"representation" + 0.007*"civil_war" + 0.007*"lawful" + 0.007*"transit"
+2020-03-08 21:20:20,777:INFO:topic #8 (0.053): 0.007*"northern" + 0.007*"repeal" + 0.007*"texas" + 0.006*"violence" + 0.006*"agitation" + 0.006*"stipulations" + 0.006*"enactment" + 0.006*"statute" + 0.006*"company" + 0.006*"transit"
+2020-03-08 21:20:20,777:INFO:topic #4 (0.064): 0.010*"california" + 0.010*"specie" + 0.010*"paper" + 0.006*"slavery" + 0.006*"majority" + 0.006*"steamers" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"oregon" + 0.005*"miles"
+2020-03-08 21:20:20,777:INFO:topic #1 (0.107): 0.007*"conference" + 0.007*"methods" + 0.007*"coinage" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"citizenship" + 0.004*"venezuela" + 0.004*"pensions"
+2020-03-08 21:20:20,777:INFO:topic diff=0.243006, rho=0.377964
+2020-03-08 21:20:20,779:INFO:PROGRESS: pass 6, at document #57/57
+2020-03-08 21:20:20,864:INFO:optimized alpha [0.034154028, 0.1088831, 0.037443604, 0.02754297, 0.063124925, 0.029112354, 0.045457367, 0.027793095, 0.049734034, 0.026972104]
+2020-03-08 21:20:20,865:INFO:topic #9 (0.027): 0.012*"specific" + 0.011*"federal_government" + 0.010*"sovereign" + 0.008*"slavery" + 0.007*"bound" + 0.007*"passing" + 0.007*"resort" + 0.006*"legislature" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:20,865:INFO:topic #3 (0.028): 0.010*"slavery" + 0.010*"canada" + 0.009*"miles" + 0.008*"pensions" + 0.008*"emperor" + 0.008*"expedition" + 0.008*"representation" + 0.007*"civil_war" + 0.007*"lawful" + 0.007*"transit"
+2020-03-08 21:20:20,865:INFO:topic #8 (0.050): 0.008*"northern" + 0.007*"repeal" + 0.007*"violence" + 0.007*"agitation" + 0.007*"stipulations" + 0.006*"enactment" + 0.006*"company" + 0.006*"transit" + 0.006*"statute" + 0.006*"peculiar"
+2020-03-08 21:20:20,865:INFO:topic #4 (0.063): 0.011*"california" + 0.010*"specie" + 0.010*"paper" + 0.006*"majority" + 0.006*"slavery" + 0.006*"steamers" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"oregon" + 0.005*"miles"
+2020-03-08 21:20:20,865:INFO:topic #1 (0.109): 0.007*"coinage" + 0.007*"methods" + 0.007*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"citizenship" + 0.004*"venezuela" + 0.004*"civil_service"
+2020-03-08 21:20:20,865:INFO:topic diff=0.230133, rho=0.353553
+2020-03-08 21:20:20,866:INFO:PROGRESS: pass 7, at document #57/57
+2020-03-08 21:20:20,951:INFO:optimized alpha [0.032477487, 0.11307008, 0.035780296, 0.026275935, 0.06336533, 0.027248135, 0.044408828, 0.026494427, 0.04733508, 0.025425754]
+2020-03-08 21:20:20,952:INFO:topic #9 (0.025): 0.013*"specific" + 0.011*"federal_government" + 0.010*"sovereign" + 0.008*"slavery" + 0.007*"bound" + 0.007*"passing" + 0.007*"resort" + 0.007*"legislature" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:20,952:INFO:topic #3 (0.026): 0.011*"slavery" + 0.010*"canada" + 0.009*"miles" + 0.009*"pensions" + 0.008*"emperor" + 0.008*"expedition" + 0.008*"representation" + 0.007*"civil_war" + 0.007*"lawful" + 0.007*"arising"
+2020-03-08 21:20:20,952:INFO:topic #8 (0.047): 0.008*"northern" + 0.007*"repeal" + 0.007*"violence" + 0.007*"agitation" + 0.007*"stipulations" + 0.007*"enactment" + 0.007*"company" + 0.006*"transit" + 0.006*"statute" + 0.006*"isthmus"
+2020-03-08 21:20:20,952:INFO:topic #4 (0.063): 0.011*"california" + 0.011*"specie" + 0.010*"paper" + 0.006*"majority" + 0.006*"slavery" + 0.006*"steamers" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"oregon" + 0.005*"miles"
+2020-03-08 21:20:20,953:INFO:topic #1 (0.113): 0.007*"coinage" + 0.007*"methods" + 0.007*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"citizenship" + 0.004*"venezuela" + 0.004*"civil_service"
+2020-03-08 21:20:20,953:INFO:topic diff=0.214784, rho=0.333333
+2020-03-08 21:20:20,954:INFO:PROGRESS: pass 8, at document #57/57
+2020-03-08 21:20:21,042:INFO:optimized alpha [0.031087324, 0.11655088, 0.03440006, 0.025205204, 0.06401232, 0.025718968, 0.0432381, 0.025402557, 0.045096934, 0.024138084]
+2020-03-08 21:20:21,042:INFO:topic #9 (0.024): 0.013*"specific" + 0.011*"federal_government" + 0.010*"sovereign" + 0.008*"slavery" + 0.007*"bound" + 0.007*"legislature" + 0.007*"passing" + 0.007*"resort" + 0.006*"revolution" + 0.006*"redress"
+2020-03-08 21:20:21,043:INFO:topic #3 (0.025): 0.011*"slavery" + 0.010*"canada" + 0.009*"miles" + 0.009*"pensions" + 0.008*"emperor" + 0.008*"representation" + 0.008*"expedition" + 0.007*"civil_war" + 0.007*"arising" + 0.007*"lawful"
+2020-03-08 21:20:21,043:INFO:topic #8 (0.045): 0.009*"northern" + 0.007*"violence" + 0.007*"agitation" + 0.007*"repeal" + 0.007*"stipulations" + 0.007*"transit" + 0.007*"company" + 0.007*"enactment" + 0.007*"isthmus" + 0.007*"statute"
+2020-03-08 21:20:21,043:INFO:topic #4 (0.064): 0.011*"california" + 0.011*"specie" + 0.011*"paper" + 0.007*"majority" + 0.006*"slavery" + 0.006*"steamers" + 0.006*"new_mexico" + 0.006*"hundred" + 0.006*"miles" + 0.005*"oregon"
+2020-03-08 21:20:21,043:INFO:topic #1 (0.117): 0.007*"coinage" + 0.007*"methods" + 0.007*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"citizenship" + 0.004*"venezuela" + 0.004*"civil_service"
+2020-03-08 21:20:21,043:INFO:topic diff=0.198654, rho=0.316228
+2020-03-08 21:20:21,044:INFO:PROGRESS: pass 9, at document #57/57
+2020-03-08 21:20:21,115:INFO:optimized alpha [0.030098567, 0.12031001, 0.03344261, 0.024145983, 0.06456681, 0.024441332, 0.042513054, 0.024472646, 0.043012764, 0.023049183]
+2020-03-08 21:20:21,116:INFO:topic #9 (0.023): 0.013*"specific" + 0.011*"federal_government" + 0.011*"sovereign" + 0.008*"slavery" + 0.007*"bound" + 0.007*"legislature" + 0.007*"resort" + 0.007*"passing" + 0.007*"revolution" + 0.006*"redress"
+2020-03-08 21:20:21,116:INFO:topic #3 (0.024): 0.011*"slavery" + 0.011*"canada" + 0.009*"miles" + 0.009*"pensions" + 0.009*"emperor" + 0.008*"representation" + 0.008*"expedition" + 0.007*"civil_war" + 0.007*"arising" + 0.007*"quantity"
+2020-03-08 21:20:21,116:INFO:topic #8 (0.043): 0.009*"northern" + 0.008*"stipulations" + 0.008*"violence" + 0.008*"agitation" + 0.007*"repeal" + 0.007*"transit" + 0.007*"company" + 0.007*"isthmus" + 0.007*"enactment" + 0.007*"statute"
+2020-03-08 21:20:21,117:INFO:topic #4 (0.065): 0.011*"california" + 0.011*"specie" + 0.011*"paper" + 0.007*"majority" + 0.006*"slavery" + 0.006*"steamers" + 0.006*"new_mexico" + 0.006*"miles" + 0.006*"hundred" + 0.005*"oregon"
+2020-03-08 21:20:21,117:INFO:topic #1 (0.120): 0.007*"coinage" + 0.007*"methods" + 0.007*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"statute" + 0.004*"citizenship" + 0.004*"venezuela" + 0.004*"civil_service"
+2020-03-08 21:20:21,117:INFO:topic diff=0.182503, rho=0.301511
+2020-03-08 21:20:21,118:INFO:PROGRESS: pass 10, at document #57/57
+2020-03-08 21:20:21,187:INFO:optimized alpha [0.029247839, 0.1235006, 0.032618787, 0.023233917, 0.065422766, 0.02335325, 0.04189157, 0.023799477, 0.041297846, 0.022112552]
+2020-03-08 21:20:21,188:INFO:topic #9 (0.022): 0.014*"specific" + 0.012*"federal_government" + 0.011*"sovereign" + 0.008*"slavery" + 0.007*"bound" + 0.007*"legislature" + 0.007*"resort" + 0.007*"revolution" + 0.007*"passing" + 0.006*"redress"
+2020-03-08 21:20:21,188:INFO:topic #3 (0.023): 0.011*"slavery" + 0.011*"canada" + 0.009*"miles" + 0.009*"pensions" + 0.009*"emperor" + 0.009*"representation" + 0.007*"expedition" + 0.007*"quantity" + 0.007*"closed" + 0.007*"arising"
+2020-03-08 21:20:21,188:INFO:topic #6 (0.042): 0.047*"texas" + 0.014*"mexican_government" + 0.010*"oregon" + 0.009*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.007*"secretary_state" + 0.007*"revolution" + 0.007*"majesty"
+2020-03-08 21:20:21,188:INFO:topic #4 (0.065): 0.012*"california" + 0.011*"specie" + 0.011*"paper" + 0.007*"majority" + 0.007*"slavery" + 0.006*"new_mexico" + 0.006*"steamers" + 0.006*"miles" + 0.006*"hundred" + 0.005*"oregon"
+2020-03-08 21:20:21,188:INFO:topic #1 (0.124): 0.007*"coinage" + 0.007*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"venezuela" + 0.004*"civil_service"
+2020-03-08 21:20:21,188:INFO:topic diff=0.166841, rho=0.288675
+2020-03-08 21:20:21,189:INFO:PROGRESS: pass 11, at document #57/57
+2020-03-08 21:20:21,253:INFO:optimized alpha [0.028504904, 0.12618457, 0.031899065, 0.022437515, 0.06615399, 0.022411996, 0.04158314, 0.023206517, 0.039856587, 0.021295436]
+2020-03-08 21:20:21,254:INFO:topic #9 (0.021): 0.014*"specific" + 0.012*"federal_government" + 0.011*"sovereign" + 0.009*"slavery" + 0.007*"bound" + 0.007*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"passing" + 0.007*"redress"
+2020-03-08 21:20:21,255:INFO:topic #3 (0.022): 0.011*"canada" + 0.011*"slavery" + 0.010*"pensions" + 0.010*"miles" + 0.009*"emperor" + 0.009*"representation" + 0.008*"quantity" + 0.008*"closed" + 0.008*"foreigners" + 0.008*"arising"
+2020-03-08 21:20:21,255:INFO:topic #6 (0.042): 0.047*"texas" + 0.014*"mexican_government" + 0.011*"oregon" + 0.009*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.007*"revolution" + 0.007*"majesty"
+2020-03-08 21:20:21,255:INFO:topic #4 (0.066): 0.012*"california" + 0.011*"specie" + 0.011*"paper" + 0.007*"majority" + 0.007*"slavery" + 0.006*"new_mexico" + 0.006*"miles" + 0.006*"steamers" + 0.006*"hundred" + 0.005*"oregon"
+2020-03-08 21:20:21,255:INFO:topic #1 (0.126): 0.007*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"venezuela" + 0.004*"ended"
+2020-03-08 21:20:21,255:INFO:topic diff=0.152344, rho=0.277350
+2020-03-08 21:20:21,256:INFO:PROGRESS: pass 12, at document #57/57
+2020-03-08 21:20:21,323:INFO:optimized alpha [0.027852818, 0.12931408, 0.03126789, 0.021736845, 0.066796154, 0.021590061, 0.041318055, 0.022681318, 0.038632777, 0.020576768]
+2020-03-08 21:20:21,324:INFO:topic #9 (0.021): 0.014*"specific" + 0.012*"federal_government" + 0.011*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.007*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"redress" + 0.007*"passing"
+2020-03-08 21:20:21,324:INFO:topic #5 (0.022): 0.020*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.009*"executed" + 0.008*"harbors" + 0.008*"station" + 0.008*"acquisition" + 0.008*"30th_june"
+2020-03-08 21:20:21,325:INFO:topic #6 (0.041): 0.047*"texas" + 0.014*"mexican_government" + 0.011*"oregon" + 0.009*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.007*"revolution" + 0.007*"majesty"
+2020-03-08 21:20:21,325:INFO:topic #4 (0.067): 0.012*"california" + 0.012*"specie" + 0.011*"paper" + 0.007*"majority" + 0.007*"slavery" + 0.006*"miles" + 0.006*"new_mexico" + 0.006*"steamers" + 0.006*"hundred" + 0.005*"oregon"
+2020-03-08 21:20:21,325:INFO:topic #1 (0.129): 0.007*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"venezuela" + 0.004*"ended"
+2020-03-08 21:20:21,325:INFO:topic diff=0.139177, rho=0.267261
+2020-03-08 21:20:21,326:INFO:PROGRESS: pass 13, at document #57/57
+2020-03-08 21:20:21,399:INFO:optimized alpha [0.027275117, 0.132861, 0.030706313, 0.021114565, 0.06736762, 0.020864714, 0.04108751, 0.022212174, 0.037384566, 0.019938588]
+2020-03-08 21:20:21,400:INFO:topic #9 (0.020): 0.014*"specific" + 0.012*"federal_government" + 0.011*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.007*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"redress" + 0.007*"revolutionary"
+2020-03-08 21:20:21,400:INFO:topic #5 (0.021): 0.020*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.009*"executed" + 0.008*"harbors" + 0.008*"station" + 0.008*"acquisition" + 0.008*"30th_june"
+2020-03-08 21:20:21,400:INFO:topic #6 (0.041): 0.048*"texas" + 0.014*"mexican_government" + 0.011*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.007*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,400:INFO:topic #4 (0.067): 0.012*"california" + 0.012*"specie" + 0.011*"paper" + 0.007*"majority" + 0.007*"slavery" + 0.006*"miles" + 0.006*"new_mexico" + 0.006*"steamers" + 0.006*"hundred" + 0.005*"oregon"
+2020-03-08 21:20:21,400:INFO:topic #1 (0.133): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.005*"pension" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"venezuela" + 0.004*"ended"
+2020-03-08 21:20:21,401:INFO:topic diff=0.127479, rho=0.258199
+2020-03-08 21:20:21,401:INFO:PROGRESS: pass 14, at document #57/57
+2020-03-08 21:20:21,467:INFO:optimized alpha [0.026885122, 0.1359232, 0.030056994, 0.02055559, 0.06785483, 0.020217042, 0.040877517, 0.02178811, 0.03630115, 0.019365579]
+2020-03-08 21:20:21,468:INFO:topic #9 (0.019): 0.014*"specific" + 0.012*"federal_government" + 0.011*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.007*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"redress" + 0.007*"revolutionary"
+2020-03-08 21:20:21,468:INFO:topic #5 (0.020): 0.020*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.009*"executed" + 0.009*"harbors" + 0.008*"station" + 0.008*"acquisition" + 0.008*"30th_june"
+2020-03-08 21:20:21,468:INFO:topic #6 (0.041): 0.048*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,468:INFO:topic #4 (0.068): 0.012*"california" + 0.012*"specie" + 0.011*"paper" + 0.007*"majority" + 0.007*"slavery" + 0.006*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.006*"steamers" + 0.005*"gold_silver"
+2020-03-08 21:20:21,469:INFO:topic #1 (0.136): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"pension" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"venezuela"
+2020-03-08 21:20:21,469:INFO:topic diff=0.116979, rho=0.250000
+2020-03-08 21:20:21,470:INFO:PROGRESS: pass 15, at document #57/57
+2020-03-08 21:20:21,537:INFO:optimized alpha [0.026531054, 0.13856135, 0.029475093, 0.020050125, 0.06827105, 0.019634414, 0.04049327, 0.021500343, 0.03552034, 0.018847568]
+2020-03-08 21:20:21,538:INFO:topic #9 (0.019): 0.015*"specific" + 0.013*"federal_government" + 0.012*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.008*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"redress" + 0.007*"revolutionary"
+2020-03-08 21:20:21,538:INFO:topic #5 (0.020): 0.020*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.009*"executed" + 0.009*"harbors" + 0.008*"acquisition" + 0.008*"station" + 0.008*"30th_june"
+2020-03-08 21:20:21,538:INFO:topic #6 (0.040): 0.048*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,538:INFO:topic #4 (0.068): 0.012*"california" + 0.012*"specie" + 0.012*"paper" + 0.008*"majority" + 0.007*"slavery" + 0.006*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.006*"steamers" + 0.005*"gold_silver"
+2020-03-08 21:20:21,538:INFO:topic #1 (0.139): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"arbitration" + 0.005*"pension" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"pensions"
+2020-03-08 21:20:21,538:INFO:topic diff=0.107794, rho=0.242536
+2020-03-08 21:20:21,540:INFO:PROGRESS: pass 16, at document #57/57
+2020-03-08 21:20:21,603:INFO:optimized alpha [0.02620991, 0.1408979, 0.028953142, 0.019591698, 0.06898187, 0.019107785, 0.04033929, 0.021237912, 0.03483141, 0.018377632]
+2020-03-08 21:20:21,604:INFO:topic #9 (0.018): 0.015*"specific" + 0.013*"federal_government" + 0.012*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.008*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"redress" + 0.007*"revolutionary"
+2020-03-08 21:20:21,604:INFO:topic #5 (0.019): 0.020*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.009*"executed" + 0.009*"harbors" + 0.008*"acquisition" + 0.008*"station" + 0.008*"30th_june"
+2020-03-08 21:20:21,604:INFO:topic #6 (0.040): 0.048*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,604:INFO:topic #4 (0.069): 0.012*"california" + 0.012*"specie" + 0.012*"paper" + 0.008*"majority" + 0.007*"slavery" + 0.007*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"steamers" + 0.005*"gold_silver"
+2020-03-08 21:20:21,604:INFO:topic #1 (0.141): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"pension" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"pensions"
+2020-03-08 21:20:21,604:INFO:topic diff=0.099430, rho=0.235702
+2020-03-08 21:20:21,605:INFO:PROGRESS: pass 17, at document #57/57
+2020-03-08 21:20:21,668:INFO:optimized alpha [0.025913628, 0.14288548, 0.028478097, 0.019171786, 0.06960507, 0.018627226, 0.040197622, 0.02099528, 0.034057904, 0.017947298]
+2020-03-08 21:20:21,669:INFO:topic #9 (0.018): 0.015*"specific" + 0.013*"federal_government" + 0.012*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.008*"legislature" + 0.007*"revolution" + 0.007*"resort" + 0.007*"revolutionary" + 0.007*"redress"
+2020-03-08 21:20:21,669:INFO:topic #5 (0.019): 0.021*"california" + 0.016*"texas" + 0.012*"expedition" + 0.011*"miles" + 0.010*"oregon" + 0.010*"executed" + 0.009*"harbors" + 0.008*"acquisition" + 0.008*"station" + 0.008*"30th_june"
+2020-03-08 21:20:21,669:INFO:topic #6 (0.040): 0.048*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.008*"rio_grande" + 0.008*"grande" + 0.008*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,669:INFO:topic #4 (0.070): 0.012*"california" + 0.012*"specie" + 0.012*"paper" + 0.008*"majority" + 0.007*"slavery" + 0.007*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"gold_silver" + 0.005*"steamers"
+2020-03-08 21:20:21,669:INFO:topic #1 (0.143): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"pension" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"pensions"
+2020-03-08 21:20:21,669:INFO:topic diff=0.092027, rho=0.229416
+2020-03-08 21:20:21,670:INFO:PROGRESS: pass 18, at document #57/57
+2020-03-08 21:20:21,733:INFO:optimized alpha [0.025641514, 0.14465417, 0.028046839, 0.018786889, 0.070494585, 0.01818766, 0.0400727, 0.020858819, 0.03336874, 0.017552696]
+2020-03-08 21:20:21,734:INFO:topic #9 (0.018): 0.015*"specific" + 0.013*"federal_government" + 0.012*"sovereign" + 0.009*"slavery" + 0.008*"bound" + 0.008*"legislature" + 0.007*"revolution" + 0.007*"revolutionary" + 0.007*"resort" + 0.007*"observed"
+2020-03-08 21:20:21,734:INFO:topic #5 (0.018): 0.021*"california" + 0.016*"texas" + 0.012*"expedition" + 0.012*"miles" + 0.010*"oregon" + 0.010*"executed" + 0.008*"acquisition" + 0.008*"harbors" + 0.008*"30th_june" + 0.008*"station"
+2020-03-08 21:20:21,734:INFO:topic #6 (0.040): 0.048*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.009*"rio_grande" + 0.009*"grande" + 0.008*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,734:INFO:topic #4 (0.070): 0.012*"california" + 0.012*"specie" + 0.012*"paper" + 0.008*"majority" + 0.007*"slavery" + 0.007*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.005*"gold_silver" + 0.005*"white"
+2020-03-08 21:20:21,734:INFO:topic #1 (0.145): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"pension" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"pensions"
+2020-03-08 21:20:21,735:INFO:topic diff=0.085546, rho=0.223607
+2020-03-08 21:20:21,736:INFO:PROGRESS: pass 19, at document #57/57
+2020-03-08 21:20:21,798:INFO:optimized alpha [0.025283597, 0.1462066, 0.02765221, 0.018431954, 0.071620904, 0.017710611, 0.039959233, 0.020732436, 0.03274909, 0.017188746]
+2020-03-08 21:20:21,799:INFO:topic #9 (0.017): 0.016*"specific" + 0.013*"federal_government" + 0.012*"sovereign" + 0.010*"slavery" + 0.008*"bound" + 0.008*"legislature" + 0.007*"revolution" + 0.007*"revolutionary" + 0.007*"resort" + 0.007*"observed"
+2020-03-08 21:20:21,800:INFO:topic #5 (0.018): 0.021*"california" + 0.016*"texas" + 0.012*"expedition" + 0.012*"miles" + 0.010*"oregon" + 0.010*"executed" + 0.009*"acquisition" + 0.008*"harbors" + 0.008*"30th_june" + 0.008*"station"
+2020-03-08 21:20:21,800:INFO:topic #6 (0.040): 0.049*"texas" + 0.015*"mexican_government" + 0.012*"oregon" + 0.010*"rio" + 0.009*"redress" + 0.009*"rio_grande" + 0.009*"grande" + 0.009*"secretary_state" + 0.008*"revolution" + 0.007*"imported"
+2020-03-08 21:20:21,800:INFO:topic #4 (0.072): 0.013*"california" + 0.012*"specie" + 0.012*"paper" + 0.008*"majority" + 0.007*"slavery" + 0.007*"miles" + 0.006*"new_mexico" + 0.006*"hundred" + 0.006*"gold_silver" + 0.005*"white"
+2020-03-08 21:20:21,800:INFO:topic #1 (0.146): 0.006*"coinage" + 0.006*"methods" + 0.006*"conference" + 0.005*"pension" + 0.005*"arbitration" + 0.005*"preceding_year" + 0.004*"citizenship" + 0.004*"statute" + 0.004*"ended" + 0.004*"pensions"
+2020-03-08 21:20:21,800:INFO:topic diff=0.079806, rho=0.218218
+2020-03-08 21:20:21,993:INFO:collecting all words and their counts
+2020-03-08 21:20:21,993:INFO:PROGRESS: at sentence #0, processed 0 words and 0 word types
+2020-03-08 21:20:22,422:INFO:collected 186667 word types from a corpus of 230384 words (unigram + bigrams) and 56 sentences
+2020-03-08 21:20:22,422:INFO:using 186667 counts as vocab in Phrases<0 vocab, min_count=20, threshold=10.0, max_vocab_size=40000000>
+2020-03-08 21:20:23,299:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2020-03-08 21:20:23,482:INFO:built Dictionary(9944 unique tokens: ['1', '1860', '1875', '1893', '1901']...) from 56 documents (total 236048 corpus positions)
+2020-03-08 21:20:23,494:INFO:discarding 9290 tokens: [('1', 29), ('1860', 2), ('1875', 3), ('1893', 2), ('1901', 8), ('1902', 7), ('2', 30), ('20', 13), ('abandon', 14), ('abandoning', 4)]...
+2020-03-08 21:20:23,494:INFO:keeping 654 tokens which were in no less than 20 and no more than 28 (=50.0%) documents
+2020-03-08 21:20:23,497:INFO:resulting dictionary: Dictionary(654 unique tokens: ['30', '4', 'accepted', 'accomplish', 'accordance']...)
+2020-03-08 21:20:23,588:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 21:20:23,588:INFO:using serial LDA version on this node
+2020-03-08 21:20:23,589:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 56 documents, updating model once every 56 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 21:20:23,589:INFO:PROGRESS: pass 0, at document #56/56
+2020-03-08 21:20:23,925:INFO:optimized alpha [0.05576676, 0.051200595, 0.05823114, 0.066130504, 0.09042571, 0.0891858, 0.08709441, 0.069879495, 0.06300123, 0.098028466]
+2020-03-08 21:20:23,926:INFO:topic #1 (0.051): 0.030*"fiscal_year" + 0.026*"billion" + 0.017*"housing" + 0.015*"estimated" + 0.013*"veterans" + 0.013*"recommended" + 0.012*"programs" + 0.010*"receipts" + 0.010*"workers" + 0.009*"expected"
+2020-03-08 21:20:23,926:INFO:topic #0 (0.056): 0.011*"programs" + 0.009*"housing" + 0.009*"strengthen" + 0.006*"medical" + 0.006*"weapons" + 0.006*"billion" + 0.006*"armed_forces" + 0.006*"submitted" + 0.006*"disaster" + 0.005*"objectives"
+2020-03-08 21:20:23,926:INFO:topic #5 (0.089): 0.006*"cent" + 0.006*"officers" + 0.006*"corporations" + 0.006*"canal" + 0.006*"islands" + 0.005*"property" + 0.005*"commercial" + 0.005*"court" + 0.005*"per_cent" + 0.005*"sea"
+2020-03-08 21:20:23,926:INFO:topic #4 (0.090): 0.010*"court" + 0.009*"tariff" + 0.007*"officers" + 0.006*"estimates" + 0.006*"canal" + 0.006*"china" + 0.006*"property" + 0.006*"commercial" + 0.005*"corporations" + 0.005*"courts"
+2020-03-08 21:20:23,926:INFO:topic #9 (0.098): 0.010*"court" + 0.009*"officers" + 0.007*"tariff" + 0.006*"canal" + 0.006*"statute" + 0.005*"board" + 0.005*"commercial" + 0.005*"duties" + 0.005*"interstate" + 0.005*"per_cent"
+2020-03-08 21:20:23,926:INFO:topic diff=0.648766, rho=1.000000
+2020-03-08 21:20:23,928:INFO:PROGRESS: pass 1, at document #56/56
+2020-03-08 21:20:24,075:INFO:optimized alpha [0.048436813, 0.04533451, 0.045231033, 0.048297517, 0.07797429, 0.07220255, 0.0687402, 0.064532414, 0.054181047, 0.080249]
+2020-03-08 21:20:24,076:INFO:topic #2 (0.045): 0.016*"property" + 0.009*"board" + 0.009*"surplus" + 0.007*"per_cent" + 0.007*"islands" + 0.007*"cent" + 0.006*"banks" + 0.006*"river" + 0.006*"considerable" + 0.006*"national_government"
+2020-03-08 21:20:24,076:INFO:topic #1 (0.045): 0.032*"fiscal_year" + 0.030*"billion" + 0.019*"housing" + 0.016*"estimated" + 0.015*"veterans" + 0.014*"recommended" + 0.013*"programs" + 0.011*"receipts" + 0.011*"workers" + 0.010*"expected"
+2020-03-08 21:20:24,076:INFO:topic #5 (0.072): 0.006*"corporations" + 0.006*"canal" + 0.005*"sea" + 0.005*"property" + 0.005*"cent" + 0.005*"officers" + 0.005*"away" + 0.005*"july" + 0.005*"railway" + 0.005*"railroads"
+2020-03-08 21:20:24,077:INFO:topic #4 (0.078): 0.011*"court" + 0.010*"tariff" + 0.008*"canal" + 0.008*"officers" + 0.007*"commercial" + 0.007*"china" + 0.007*"estimates" + 0.006*"property" + 0.005*"courts" + 0.005*"claims"
+2020-03-08 21:20:24,077:INFO:topic #9 (0.080): 0.011*"court" + 0.009*"officers" + 0.008*"statute" + 0.008*"tariff" + 0.007*"board" + 0.006*"canal" + 0.006*"cent" + 0.006*"per_cent" + 0.006*"commercial" + 0.005*"arbitration"
+2020-03-08 21:20:24,077:INFO:topic diff=0.305203, rho=0.577350
+2020-03-08 21:20:24,078:INFO:PROGRESS: pass 2, at document #56/56
+2020-03-08 21:20:24,174:INFO:optimized alpha [0.04390005, 0.04243132, 0.037951533, 0.039427888, 0.070654236, 0.06348507, 0.06201243, 0.060787205, 0.049433503, 0.07188821]
+2020-03-08 21:20:24,175:INFO:topic #2 (0.038): 0.018*"property" + 0.011*"surplus" + 0.011*"board" + 0.009*"per_cent" + 0.008*"cent" + 0.008*"islands" + 0.007*"river" + 0.007*"considerable" + 0.007*"veterans" + 0.007*"banks"
+2020-03-08 21:20:24,176:INFO:topic #3 (0.039): 0.022*"hundred" + 0.016*"ships" + 0.014*"fiscal_year" + 0.012*"balance" + 0.009*"ten" + 0.009*"estimated" + 0.009*"hemisphere" + 0.009*"revenue" + 0.008*"fleet" + 0.007*"preparation"
+2020-03-08 21:20:24,176:INFO:topic #5 (0.063): 0.006*"sea" + 0.006*"railway" + 0.006*"away" + 0.005*"corporations" + 0.005*"obligation" + 0.005*"railroads" + 0.005*"accepted" + 0.005*"july" + 0.005*"canal" + 0.005*"property"
+2020-03-08 21:20:24,176:INFO:topic #4 (0.071): 0.012*"court" + 0.011*"tariff" + 0.009*"canal" + 0.008*"officers" + 0.008*"commercial" + 0.007*"china" + 0.007*"property" + 0.007*"estimates" + 0.006*"claims" + 0.006*"courts"
+2020-03-08 21:20:24,176:INFO:topic #9 (0.072): 0.012*"court" + 0.010*"statute" + 0.008*"officers" + 0.008*"tariff" + 0.007*"board" + 0.006*"cent" + 0.006*"per_cent" + 0.006*"canal" + 0.005*"arbitration" + 0.005*"commercial"
+2020-03-08 21:20:24,176:INFO:topic diff=0.288083, rho=0.500000
+2020-03-08 21:20:24,177:INFO:PROGRESS: pass 3, at document #56/56
+2020-03-08 21:20:24,264:INFO:optimized alpha [0.04110623, 0.040239055, 0.03298617, 0.034054358, 0.065034494, 0.05919385, 0.058111586, 0.057948943, 0.045592993, 0.065683]
+2020-03-08 21:20:24,265:INFO:topic #2 (0.033): 0.019*"property" + 0.013*"surplus" + 0.012*"board" + 0.010*"per_cent" + 0.009*"cent" + 0.009*"islands" + 0.008*"river" + 0.008*"considerable" + 0.008*"veterans" + 0.007*"banks"
+2020-03-08 21:20:24,265:INFO:topic #3 (0.034): 0.027*"hundred" + 0.020*"ships" + 0.015*"fiscal_year" + 0.014*"balance" + 0.011*"ten" + 0.010*"fleet" + 0.010*"hemisphere" + 0.010*"revenue" + 0.009*"estimated" + 0.009*"preparation"
+2020-03-08 21:20:24,266:INFO:topic #5 (0.059): 0.007*"railway" + 0.007*"away" + 0.006*"sea" + 0.006*"obligation" + 0.006*"accepted" + 0.006*"railroads" + 0.005*"impossible" + 0.005*"raise" + 0.005*"speak" + 0.005*"july"
+2020-03-08 21:20:24,266:INFO:topic #4 (0.065): 0.012*"court" + 0.012*"tariff" + 0.010*"canal" + 0.009*"officers" + 0.008*"commercial" + 0.007*"china" + 0.007*"property" + 0.007*"claims" + 0.007*"estimates" + 0.006*"courts"
+2020-03-08 21:20:24,266:INFO:topic #9 (0.066): 0.012*"court" + 0.011*"statute" + 0.008*"board" + 0.007*"officers" + 0.007*"tariff" + 0.007*"cent" + 0.006*"per_cent" + 0.006*"arbitration" + 0.006*"duties" + 0.005*"canal"
+2020-03-08 21:20:24,266:INFO:topic diff=0.277103, rho=0.447214
+2020-03-08 21:20:24,267:INFO:PROGRESS: pass 4, at document #56/56
+2020-03-08 21:20:24,356:INFO:optimized alpha [0.040003285, 0.038516168, 0.0295333, 0.030364545, 0.061662413, 0.056087136, 0.055259034, 0.055738006, 0.04313502, 0.06133009]
+2020-03-08 21:20:24,357:INFO:topic #2 (0.030): 0.020*"property" + 0.014*"surplus" + 0.013*"board" + 0.010*"per_cent" + 0.010*"cent" + 0.009*"islands" + 0.009*"river" + 0.009*"considerable" + 0.009*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,357:INFO:topic #3 (0.030): 0.030*"hundred" + 0.022*"ships" + 0.015*"balance" + 0.015*"fiscal_year" + 0.012*"ten" + 0.012*"fleet" + 0.011*"hemisphere" + 0.011*"revenue" + 0.010*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,357:INFO:topic #5 (0.056): 0.008*"railway" + 0.007*"away" + 0.006*"obligation" + 0.006*"impossible" + 0.006*"accepted" + 0.006*"sea" + 0.006*"railroads" + 0.006*"speak" + 0.006*"railways" + 0.006*"raise"
+2020-03-08 21:20:24,357:INFO:topic #9 (0.061): 0.013*"court" + 0.012*"statute" + 0.008*"board" + 0.007*"tariff" + 0.007*"officers" + 0.007*"cent" + 0.007*"per_cent" + 0.006*"arbitration" + 0.006*"duties" + 0.006*"investigation"
+2020-03-08 21:20:24,357:INFO:topic #4 (0.062): 0.012*"court" + 0.012*"tariff" + 0.011*"canal" + 0.009*"officers" + 0.009*"commercial" + 0.007*"china" + 0.007*"claims" + 0.007*"property" + 0.007*"estimates" + 0.006*"board"
+2020-03-08 21:20:24,357:INFO:topic diff=0.263308, rho=0.408248
+2020-03-08 21:20:24,358:INFO:PROGRESS: pass 5, at document #56/56
+2020-03-08 21:20:24,437:INFO:optimized alpha [0.03910302, 0.037128367, 0.026964271, 0.027641796, 0.059636533, 0.053709526, 0.053082667, 0.054428775, 0.04220595, 0.05859418]
+2020-03-08 21:20:24,438:INFO:topic #2 (0.027): 0.020*"property" + 0.014*"surplus" + 0.013*"board" + 0.011*"per_cent" + 0.010*"cent" + 0.009*"islands" + 0.009*"river" + 0.009*"considerable" + 0.009*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,438:INFO:topic #3 (0.028): 0.032*"hundred" + 0.023*"ships" + 0.016*"balance" + 0.015*"fiscal_year" + 0.013*"ten" + 0.012*"fleet" + 0.011*"hemisphere" + 0.011*"revenue" + 0.011*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,438:INFO:topic #7 (0.054): 0.020*"democracy" + 0.017*"recovery" + 0.016*"banks" + 0.015*"unemployment" + 0.011*"agencies" + 0.008*"structure" + 0.007*"veterans" + 0.006*"per_cent" + 0.006*"wars" + 0.006*"cent"
+2020-03-08 21:20:24,438:INFO:topic #9 (0.059): 0.013*"court" + 0.013*"statute" + 0.008*"board" + 0.007*"tariff" + 0.007*"cent" + 0.007*"per_cent" + 0.006*"officers" + 0.006*"duties" + 0.006*"arbitration" + 0.006*"property"
+2020-03-08 21:20:24,438:INFO:topic #4 (0.060): 0.012*"court" + 0.012*"tariff" + 0.011*"canal" + 0.009*"officers" + 0.009*"commercial" + 0.007*"china" + 0.007*"claims" + 0.007*"property" + 0.007*"board" + 0.007*"estimates"
+2020-03-08 21:20:24,438:INFO:topic diff=0.244106, rho=0.377964
+2020-03-08 21:20:24,439:INFO:PROGRESS: pass 6, at document #56/56
+2020-03-08 21:20:24,515:INFO:optimized alpha [0.038614064, 0.035970386, 0.024953913, 0.025523702, 0.057995327, 0.05178653, 0.05133858, 0.05371629, 0.041438226, 0.05596613]
+2020-03-08 21:20:24,516:INFO:topic #2 (0.025): 0.020*"property" + 0.015*"surplus" + 0.013*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.009*"islands" + 0.009*"river" + 0.009*"considerable" + 0.009*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,516:INFO:topic #3 (0.026): 0.034*"hundred" + 0.024*"ships" + 0.016*"balance" + 0.015*"fiscal_year" + 0.013*"ten" + 0.013*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.011*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,516:INFO:topic #7 (0.054): 0.021*"democracy" + 0.018*"recovery" + 0.017*"banks" + 0.015*"unemployment" + 0.011*"agencies" + 0.008*"structure" + 0.007*"veterans" + 0.006*"wars" + 0.006*"per_cent" + 0.006*"values"
+2020-03-08 21:20:24,516:INFO:topic #9 (0.056): 0.014*"statute" + 0.013*"court" + 0.008*"board" + 0.007*"cent" + 0.007*"per_cent" + 0.007*"tariff" + 0.006*"duties" + 0.006*"arbitration" + 0.006*"property" + 0.006*"officers"
+2020-03-08 21:20:24,516:INFO:topic #4 (0.058): 0.012*"tariff" + 0.012*"court" + 0.011*"canal" + 0.009*"officers" + 0.009*"commercial" + 0.007*"china" + 0.007*"claims" + 0.007*"board" + 0.007*"property" + 0.007*"courts"
+2020-03-08 21:20:24,516:INFO:topic diff=0.220256, rho=0.353553
+2020-03-08 21:20:24,517:INFO:PROGRESS: pass 7, at document #56/56
+2020-03-08 21:20:24,594:INFO:optimized alpha [0.038693007, 0.034983605, 0.023326393, 0.023816671, 0.056626216, 0.0491461, 0.049902048, 0.05343575, 0.04106037, 0.053842317]
+2020-03-08 21:20:24,595:INFO:topic #2 (0.023): 0.020*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.009*"river" + 0.009*"considerable" + 0.009*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,595:INFO:topic #3 (0.024): 0.034*"hundred" + 0.025*"ships" + 0.017*"balance" + 0.015*"fiscal_year" + 0.013*"ten" + 0.013*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,595:INFO:topic #7 (0.053): 0.022*"democracy" + 0.018*"recovery" + 0.017*"banks" + 0.016*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.006*"wars" + 0.006*"values" + 0.006*"past_year"
+2020-03-08 21:20:24,595:INFO:topic #9 (0.054): 0.014*"statute" + 0.014*"court" + 0.008*"board" + 0.007*"cent" + 0.007*"per_cent" + 0.006*"tariff" + 0.006*"duties" + 0.006*"property" + 0.006*"arbitration" + 0.006*"investigation"
+2020-03-08 21:20:24,595:INFO:topic #4 (0.057): 0.013*"tariff" + 0.012*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.007*"claims" + 0.007*"china" + 0.007*"board" + 0.007*"property" + 0.007*"courts"
+2020-03-08 21:20:24,596:INFO:topic diff=0.194816, rho=0.333333
+2020-03-08 21:20:24,597:INFO:PROGRESS: pass 8, at document #56/56
+2020-03-08 21:20:24,677:INFO:optimized alpha [0.038743317, 0.033911146, 0.02197406, 0.022403339, 0.055836245, 0.047020745, 0.04869078, 0.053149987, 0.0407115, 0.05172856]
+2020-03-08 21:20:24,678:INFO:topic #2 (0.022): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,678:INFO:topic #3 (0.022): 0.035*"hundred" + 0.025*"ships" + 0.017*"balance" + 0.015*"fiscal_year" + 0.013*"ten" + 0.013*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,678:INFO:topic #9 (0.052): 0.014*"statute" + 0.014*"court" + 0.008*"board" + 0.007*"per_cent" + 0.007*"cent" + 0.006*"property" + 0.006*"duties" + 0.006*"veterans" + 0.006*"arbitration" + 0.006*"tariff"
+2020-03-08 21:20:24,678:INFO:topic #7 (0.053): 0.022*"democracy" + 0.019*"recovery" + 0.017*"banks" + 0.016*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.007*"wars" + 0.006*"values" + 0.006*"past_year"
+2020-03-08 21:20:24,678:INFO:topic #4 (0.056): 0.013*"tariff" + 0.012*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.007*"board" + 0.007*"claims" + 0.007*"china" + 0.007*"cent" + 0.007*"courts"
+2020-03-08 21:20:24,678:INFO:topic diff=0.169837, rho=0.316228
+2020-03-08 21:20:24,679:INFO:PROGRESS: pass 9, at document #56/56
+2020-03-08 21:20:24,753:INFO:optimized alpha [0.038781546, 0.033195112, 0.020832257, 0.02121351, 0.055163626, 0.0455676, 0.047673784, 0.052879237, 0.04065092, 0.050322343]
+2020-03-08 21:20:24,754:INFO:topic #2 (0.021): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,754:INFO:topic #3 (0.021): 0.035*"hundred" + 0.025*"ships" + 0.017*"balance" + 0.015*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,754:INFO:topic #9 (0.050): 0.014*"statute" + 0.014*"court" + 0.008*"board" + 0.007*"veterans" + 0.006*"property" + 0.006*"per_cent" + 0.006*"cent" + 0.006*"duties" + 0.006*"arbitration" + 0.006*"investigation"
+2020-03-08 21:20:24,755:INFO:topic #7 (0.053): 0.023*"democracy" + 0.019*"recovery" + 0.017*"banks" + 0.016*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.007*"wars" + 0.006*"values" + 0.006*"past_year"
+2020-03-08 21:20:24,755:INFO:topic #4 (0.055): 0.013*"tariff" + 0.012*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.008*"board" + 0.007*"claims" + 0.007*"china" + 0.007*"cent" + 0.007*"courts"
+2020-03-08 21:20:24,755:INFO:topic diff=0.147305, rho=0.301511
+2020-03-08 21:20:24,756:INFO:PROGRESS: pass 10, at document #56/56
+2020-03-08 21:20:24,823:INFO:optimized alpha [0.039026316, 0.03256942, 0.019851567, 0.020194056, 0.054578323, 0.044346247, 0.04680423, 0.052935135, 0.04059576, 0.04912416]
+2020-03-08 21:20:24,823:INFO:topic #2 (0.020): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,824:INFO:topic #3 (0.020): 0.036*"hundred" + 0.025*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,824:INFO:topic #9 (0.049): 0.014*"statute" + 0.014*"court" + 0.008*"board" + 0.007*"veterans" + 0.007*"property" + 0.006*"per_cent" + 0.006*"duties" + 0.006*"cent" + 0.006*"investigation" + 0.006*"arbitration"
+2020-03-08 21:20:24,824:INFO:topic #7 (0.053): 0.023*"democracy" + 0.020*"recovery" + 0.017*"banks" + 0.016*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.007*"wars" + 0.007*"values" + 0.006*"past_year"
+2020-03-08 21:20:24,824:INFO:topic #4 (0.055): 0.013*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.008*"board" + 0.007*"claims" + 0.007*"cent" + 0.007*"china" + 0.007*"courts"
+2020-03-08 21:20:24,824:INFO:topic diff=0.127885, rho=0.288675
+2020-03-08 21:20:24,825:INFO:PROGRESS: pass 11, at document #56/56
+2020-03-08 21:20:24,893:INFO:optimized alpha [0.03944946, 0.032013457, 0.018996488, 0.01930702, 0.054053616, 0.04304341, 0.046306167, 0.052957952, 0.040534314, 0.04780994]
+2020-03-08 21:20:24,894:INFO:topic #2 (0.019): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,894:INFO:topic #3 (0.019): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,894:INFO:topic #9 (0.048): 0.014*"court" + 0.014*"statute" + 0.008*"board" + 0.007*"veterans" + 0.007*"property" + 0.006*"investigation" + 0.006*"duties" + 0.006*"arbitration" + 0.006*"per_cent" + 0.006*"cent"
+2020-03-08 21:20:24,895:INFO:topic #7 (0.053): 0.023*"democracy" + 0.020*"recovery" + 0.017*"banks" + 0.017*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.007*"wars" + 0.007*"values" + 0.006*"past_year"
+2020-03-08 21:20:24,895:INFO:topic #4 (0.054): 0.013*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.008*"board" + 0.008*"cent" + 0.007*"claims" + 0.007*"china" + 0.007*"per_cent"
+2020-03-08 21:20:24,895:INFO:topic diff=0.111481, rho=0.277350
+2020-03-08 21:20:24,896:INFO:PROGRESS: pass 12, at document #56/56
+2020-03-08 21:20:24,968:INFO:optimized alpha [0.039823692, 0.031515382, 0.018242594, 0.018526351, 0.053581044, 0.04192296, 0.045857962, 0.052953865, 0.040467013, 0.04662109]
+2020-03-08 21:20:24,968:INFO:topic #2 (0.018): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:24,969:INFO:topic #3 (0.019): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:24,969:INFO:topic #9 (0.047): 0.014*"court" + 0.013*"statute" + 0.008*"board" + 0.008*"veterans" + 0.007*"property" + 0.006*"investigation" + 0.006*"duties" + 0.006*"revenue" + 0.006*"arbitration" + 0.006*"per_cent"
+2020-03-08 21:20:24,969:INFO:topic #7 (0.053): 0.024*"democracy" + 0.020*"recovery" + 0.017*"banks" + 0.017*"unemployment" + 0.011*"agencies" + 0.009*"structure" + 0.007*"veterans" + 0.007*"values" + 0.007*"wars" + 0.006*"past_year"
+2020-03-08 21:20:24,969:INFO:topic #4 (0.054): 0.013*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.009*"commercial" + 0.008*"board" + 0.008*"cent" + 0.007*"claims" + 0.007*"china" + 0.007*"per_cent"
+2020-03-08 21:20:24,969:INFO:topic diff=0.097735, rho=0.267261
+2020-03-08 21:20:24,970:INFO:PROGRESS: pass 13, at document #56/56
+2020-03-08 21:20:25,036:INFO:optimized alpha [0.040151153, 0.031064626, 0.017571107, 0.01783211, 0.053146712, 0.040945325, 0.04544911, 0.05292335, 0.040392574, 0.045384493]
+2020-03-08 21:20:25,037:INFO:topic #2 (0.018): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,037:INFO:topic #3 (0.018): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,037:INFO:topic #6 (0.045): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"weapons" + 0.011*"germany" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,037:INFO:topic #7 (0.053): 0.024*"democracy" + 0.020*"recovery" + 0.017*"banks" + 0.017*"unemployment" + 0.011*"agencies" + 0.010*"structure" + 0.007*"veterans" + 0.007*"values" + 0.007*"wars" + 0.006*"past_year"
+2020-03-08 21:20:25,037:INFO:topic #4 (0.053): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.008*"board" + 0.008*"cent" + 0.007*"claims" + 0.007*"per_cent" + 0.007*"china"
+2020-03-08 21:20:25,037:INFO:topic diff=0.086324, rho=0.258199
+2020-03-08 21:20:25,038:INFO:PROGRESS: pass 14, at document #56/56
+2020-03-08 21:20:25,101:INFO:optimized alpha [0.040630665, 0.030655589, 0.016968384, 0.017209828, 0.052744545, 0.0400849, 0.04507559, 0.0526081, 0.04031932, 0.044305135]
+2020-03-08 21:20:25,102:INFO:topic #2 (0.017): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,102:INFO:topic #3 (0.017): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,102:INFO:topic #6 (0.045): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"weapons" + 0.011*"germany" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,102:INFO:topic #7 (0.053): 0.024*"democracy" + 0.021*"recovery" + 0.017*"banks" + 0.017*"unemployment" + 0.011*"agencies" + 0.010*"structure" + 0.007*"veterans" + 0.007*"values" + 0.007*"wars" + 0.006*"past_year"
+2020-03-08 21:20:25,103:INFO:topic #4 (0.053): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.008*"board" + 0.008*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"china"
+2020-03-08 21:20:25,103:INFO:topic diff=0.077063, rho=0.250000
+2020-03-08 21:20:25,104:INFO:PROGRESS: pass 15, at document #56/56
+2020-03-08 21:20:25,169:INFO:optimized alpha [0.041061826, 0.030282082, 0.016423725, 0.016648192, 0.05237398, 0.03932169, 0.04473386, 0.052316006, 0.040247772, 0.04335055]
+2020-03-08 21:20:25,170:INFO:topic #2 (0.016): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,170:INFO:topic #3 (0.017): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,170:INFO:topic #6 (0.045): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"weapons" + 0.011*"germany" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,170:INFO:topic #4 (0.052): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.009*"board" + 0.008*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"china"
+2020-03-08 21:20:25,170:INFO:topic #7 (0.052): 0.024*"democracy" + 0.021*"recovery" + 0.017*"banks" + 0.017*"unemployment" + 0.011*"agencies" + 0.010*"structure" + 0.007*"veterans" + 0.007*"values" + 0.007*"wars" + 0.006*"groups"
+2020-03-08 21:20:25,170:INFO:topic diff=0.069148, rho=0.242536
+2020-03-08 21:20:25,171:INFO:PROGRESS: pass 16, at document #56/56
+2020-03-08 21:20:25,239:INFO:optimized alpha [0.041449, 0.02993937, 0.015928464, 0.016138066, 0.05203111, 0.038639627, 0.044419777, 0.05204417, 0.04017698, 0.042496216]
+2020-03-08 21:20:25,239:INFO:topic #2 (0.016): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,240:INFO:topic #3 (0.016): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,240:INFO:topic #6 (0.044): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"weapons" + 0.011*"germany" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,240:INFO:topic #4 (0.052): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.009*"board" + 0.009*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"china"
+2020-03-08 21:20:25,240:INFO:topic #7 (0.052): 0.025*"democracy" + 0.021*"recovery" + 0.017*"unemployment" + 0.017*"banks" + 0.011*"agencies" + 0.010*"structure" + 0.007*"values" + 0.007*"veterans" + 0.007*"wars" + 0.006*"groups"
+2020-03-08 21:20:25,240:INFO:topic diff=0.062341, rho=0.235702
+2020-03-08 21:20:25,241:INFO:PROGRESS: pass 17, at document #56/56
+2020-03-08 21:20:25,318:INFO:optimized alpha [0.041798692, 0.029756451, 0.015475957, 0.015672445, 0.051715735, 0.038027924, 0.04413239, 0.05179328, 0.040108755, 0.041728344]
+2020-03-08 21:20:25,319:INFO:topic #2 (0.015): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,319:INFO:topic #3 (0.016): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,319:INFO:topic #6 (0.044): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"weapons" + 0.011*"germany" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,319:INFO:topic #4 (0.052): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.009*"board" + 0.009*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"china"
+2020-03-08 21:20:25,319:INFO:topic #7 (0.052): 0.025*"democracy" + 0.021*"recovery" + 0.017*"unemployment" + 0.017*"banks" + 0.011*"agencies" + 0.010*"structure" + 0.007*"values" + 0.007*"veterans" + 0.007*"wars" + 0.006*"groups"
+2020-03-08 21:20:25,319:INFO:topic diff=0.056674, rho=0.229416
+2020-03-08 21:20:25,320:INFO:PROGRESS: pass 18, at document #56/56
+2020-03-08 21:20:25,425:INFO:optimized alpha [0.042112574, 0.029585397, 0.015060158, 0.015244994, 0.051421776, 0.03747429, 0.043865934, 0.051325012, 0.040038962, 0.041227434]
+2020-03-08 21:20:25,425:INFO:topic #2 (0.015): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,426:INFO:topic #3 (0.015): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,426:INFO:topic #6 (0.044): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"germany" + 0.011*"weapons" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,426:INFO:topic #7 (0.051): 0.025*"democracy" + 0.021*"recovery" + 0.017*"unemployment" + 0.017*"banks" + 0.011*"agencies" + 0.010*"structure" + 0.007*"values" + 0.007*"veterans" + 0.007*"wars" + 0.006*"groups"
+2020-03-08 21:20:25,426:INFO:topic #4 (0.051): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.009*"board" + 0.009*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"china"
+2020-03-08 21:20:25,426:INFO:topic diff=0.051952, rho=0.223607
+2020-03-08 21:20:25,427:INFO:PROGRESS: pass 19, at document #56/56
+2020-03-08 21:20:25,534:INFO:optimized alpha [0.042394955, 0.02942498, 0.014676508, 0.014850922, 0.051147208, 0.036971226, 0.0436188, 0.050900426, 0.039969653, 0.040776562]
+2020-03-08 21:20:25,535:INFO:topic #2 (0.015): 0.021*"property" + 0.015*"surplus" + 0.014*"board" + 0.011*"per_cent" + 0.011*"cent" + 0.010*"islands" + 0.010*"river" + 0.010*"considerable" + 0.010*"veterans" + 0.008*"banks"
+2020-03-08 21:20:25,535:INFO:topic #3 (0.015): 0.036*"hundred" + 0.026*"ships" + 0.017*"balance" + 0.016*"fiscal_year" + 0.014*"ten" + 0.014*"fleet" + 0.012*"hemisphere" + 0.012*"revenue" + 0.012*"preparation" + 0.010*"estimated"
+2020-03-08 21:20:25,535:INFO:topic #6 (0.044): 0.023*"fighting" + 0.015*"aggression" + 0.014*"attack" + 0.012*"fight" + 0.011*"germany" + 0.011*"weapons" + 0.011*"air" + 0.010*"ahead" + 0.010*"enemy" + 0.009*"pacific"
+2020-03-08 21:20:25,535:INFO:topic #7 (0.051): 0.025*"democracy" + 0.021*"recovery" + 0.018*"unemployment" + 0.017*"banks" + 0.011*"agencies" + 0.010*"structure" + 0.007*"values" + 0.007*"wars" + 0.007*"veterans" + 0.006*"groups"
+2020-03-08 21:20:25,535:INFO:topic #4 (0.051): 0.014*"tariff" + 0.013*"court" + 0.012*"canal" + 0.010*"officers" + 0.010*"commercial" + 0.009*"board" + 0.009*"cent" + 0.008*"per_cent" + 0.007*"claims" + 0.007*"statute"
+2020-03-08 21:20:25,535:INFO:topic diff=0.047468, rho=0.218218
+2020-03-08 21:20:25,695:INFO:collecting all words and their counts
+2020-03-08 21:20:25,695:INFO:PROGRESS: at sentence #0, processed 0 words and 0 word types
+2020-03-08 21:20:25,942:INFO:collected 132326 word types from a corpus of 166146 words (unigram + bigrams) and 57 sentences
+2020-03-08 21:20:25,942:INFO:using 132326 counts as vocab in Phrases<0 vocab, min_count=20, threshold=10.0, max_vocab_size=40000000>
+2020-03-08 21:20:26,489:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2020-03-08 21:20:26,600:INFO:built Dictionary(8260 unique tokens: ['1', '13', '1957', '1958', '1959']...) from 57 documents (total 171296 corpus positions)
+2020-03-08 21:20:26,611:INFO:discarding 7827 tokens: [('1', 33), ('13', 16), ('1957', 4), ('1958', 4), ('1959', 6), ('2', 42), ('3', 33), ('4', 30), ('5', 36), ('7', 16)]...
+2020-03-08 21:20:26,611:INFO:keeping 433 tokens which were in no less than 20 and no more than 28 (=50.0%) documents
+2020-03-08 21:20:26,613:INFO:resulting dictionary: Dictionary(433 unique tokens: ['6', '8', 'achieved', 'actions', 'add']...)
+2020-03-08 21:20:26,666:INFO:using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2020-03-08 21:20:26,666:INFO:using serial LDA version on this node
+2020-03-08 21:20:26,667:INFO:running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 57 documents, updating model once every 57 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2020-03-08 21:20:26,667:INFO:PROGRESS: pass 0, at document #57/57
+2020-03-08 21:20:27,083:INFO:optimized alpha [0.10478762, 0.05017496, 0.045622114, 0.077506006, 0.04595625, 0.090388246, 0.059321743, 0.08270603, 0.072112896, 0.048574597]
+2020-03-08 21:20:27,083:INFO:topic #2 (0.046): 0.012*"farm" + 0.011*"position" + 0.010*"prices" + 0.010*"shall" + 0.009*"stability" + 0.009*"relations" + 0.008*"several" + 0.008*"region" + 0.008*"area" + 0.008*"space"
+2020-03-08 21:20:27,084:INFO:topic #4 (0.046): 0.016*"shall" + 0.010*"farm" + 0.010*"prices" + 0.010*"capacity" + 0.009*"space" + 0.009*"missile" + 0.009*"mutual" + 0.008*"worked" + 0.008*"period" + 0.007*"lot"
+2020-03-08 21:20:27,084:INFO:topic #7 (0.083): 0.015*"thats" + 0.009*"college" + 0.009*"shall" + 0.007*"space" + 0.007*"im" + 0.006*"50" + 0.006*"improved" + 0.006*"department" + 0.006*"bipartisan" + 0.006*"projects"
+2020-03-08 21:20:27,084:INFO:topic #5 (0.090): 0.008*"employment" + 0.008*"thats" + 0.006*"transportation" + 0.006*"market" + 0.006*"rural" + 0.006*"bipartisan" + 0.006*"actions" + 0.006*"agencies" + 0.006*"shall" + 0.006*"relations"
+2020-03-08 21:20:27,084:INFO:topic #0 (0.105): 0.011*"dont" + 0.010*"thats" + 0.008*"medicare" + 0.007*"terrorists" + 0.007*"recovery" + 0.006*"im" + 0.006*"21st" + 0.006*"recession" + 0.006*"drugs" + 0.005*"college"
+2020-03-08 21:20:27,084:INFO:topic diff=0.955526, rho=1.000000
+2020-03-08 21:20:27,085:INFO:PROGRESS: pass 1, at document #57/57
+2020-03-08 21:20:27,198:INFO:optimized alpha [0.101576, 0.042557914, 0.038933467, 0.06619729, 0.03919311, 0.07032813, 0.051330067, 0.07496423, 0.060961157, 0.04216612]
+2020-03-08 21:20:27,199:INFO:topic #2 (0.039): 0.014*"farm" + 0.014*"prices" + 0.014*"position" + 0.013*"stability" + 0.012*"shall" + 0.012*"region" + 0.011*"aggression" + 0.011*"sacrifice" + 0.010*"conflict" + 0.009*"labor"
+2020-03-08 21:20:27,199:INFO:topic #4 (0.039): 0.022*"shall" + 0.013*"mutual" + 0.013*"missile" + 0.013*"capacity" + 0.013*"farm" + 0.011*"prices" + 0.011*"period" + 0.011*"space" + 0.010*"position" + 0.009*"potential"
+2020-03-08 21:20:27,199:INFO:topic #5 (0.070): 0.011*"employment" + 0.009*"transportation" + 0.009*"relations" + 0.009*"rural" + 0.009*"agencies" + 0.007*"market" + 0.007*"significant" + 0.007*"area" + 0.007*"actions" + 0.007*"department"
+2020-03-08 21:20:27,199:INFO:topic #7 (0.075): 0.013*"thats" + 0.012*"shall" + 0.009*"college" + 0.008*"space" + 0.008*"50" + 0.007*"improved" + 0.007*"projects" + 0.007*"department" + 0.006*"water" + 0.006*"farm"
+2020-03-08 21:20:27,199:INFO:topic #0 (0.102): 0.013*"thats" + 0.012*"dont" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"im" + 0.007*"21st" + 0.007*"college" + 0.006*"drugs" + 0.006*"cant" + 0.006*"invest"
+2020-03-08 21:20:27,199:INFO:topic diff=0.353580, rho=0.577350
+2020-03-08 21:20:27,200:INFO:PROGRESS: pass 2, at document #57/57
+2020-03-08 21:20:27,281:INFO:optimized alpha [0.10103078, 0.037461653, 0.034746576, 0.058216803, 0.03457549, 0.063057296, 0.046385884, 0.06892844, 0.05584878, 0.037636254]
+2020-03-08 21:20:27,281:INFO:topic #4 (0.035): 0.024*"shall" + 0.016*"mutual" + 0.014*"missile" + 0.014*"capacity" + 0.014*"farm" + 0.013*"period" + 0.012*"space" + 0.011*"position" + 0.011*"prices" + 0.010*"debt"
+2020-03-08 21:20:27,281:INFO:topic #2 (0.035): 0.018*"prices" + 0.017*"stability" + 0.015*"position" + 0.015*"region" + 0.015*"farm" + 0.015*"aggression" + 0.014*"shall" + 0.014*"sacrifice" + 0.012*"conflict" + 0.011*"rule"
+2020-03-08 21:20:27,281:INFO:topic #5 (0.063): 0.013*"employment" + 0.011*"relations" + 0.011*"transportation" + 0.010*"rural" + 0.010*"agencies" + 0.009*"area" + 0.009*"significant" + 0.008*"market" + 0.007*"initiatives" + 0.007*"department"
+2020-03-08 21:20:27,282:INFO:topic #7 (0.069): 0.015*"shall" + 0.009*"thats" + 0.009*"50" + 0.009*"space" + 0.008*"improved" + 0.008*"college" + 0.007*"farm" + 0.007*"department" + 0.007*"water" + 0.007*"projects"
+2020-03-08 21:20:27,282:INFO:topic #0 (0.101): 0.016*"thats" + 0.013*"dont" + 0.009*"medicare" + 0.009*"college" + 0.008*"im" + 0.008*"21st" + 0.008*"recovery" + 0.007*"cant" + 0.007*"drugs" + 0.007*"invest"
+2020-03-08 21:20:27,282:INFO:topic diff=0.330234, rho=0.500000
+2020-03-08 21:20:27,282:INFO:PROGRESS: pass 3, at document #57/57
+2020-03-08 21:20:27,346:INFO:optimized alpha [0.10118347, 0.03397375, 0.03179568, 0.053053435, 0.03137323, 0.058263987, 0.042492084, 0.064742014, 0.053293977, 0.034468062]
+2020-03-08 21:20:27,347:INFO:topic #4 (0.031): 0.023*"shall" + 0.017*"mutual" + 0.014*"farm" + 0.014*"missile" + 0.014*"capacity" + 0.014*"period" + 0.013*"space" + 0.012*"position" + 0.011*"prices" + 0.011*"general"
+2020-03-08 21:20:27,347:INFO:topic #2 (0.032): 0.020*"prices" + 0.020*"stability" + 0.019*"region" + 0.017*"aggression" + 0.016*"position" + 0.016*"sacrifice" + 0.014*"shall" + 0.014*"farm" + 0.014*"conflict" + 0.014*"rule"
+2020-03-08 21:20:27,347:INFO:topic #5 (0.058): 0.014*"employment" + 0.012*"relations" + 0.011*"rural" + 0.011*"transportation" + 0.011*"agencies" + 0.010*"area" + 0.010*"significant" + 0.008*"initiatives" + 0.008*"department" + 0.008*"process"
+2020-03-08 21:20:27,347:INFO:topic #7 (0.065): 0.018*"shall" + 0.009*"50" + 0.009*"improved" + 0.009*"space" + 0.008*"farm" + 0.007*"period" + 0.007*"capacity" + 0.007*"department" + 0.007*"water" + 0.007*"payments"
+2020-03-08 21:20:27,347:INFO:topic #0 (0.101): 0.017*"thats" + 0.013*"dont" + 0.010*"college" + 0.009*"im" + 0.009*"21st" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"cant" + 0.007*"drugs" + 0.007*"bipartisan"
+2020-03-08 21:20:27,348:INFO:topic diff=0.300248, rho=0.447214
+2020-03-08 21:20:27,348:INFO:PROGRESS: pass 4, at document #57/57
+2020-03-08 21:20:27,403:INFO:optimized alpha [0.100794, 0.03139012, 0.029565545, 0.04980562, 0.028979432, 0.055824474, 0.039607618, 0.06168905, 0.050855495, 0.032087695]
+2020-03-08 21:20:27,404:INFO:topic #4 (0.029): 0.023*"shall" + 0.017*"mutual" + 0.014*"farm" + 0.014*"missile" + 0.014*"period" + 0.014*"capacity" + 0.013*"space" + 0.013*"position" + 0.011*"general" + 0.011*"debt"
+2020-03-08 21:20:27,404:INFO:topic #2 (0.030): 0.022*"stability" + 0.022*"region" + 0.021*"prices" + 0.018*"aggression" + 0.017*"sacrifice" + 0.016*"position" + 0.016*"rule" + 0.015*"conflict" + 0.014*"shall" + 0.014*"steady"
+2020-03-08 21:20:27,404:INFO:topic #5 (0.056): 0.014*"employment" + 0.013*"relations" + 0.012*"rural" + 0.012*"transportation" + 0.011*"agencies" + 0.011*"area" + 0.010*"significant" + 0.009*"initiatives" + 0.008*"process" + 0.008*"department"
+2020-03-08 21:20:27,404:INFO:topic #7 (0.062): 0.021*"shall" + 0.009*"50" + 0.009*"farm" + 0.009*"improved" + 0.008*"space" + 0.008*"payments" + 0.008*"period" + 0.007*"capacity" + 0.007*"united_nations" + 0.007*"water"
+2020-03-08 21:20:27,404:INFO:topic #0 (0.101): 0.018*"thats" + 0.014*"dont" + 0.011*"college" + 0.009*"im" + 0.009*"21st" + 0.008*"medicare" + 0.008*"cant" + 0.008*"recovery" + 0.008*"bipartisan" + 0.007*"drugs"
+2020-03-08 21:20:27,405:INFO:topic diff=0.271473, rho=0.408248
+2020-03-08 21:20:27,405:INFO:PROGRESS: pass 5, at document #57/57
+2020-03-08 21:20:27,462:INFO:optimized alpha [0.100093074, 0.02937638, 0.027588373, 0.04769477, 0.027101453, 0.05392127, 0.036768652, 0.060287297, 0.04931766, 0.030213965]
+2020-03-08 21:20:27,463:INFO:topic #4 (0.027): 0.022*"shall" + 0.017*"mutual" + 0.015*"farm" + 0.014*"missile" + 0.014*"period" + 0.014*"capacity" + 0.014*"space" + 0.013*"position" + 0.012*"general" + 0.011*"debt"
+2020-03-08 21:20:27,463:INFO:topic #2 (0.028): 0.025*"region" + 0.024*"stability" + 0.023*"prices" + 0.018*"aggression" + 0.017*"position" + 0.016*"sacrifice" + 0.016*"rule" + 0.015*"steady" + 0.015*"missile" + 0.014*"current"
+2020-03-08 21:20:27,463:INFO:topic #5 (0.054): 0.015*"employment" + 0.014*"relations" + 0.012*"rural" + 0.012*"transportation" + 0.011*"agencies" + 0.011*"area" + 0.010*"significant" + 0.009*"initiatives" + 0.009*"process" + 0.009*"department"
+2020-03-08 21:20:27,463:INFO:topic #7 (0.060): 0.022*"shall" + 0.009*"farm" + 0.009*"50" + 0.009*"improved" + 0.008*"payments" + 0.008*"space" + 0.008*"united_nations" + 0.008*"period" + 0.008*"capacity" + 0.007*"latin"
+2020-03-08 21:20:27,463:INFO:topic #0 (0.100): 0.019*"thats" + 0.014*"dont" + 0.011*"college" + 0.010*"im" + 0.010*"21st" + 0.009*"cant" + 0.008*"medicare" + 0.008*"bipartisan" + 0.008*"recovery" + 0.007*"drugs"
+2020-03-08 21:20:27,463:INFO:topic diff=0.242972, rho=0.377964
+2020-03-08 21:20:27,464:INFO:PROGRESS: pass 6, at document #57/57
+2020-03-08 21:20:27,517:INFO:optimized alpha [0.099279664, 0.027747974, 0.025990097, 0.04597107, 0.025575168, 0.05275394, 0.03453261, 0.058667585, 0.048391815, 0.028687298]
+2020-03-08 21:20:27,518:INFO:topic #4 (0.026): 0.022*"shall" + 0.017*"mutual" + 0.015*"farm" + 0.014*"period" + 0.014*"missile" + 0.014*"space" + 0.013*"position" + 0.013*"capacity" + 0.012*"general" + 0.012*"debt"
+2020-03-08 21:20:27,518:INFO:topic #2 (0.026): 0.027*"region" + 0.026*"stability" + 0.024*"prices" + 0.018*"aggression" + 0.017*"position" + 0.017*"steady" + 0.016*"sacrifice" + 0.016*"missile" + 0.016*"rule" + 0.015*"current"
+2020-03-08 21:20:27,518:INFO:topic #5 (0.053): 0.014*"employment" + 0.014*"relations" + 0.012*"rural" + 0.012*"transportation" + 0.012*"area" + 0.011*"agencies" + 0.011*"significant" + 0.009*"initiatives" + 0.009*"process" + 0.009*"department"
+2020-03-08 21:20:27,518:INFO:topic #7 (0.059): 0.023*"shall" + 0.010*"farm" + 0.008*"improved" + 0.008*"50" + 0.008*"payments" + 0.008*"united_nations" + 0.008*"period" + 0.008*"capacity" + 0.008*"latin" + 0.007*"try"
+2020-03-08 21:20:27,518:INFO:topic #0 (0.099): 0.019*"thats" + 0.014*"dont" + 0.011*"college" + 0.010*"im" + 0.010*"21st" + 0.009*"cant" + 0.009*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.007*"drugs"
+2020-03-08 21:20:27,518:INFO:topic diff=0.216838, rho=0.353553
+2020-03-08 21:20:27,519:INFO:PROGRESS: pass 7, at document #57/57
+2020-03-08 21:20:27,569:INFO:optimized alpha [0.0983933, 0.026396886, 0.02466433, 0.044234578, 0.024303421, 0.0521151, 0.032496557, 0.057336144, 0.048244864, 0.027413115]
+2020-03-08 21:20:27,570:INFO:topic #4 (0.024): 0.022*"shall" + 0.017*"mutual" + 0.015*"farm" + 0.014*"period" + 0.014*"missile" + 0.014*"space" + 0.014*"position" + 0.013*"capacity" + 0.012*"general" + 0.012*"debt"
+2020-03-08 21:20:27,570:INFO:topic #2 (0.025): 0.028*"region" + 0.027*"stability" + 0.024*"prices" + 0.018*"steady" + 0.018*"aggression" + 0.017*"position" + 0.016*"missile" + 0.016*"sacrifice" + 0.015*"rule" + 0.015*"current"
+2020-03-08 21:20:27,571:INFO:topic #5 (0.052): 0.014*"relations" + 0.014*"employment" + 0.012*"rural" + 0.012*"transportation" + 0.012*"area" + 0.012*"agencies" + 0.011*"significant" + 0.009*"initiatives" + 0.009*"process" + 0.009*"department"
+2020-03-08 21:20:27,571:INFO:topic #7 (0.057): 0.024*"shall" + 0.010*"farm" + 0.008*"improved" + 0.008*"united_nations" + 0.008*"payments" + 0.008*"capacity" + 0.008*"period" + 0.008*"latin" + 0.008*"50" + 0.007*"aggression"
+2020-03-08 21:20:27,571:INFO:topic #0 (0.098): 0.019*"thats" + 0.014*"dont" + 0.012*"college" + 0.010*"im" + 0.010*"21st" + 0.010*"cant" + 0.009*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.007*"drugs"
+2020-03-08 21:20:27,571:INFO:topic diff=0.194049, rho=0.333333
+2020-03-08 21:20:27,572:INFO:PROGRESS: pass 8, at document #57/57
+2020-03-08 21:20:27,619:INFO:optimized alpha [0.09605784, 0.025247918, 0.023537453, 0.04277053, 0.023218116, 0.051525358, 0.030811895, 0.05694212, 0.04808029, 0.026323518]
+2020-03-08 21:20:27,620:INFO:topic #4 (0.023): 0.021*"shall" + 0.017*"mutual" + 0.015*"farm" + 0.014*"period" + 0.014*"space" + 0.014*"missile" + 0.014*"position" + 0.013*"capacity" + 0.012*"general" + 0.012*"debt"
+2020-03-08 21:20:27,620:INFO:topic #2 (0.024): 0.029*"region" + 0.028*"stability" + 0.025*"prices" + 0.019*"steady" + 0.018*"aggression" + 0.017*"position" + 0.017*"missile" + 0.016*"current" + 0.016*"sacrifice" + 0.015*"rule"
+2020-03-08 21:20:27,620:INFO:topic #5 (0.052): 0.015*"relations" + 0.014*"employment" + 0.013*"rural" + 0.012*"transportation" + 0.012*"area" + 0.012*"agencies" + 0.011*"significant" + 0.010*"initiatives" + 0.010*"process" + 0.009*"department"
+2020-03-08 21:20:27,620:INFO:topic #7 (0.057): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"payments" + 0.008*"improved" + 0.008*"period" + 0.008*"latin" + 0.008*"aggression" + 0.007*"try"
+2020-03-08 21:20:27,620:INFO:topic #0 (0.096): 0.020*"thats" + 0.014*"dont" + 0.012*"college" + 0.010*"im" + 0.010*"21st" + 0.010*"cant" + 0.009*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.007*"drugs"
+2020-03-08 21:20:27,620:INFO:topic diff=0.173442, rho=0.316228
+2020-03-08 21:20:27,621:INFO:PROGRESS: pass 9, at document #57/57
+2020-03-08 21:20:27,668:INFO:optimized alpha [0.09407897, 0.024256684, 0.022565488, 0.04151851, 0.022149157, 0.05098214, 0.02939116, 0.056578062, 0.04790188, 0.025379462]
+2020-03-08 21:20:27,668:INFO:topic #4 (0.022): 0.021*"shall" + 0.017*"mutual" + 0.015*"farm" + 0.014*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"capacity" + 0.012*"debt" + 0.012*"general"
+2020-03-08 21:20:27,669:INFO:topic #2 (0.023): 0.030*"region" + 0.028*"stability" + 0.025*"prices" + 0.019*"steady" + 0.017*"aggression" + 0.017*"missile" + 0.017*"position" + 0.016*"current" + 0.016*"stable" + 0.016*"sacrifice"
+2020-03-08 21:20:27,669:INFO:topic #5 (0.051): 0.015*"relations" + 0.014*"employment" + 0.013*"rural" + 0.012*"transportation" + 0.012*"area" + 0.012*"agencies" + 0.011*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.009*"conservation"
+2020-03-08 21:20:27,669:INFO:topic #7 (0.057): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"period" + 0.008*"payments" + 0.008*"improved" + 0.008*"latin" + 0.008*"aggression" + 0.007*"labor"
+2020-03-08 21:20:27,669:INFO:topic #0 (0.094): 0.020*"thats" + 0.014*"dont" + 0.012*"college" + 0.011*"im" + 0.010*"21st" + 0.010*"cant" + 0.010*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.007*"global"
+2020-03-08 21:20:27,669:INFO:topic diff=0.155343, rho=0.301511
+2020-03-08 21:20:27,670:INFO:PROGRESS: pass 10, at document #57/57
+2020-03-08 21:20:27,714:INFO:optimized alpha [0.09299877, 0.023393203, 0.02171856, 0.04044091, 0.021222472, 0.050490867, 0.028177215, 0.056250572, 0.047726184, 0.024554506]
+2020-03-08 21:20:27,715:INFO:topic #4 (0.021): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"capacity" + 0.013*"debt" + 0.013*"general"
+2020-03-08 21:20:27,715:INFO:topic #2 (0.022): 0.031*"region" + 0.029*"stability" + 0.025*"prices" + 0.020*"steady" + 0.017*"aggression" + 0.017*"missile" + 0.017*"position" + 0.016*"current" + 0.016*"stable" + 0.016*"sacrifice"
+2020-03-08 21:20:27,715:INFO:topic #5 (0.050): 0.015*"relations" + 0.014*"employment" + 0.013*"rural" + 0.012*"transportation" + 0.012*"area" + 0.012*"agencies" + 0.011*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.009*"conservation"
+2020-03-08 21:20:27,715:INFO:topic #7 (0.056): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"period" + 0.008*"payments" + 0.008*"improved" + 0.008*"latin" + 0.008*"aggression" + 0.007*"labor"
+2020-03-08 21:20:27,715:INFO:topic #0 (0.093): 0.020*"thats" + 0.015*"dont" + 0.012*"college" + 0.011*"im" + 0.010*"21st" + 0.010*"cant" + 0.010*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,715:INFO:topic diff=0.139301, rho=0.288675
+2020-03-08 21:20:27,716:INFO:PROGRESS: pass 11, at document #57/57
+2020-03-08 21:20:27,761:INFO:optimized alpha [0.09205297, 0.02263181, 0.02097159, 0.039500237, 0.020408798, 0.050039925, 0.027124321, 0.055948593, 0.047811545, 0.023825085]
+2020-03-08 21:20:27,762:INFO:topic #4 (0.020): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"capacity" + 0.013*"debt" + 0.013*"general"
+2020-03-08 21:20:27,762:INFO:topic #2 (0.021): 0.031*"region" + 0.029*"stability" + 0.025*"prices" + 0.020*"steady" + 0.017*"missile" + 0.017*"aggression" + 0.017*"position" + 0.017*"current" + 0.016*"stable" + 0.016*"sacrifice"
+2020-03-08 21:20:27,762:INFO:topic #5 (0.050): 0.015*"relations" + 0.013*"employment" + 0.013*"rural" + 0.012*"transportation" + 0.012*"area" + 0.012*"agencies" + 0.011*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.009*"conservation"
+2020-03-08 21:20:27,762:INFO:topic #7 (0.056): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"period" + 0.008*"payments" + 0.008*"aggression" + 0.008*"latin" + 0.008*"improved" + 0.007*"labor"
+2020-03-08 21:20:27,763:INFO:topic #0 (0.092): 0.020*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"im" + 0.011*"cant" + 0.011*"21st" + 0.010*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,763:INFO:topic diff=0.125324, rho=0.277350
+2020-03-08 21:20:27,763:INFO:PROGRESS: pass 12, at document #57/57
+2020-03-08 21:20:27,808:INFO:optimized alpha [0.09121548, 0.021954367, 0.020306755, 0.03867156, 0.019687347, 0.04988967, 0.026200883, 0.055670258, 0.047873292, 0.023174623]
+2020-03-08 21:20:27,808:INFO:topic #4 (0.020): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"debt" + 0.013*"capacity" + 0.013*"general"
+2020-03-08 21:20:27,808:INFO:topic #2 (0.020): 0.031*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.017*"missile" + 0.017*"aggression" + 0.017*"position" + 0.017*"current" + 0.017*"stable" + 0.015*"sacrifice"
+2020-03-08 21:20:27,808:INFO:topic #5 (0.050): 0.015*"relations" + 0.013*"employment" + 0.013*"rural" + 0.012*"area" + 0.012*"transportation" + 0.012*"agencies" + 0.011*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.009*"conservation"
+2020-03-08 21:20:27,809:INFO:topic #7 (0.056): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"period" + 0.008*"payments" + 0.008*"aggression" + 0.008*"latin" + 0.008*"improved" + 0.007*"labor"
+2020-03-08 21:20:27,809:INFO:topic #0 (0.091): 0.020*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"im" + 0.011*"cant" + 0.011*"21st" + 0.010*"bipartisan" + 0.008*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,809:INFO:topic diff=0.113036, rho=0.267261
+2020-03-08 21:20:27,809:INFO:PROGRESS: pass 13, at document #57/57
+2020-03-08 21:20:27,853:INFO:optimized alpha [0.09044948, 0.02134559, 0.019709215, 0.038120877, 0.019041207, 0.049479663, 0.02538137, 0.05540708, 0.04790919, 0.022588797]
+2020-03-08 21:20:27,854:INFO:topic #4 (0.019): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"debt" + 0.013*"capacity" + 0.013*"actions"
+2020-03-08 21:20:27,854:INFO:topic #2 (0.020): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.017*"missile" + 0.017*"aggression" + 0.017*"position" + 0.017*"stable" + 0.017*"current" + 0.015*"sacrifice"
+2020-03-08 21:20:27,854:INFO:topic #5 (0.049): 0.015*"relations" + 0.013*"rural" + 0.013*"employment" + 0.012*"area" + 0.012*"transportation" + 0.012*"agencies" + 0.011*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.009*"conservation"
+2020-03-08 21:20:27,854:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"united_nations" + 0.008*"capacity" + 0.008*"period" + 0.008*"payments" + 0.008*"aggression" + 0.008*"latin" + 0.007*"improved" + 0.007*"labor"
+2020-03-08 21:20:27,854:INFO:topic #0 (0.090): 0.020*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,854:INFO:topic diff=0.102269, rho=0.258199
+2020-03-08 21:20:27,855:INFO:PROGRESS: pass 14, at document #57/57
+2020-03-08 21:20:27,903:INFO:optimized alpha [0.089750335, 0.02079501, 0.019168695, 0.037442017, 0.01845851, 0.04910343, 0.024648465, 0.055157427, 0.04816158, 0.02205805]
+2020-03-08 21:20:27,904:INFO:topic #4 (0.018): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"missile" + 0.014*"position" + 0.013*"debt" + 0.013*"actions" + 0.013*"capacity"
+2020-03-08 21:20:27,904:INFO:topic #2 (0.019): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.017*"missile" + 0.017*"stable" + 0.017*"aggression" + 0.017*"position" + 0.017*"current" + 0.016*"sacrifice"
+2020-03-08 21:20:27,904:INFO:topic #5 (0.049): 0.015*"relations" + 0.013*"rural" + 0.013*"employment" + 0.012*"area" + 0.012*"transportation" + 0.012*"agencies" + 0.012*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.010*"conservation"
+2020-03-08 21:20:27,904:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"united_nations" + 0.008*"period" + 0.008*"aggression" + 0.008*"payments" + 0.008*"latin" + 0.007*"labor" + 0.007*"improved"
+2020-03-08 21:20:27,904:INFO:topic #0 (0.090): 0.020*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,904:INFO:topic diff=0.092665, rho=0.250000
+2020-03-08 21:20:27,905:INFO:PROGRESS: pass 15, at document #57/57
+2020-03-08 21:20:27,949:INFO:optimized alpha [0.089107394, 0.020293865, 0.018676601, 0.036830995, 0.017929485, 0.04875559, 0.023987971, 0.054919075, 0.048376296, 0.021574182]
+2020-03-08 21:20:27,949:INFO:topic #4 (0.018): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"position" + 0.014*"missile" + 0.013*"debt" + 0.013*"actions" + 0.013*"capacity"
+2020-03-08 21:20:27,950:INFO:topic #2 (0.019): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.017*"stable" + 0.017*"missile" + 0.017*"aggression" + 0.017*"position" + 0.017*"current" + 0.016*"sacrifice"
+2020-03-08 21:20:27,950:INFO:topic #5 (0.049): 0.015*"relations" + 0.013*"rural" + 0.012*"employment" + 0.012*"area" + 0.012*"transportation" + 0.012*"agencies" + 0.012*"significant" + 0.010*"process" + 0.010*"initiatives" + 0.010*"conservation"
+2020-03-08 21:20:27,950:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"united_nations" + 0.008*"period" + 0.008*"aggression" + 0.008*"payments" + 0.008*"latin" + 0.007*"labor" + 0.007*"department"
+2020-03-08 21:20:27,950:INFO:topic #0 (0.089): 0.020*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,950:INFO:topic diff=0.084012, rho=0.242536
+2020-03-08 21:20:27,951:INFO:PROGRESS: pass 16, at document #57/57
+2020-03-08 21:20:27,993:INFO:optimized alpha [0.088531695, 0.019836202, 0.018226972, 0.036280714, 0.017447183, 0.04843813, 0.023390228, 0.054954562, 0.048562612, 0.021131843]
+2020-03-08 21:20:27,994:INFO:topic #4 (0.017): 0.021*"shall" + 0.017*"mutual" + 0.016*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"position" + 0.014*"missile" + 0.013*"debt" + 0.013*"actions" + 0.013*"capacity"
+2020-03-08 21:20:27,994:INFO:topic #2 (0.018): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.018*"stable" + 0.017*"missile" + 0.017*"current" + 0.017*"aggression" + 0.017*"position" + 0.016*"sacrifice"
+2020-03-08 21:20:27,994:INFO:topic #8 (0.049): 0.027*"shall" + 0.018*"5_years" + 0.015*"truly" + 0.013*"reduction" + 0.012*"foundation" + 0.012*"spoke" + 0.010*"achieved" + 0.009*"constitution" + 0.009*"protection" + 0.009*"meeting"
+2020-03-08 21:20:27,994:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"united_nations" + 0.008*"period" + 0.008*"aggression" + 0.008*"payments" + 0.008*"latin" + 0.007*"department" + 0.007*"labor"
+2020-03-08 21:20:27,994:INFO:topic #0 (0.089): 0.021*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:27,994:INFO:topic diff=0.076346, rho=0.235702
+2020-03-08 21:20:27,995:INFO:PROGRESS: pass 17, at document #57/57
+2020-03-08 21:20:28,036:INFO:optimized alpha [0.08843011, 0.019416971, 0.017814772, 0.035784993, 0.017005805, 0.048151854, 0.022847181, 0.054985948, 0.048728153, 0.020726424]
+2020-03-08 21:20:28,037:INFO:topic #4 (0.017): 0.021*"shall" + 0.017*"mutual" + 0.017*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"position" + 0.014*"missile" + 0.013*"debt" + 0.013*"actions" + 0.013*"general"
+2020-03-08 21:20:28,037:INFO:topic #2 (0.018): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.021*"steady" + 0.018*"stable" + 0.017*"missile" + 0.017*"current" + 0.017*"aggression" + 0.017*"position" + 0.016*"sacrifice"
+2020-03-08 21:20:28,037:INFO:topic #8 (0.049): 0.027*"shall" + 0.018*"5_years" + 0.015*"truly" + 0.013*"reduction" + 0.012*"foundation" + 0.012*"spoke" + 0.010*"achieved" + 0.009*"protection" + 0.009*"constitution" + 0.009*"meeting"
+2020-03-08 21:20:28,037:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"period" + 0.008*"united_nations" + 0.008*"aggression" + 0.008*"payments" + 0.008*"latin" + 0.008*"department" + 0.007*"labor"
+2020-03-08 21:20:28,038:INFO:topic #0 (0.088): 0.021*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"recovery" + 0.008*"global"
+2020-03-08 21:20:28,038:INFO:topic diff=0.069490, rho=0.229416
+2020-03-08 21:20:28,038:INFO:PROGRESS: pass 18, at document #57/57
+2020-03-08 21:20:28,081:INFO:optimized alpha [0.08832486, 0.019030096, 0.017434241, 0.035332445, 0.016599111, 0.0478859, 0.022349613, 0.055004176, 0.048868958, 0.020351946]
+2020-03-08 21:20:28,082:INFO:topic #4 (0.017): 0.021*"shall" + 0.017*"mutual" + 0.017*"farm" + 0.015*"space" + 0.014*"period" + 0.014*"position" + 0.014*"missile" + 0.014*"debt" + 0.013*"actions" + 0.013*"general"
+2020-03-08 21:20:28,082:INFO:topic #2 (0.017): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.022*"steady" + 0.018*"stable" + 0.017*"current" + 0.017*"missile" + 0.017*"aggression" + 0.017*"position" + 0.016*"sacrifice"
+2020-03-08 21:20:28,082:INFO:topic #8 (0.049): 0.026*"shall" + 0.018*"5_years" + 0.015*"truly" + 0.013*"reduction" + 0.012*"spoke" + 0.012*"foundation" + 0.010*"achieved" + 0.009*"protection" + 0.009*"constitution" + 0.009*"meeting"
+2020-03-08 21:20:28,082:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"period" + 0.008*"united_nations" + 0.008*"aggression" + 0.008*"department" + 0.008*"payments" + 0.008*"latin" + 0.007*"labor"
+2020-03-08 21:20:28,082:INFO:topic #0 (0.088): 0.021*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"global" + 0.008*"recovery"
+2020-03-08 21:20:28,083:INFO:topic diff=0.063370, rho=0.223607
+2020-03-08 21:20:28,083:INFO:PROGRESS: pass 19, at document #57/57
+2020-03-08 21:20:28,126:INFO:optimized alpha [0.08822478, 0.01867248, 0.017082235, 0.034920283, 0.016223444, 0.0476431, 0.021892633, 0.055260435, 0.048993662, 0.020005649]
+2020-03-08 21:20:28,127:INFO:topic #4 (0.016): 0.021*"shall" + 0.017*"mutual" + 0.017*"farm" + 0.016*"space" + 0.014*"period" + 0.014*"position" + 0.014*"missile" + 0.014*"debt" + 0.013*"actions" + 0.013*"general"
+2020-03-08 21:20:28,127:INFO:topic #2 (0.017): 0.032*"region" + 0.029*"stability" + 0.025*"prices" + 0.022*"steady" + 0.018*"stable" + 0.017*"current" + 0.017*"missile" + 0.017*"position" + 0.017*"aggression" + 0.016*"sacrifice"
+2020-03-08 21:20:28,128:INFO:topic #8 (0.049): 0.026*"shall" + 0.019*"5_years" + 0.015*"truly" + 0.013*"reduction" + 0.013*"spoke" + 0.012*"foundation" + 0.010*"achieved" + 0.009*"protection" + 0.009*"constitution" + 0.009*"meeting"
+2020-03-08 21:20:28,128:INFO:topic #7 (0.055): 0.025*"shall" + 0.011*"farm" + 0.008*"capacity" + 0.008*"period" + 0.008*"united_nations" + 0.008*"department" + 0.008*"aggression" + 0.008*"payments" + 0.007*"latin" + 0.007*"labor"
+2020-03-08 21:20:28,128:INFO:topic #0 (0.088): 0.021*"thats" + 0.015*"dont" + 0.013*"college" + 0.011*"cant" + 0.011*"im" + 0.011*"21st" + 0.010*"bipartisan" + 0.009*"medicare" + 0.008*"global" + 0.008*"recovery"
+2020-03-08 21:20:28,128:INFO:topic diff=0.057989, rho=0.218218
